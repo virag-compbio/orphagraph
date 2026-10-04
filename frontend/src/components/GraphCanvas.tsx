@@ -27,6 +27,7 @@ interface GraphCanvasProps {
   selectedNode: GraphNode | null;
   highlightNodes?: string[];
   highlightEdges?: any[];
+  focusNodeId?: string;  // centre and select this node once the layout settles
 }
 
 export const GraphCanvas: React.FC<GraphCanvasProps> = ({
@@ -34,9 +35,11 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   onSelectNode,
   selectedNode,
   highlightNodes = [],
-  highlightEdges = []
+  highlightEdges = [],
+  focusNodeId
 }) => {
   const fgRef = useRef<any>(null);
+  const focusedRef = useRef<string | undefined>(undefined);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeTypes, setActiveTypes] = useState<Record<NodeType, boolean>>({
     disease: true,
@@ -106,6 +109,23 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       fgRef.current.zoom(2.5, 800);
     }
   };
+
+  // Centre on the requested node shortly after load, without waiting for the whole layout to settle
+  const focusOn = (id: string, select: boolean) => {
+    const node: any = filteredData.nodes.find((n) => n.id === id);
+    if (!node || node.x === undefined) return false;
+    if (select) onSelectNode(node);
+    fgRef.current?.centerAt(node.x, node.y, 600);
+    fgRef.current?.zoom(3, 600);
+    return true;
+  };
+  useEffect(() => {
+    if (!focusNodeId || !filteredData.nodes.length || focusedRef.current) return;
+    const t = setTimeout(() => {
+      if (focusOn(focusNodeId, true)) focusedRef.current = focusNodeId;
+    }, 1500);
+    return () => clearTimeout(t);
+  }, [focusNodeId, filteredData]);
 
   const handleZoomIn = () => {
     if (fgRef.current) {
@@ -372,6 +392,12 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           onNodeClick={(node: any) => onSelectNode(node)}
           onNodeHover={(node: any) => setHoveredNode(node || null)}
           cooldownTicks={100}
+          onEngineStop={() => {
+            // Re-centre once on the settled layout
+            if (focusNodeId && focusedRef.current !== `${focusNodeId}:settled` && focusOn(focusNodeId, !focusedRef.current)) {
+              focusedRef.current = `${focusNodeId}:settled`;
+            }
+          }}
           d3AlphaDecay={0.02}
           d3VelocityDecay={0.3}
           backgroundColor="#f8fafc"

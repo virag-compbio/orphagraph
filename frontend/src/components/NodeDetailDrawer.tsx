@@ -142,7 +142,7 @@ export const NodeDetailDrawer: React.FC<NodeDetailDrawerProps> = ({
             className="flex-1 flex items-center justify-center space-x-1.5 py-2 px-3 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold rounded-lg shadow-lg shadow-emerald-600/20 transition-all"
           >
             <FileText className="h-3.5 w-3.5" />
-            <span>Generate Action Dossier</span>
+            <span>Open disease page</span>
           </button>
         ) : (
           <button

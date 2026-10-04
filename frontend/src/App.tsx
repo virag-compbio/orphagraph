@@ -26,7 +26,7 @@ function loadPersona(): PersonaType {
 }
 
 // The knowledge-graph explorer: the full network, a node drawer and the path finder.
-const GraphExplorer: React.FC = () => {
+const GraphExplorer: React.FC<{ focusId?: string }> = ({ focusId }) => {
   const [graphData, setGraphData] = useState<GraphData>({ nodes: [], edges: [] });
   const [selected, setSelected] = useState<GraphNode | null>(null);
   const [pathOpen, setPathOpen] = useState(false);
@@ -46,6 +46,7 @@ const GraphExplorer: React.FC = () => {
         selectedNode={selected}
         highlightNodes={highlightNodes}
         highlightEdges={highlightEdges}
+        focusNodeId={focusId}
       />
       <NodeDetailDrawer
         node={selected}
@@ -104,7 +105,7 @@ export function App() {
     body = <DiseasePage diseaseId={id} persona={persona} />;
     withPersona = true;
   } else if (page === 'explore' && id === 'graph') {
-    body = <GraphExplorer />;
+    body = <GraphExplorer focusId={route.query.get('focus') || undefined} />;
   } else if (page === 'explore' && id === '10x') {
     body = <Moonshot10xView />;
   } else if (page === 'explore' && id === 'pathways') {

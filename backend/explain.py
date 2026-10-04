@@ -136,8 +136,8 @@ def build_facts(journey: Dict[str, Any]) -> List[Dict[str, str]]:
         add("gap", s2["insight"])
 
     for lead in s2["repurposing_leads"][:3]:
-        add("lead", f"{lead.get('label')} is listed as a candidate for {name} with evidence tier {lead.get('evidence_tier')} "
-                    f"(confidence {lead.get('repurposing_confidence')}). {lead.get('mechanism') or ''}".strip())
+        add("lead", f"{lead.get('label')} is listed as a candidate for {name} with evidence tier {lead.get('evidence_tier')}. "
+                    f"{lead.get('mechanism') or ''}".strip())
     lit = s2.get("literature", {"claims": []})
     for c in lit["claims"][:3]:
         ev = c["evidence"][0]

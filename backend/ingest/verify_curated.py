@@ -14,16 +14,27 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from curated import CURATED  # noqa: E402
 
 
+BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
+                                 "Chrome/120 Safari/537.36", "Accept": "text/html,application/xhtml+xml"}
+
+
 def fetch(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return resp.read()
+    # Some organization sites block a bare User-Agent and others block a browser one, so try both
+    for headers in ({"User-Agent": "Mozilla/5.0"}, BROWSER_HEADERS):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=20) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as exc:
+            if exc.code not in (403, 406) or headers is BROWSER_HEADERS:
+                raise
+    raise RuntimeError("unreachable")
 
 
 def main() -> int:

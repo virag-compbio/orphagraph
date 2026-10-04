@@ -17,7 +17,7 @@ Built for the Hack-Nation challenge "AI Atlas for the World's Rare Diseases". Th
 | Clinical studies | 4, checked against ClinicalTrials.gov |
 | Drugs | 10, including 3 FDA approvals checked in Drugs@FDA |
 | Investigators | 41 (4 from trial records and authorship, 37 last authors of the extracted papers) |
-| Patient organizations | 4, with links checked on their websites |
+| Patient organizations | 15, covering all 13 curated diseases, with links checked on their websites |
 
 These are honest numbers for a focused slice; the import scales by adding seeds (see *Data & Reproducing the Dataset*).
 

@@ -23,6 +23,7 @@ import { fetchMariasJourney, fetchDiseases, fetchJourneyExplanation } from '../s
 import { ExplanationPanel } from './ExplanationPanel';
 import { NODE_CONFIG } from '../utils/colors';
 import { withBold } from '../utils/richText';
+import { EvidenceTierBadge } from './EvidenceTierBadge';
 
 // The primary pathway's own description when it has one (curated records); for imported Reactome
 // pathways, which carry none, the record itself: source, identifier, size and how widely it is shared.
@@ -385,11 +386,9 @@ export const MariasJourneyView: React.FC<{ persona: PersonaType }> = ({ persona 
                       <div key={di} className="bg-white p-2.5 rounded-lg border border-slate-200 flex items-center justify-between">
                         <div>
                           <span className="font-bold text-emerald-700 block">{drug.label}</span>
-                          <span className="text-[10px] text-slate-500">{drug.fda_status}{drug.evidence_tier ? ` · ${drug.evidence_tier.replace(/_/g, ' ').toLowerCase()}` : ''}</span>
+                          <span className="text-[10px] text-slate-500">{drug.fda_status}</span>
                         </div>
-                        <span className="px-2 py-0.5 text-[10px] font-mono bg-emerald-50 text-emerald-600 border border-emerald-200 rounded">
-                          {Math.round((drug.repurposing_confidence || 0.85) * 100)}% Match
-                        </span>
+                        <EvidenceTierBadge tier={drug.evidence_tier} />
                       </div>
                     ))}
                   </div>

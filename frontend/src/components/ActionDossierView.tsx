@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import { ActionDossier, GraphNode, PersonaType } from '../types';
 import { fetchDiseases, fetchActionDossier } from '../services/api';
-import { formatConfidence } from '../utils/colors';
+import { EvidenceTierBadge } from './EvidenceTierBadge';
 import { withBold } from '../utils/richText';
 
 interface ActionDossierViewProps {
@@ -390,9 +390,7 @@ export const ActionDossierView: React.FC<ActionDossierViewProps> = ({
                       <span className="font-bold text-emerald-700 block">{dr.molecule_name}</span>
                       <span className="text-[10px] text-slate-500">{dr.status}</span>
                     </div>
-                    <span className="text-xs font-mono font-bold text-emerald-600">
-                      {formatConfidence(dr.confidence_score)}
-                    </span>
+                    <EvidenceTierBadge tier={dr.evidence_tier} />
                   </div>
                 ))}
               </div>

@@ -105,6 +105,3 @@ export function getNodeColor(type: NodeType): string {
   return NODE_CONFIG[type]?.canvasColor || '#64748b';
 }
 
-export function formatConfidence(score: number): string {
-  return `${Math.round(score * 100)}%`;
-}

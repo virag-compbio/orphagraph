@@ -86,7 +86,7 @@ export async function fetchSiloAnalysis(): Promise<{
   total_curated_diseases: number;
   total_repurposable_molecules: number;
   cross_disease_pathways: Array<{ pathway: string; connected_diseases: string[]; synergy_score: number }>;
-  repurposing_matrix: Array<{ drug: string; status: string; confidence: number; mechanism: string }>;
+  repurposing_matrix: Array<{ drug: string; status: string; evidence_tier?: string; evidence_for?: string; mechanism: string }>;
 }> {
   const res = await fetch(`${API_BASE}/silos`);
   if (!res.ok) throw new Error('Failed to fetch silo analysis');

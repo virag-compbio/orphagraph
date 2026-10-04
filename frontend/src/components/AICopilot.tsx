@@ -12,7 +12,6 @@ import {
   User
 } from 'lucide-react';
 import { sendChatQuery } from '../services/api';
-import { formatConfidence } from '../utils/colors';
 import { ExplanationPanel } from './ExplanationPanel';
 
 export const AICopilot: React.FC = () => {

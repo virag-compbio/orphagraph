@@ -620,16 +620,19 @@ class RareDiseaseGraphEngine:
         model = next((a for a in assets if a["relation"] == "VALIDATED_DISEASE_MODEL"), None)
         if screen_lead:
             where = f"using {model['name']}" if model else "in patient-derived cells (no validated model of this condition is recorded in the atlas)"
-            actions.append(f"**Test repurposing candidate {screen_lead.get('label')}** (evidence: {screen_lead['evidence_tier']}) {where}.")
+            actions.append(f"**Test repurposing candidate {screen_lead.get('label')}** (evidence: {screen_lead['evidence_tier'].replace('_', ' ').lower()}) {where}.")
         else:
             actions.append("**No repurposing candidate is recorded for this condition.** Prioritise building or accessing a disease model for screening.")
 
         if groups["own"]:
-            actions.append(f"**Coordinate with {groups['own'][0].get('label')}** on registry and natural-history data.")
+            g = groups["own"][0]
+            topic = "its patient registry and natural-history data" if g.get("registry_url") else "reaching families and collecting natural-history data"
+            actions.append(f"**Coordinate with {g.get('label')}** on {topic}.")
         else:
             actions.append("**No patient organization is linked in the atlas.** Check the NORD, Global Genes and Orphanet directories.")
         for g in groups["related"][:1]:
-            actions.append(f"**Compare registry and study designs with {g.get('label')}** ({g['related_disease']}, which shares {', '.join(g['shared_pathways'])}).")
+            verb = "Compare registry and study designs with" if g.get("registry_url") else "Exchange experience with"
+            actions.append(f"**{verb} {g.get('label')}** ({g['related_disease']}, which shares {self._short_list(g['shared_pathways'])}).")
         for c in rel["counterexamples"]:
             actions.append(f"**Do not pool treatment strategy with {c['label']}**: same pathway ({c['pathway']}), opposite direction of effect.")
 
@@ -882,7 +885,7 @@ class RareDiseaseGraphEngine:
             
             drugs = dossier["researcher_actions"]["repurposing_hypotheses"]
             if drugs:
-                drug_list = ", ".join([f"**{dr['molecule_name']}** (Confidence: {int(dr['confidence_score']*100)}%)" for dr in drugs])
+                drug_list = ", ".join([f"**{dr['molecule_name']}** (evidence: {dr['evidence_tier'].replace('_', ' ').lower()})" for dr in drugs])
                 key_insights.append(f"**Repurposing & Therapeutic Leads:** {drug_list}.")
 
             trials = dossier["patient_actions"]["active_clinical_trials"]

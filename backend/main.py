@@ -123,6 +123,17 @@ def chat_reasoning(request: ChatRequest):
         result["answer"] = explain.explain_question(graph_engine, diseases[0]["id"], request.query)
     return result
 
+def _strongest_evidence(drug_id: str) -> Dict[str, Any]:
+    """The drug's best evidence tier across its disease links (contraindications excluded) and for which disease."""
+    best = None
+    for _, target, data in graph_engine.G.out_edges(drug_id, data=True):
+        if graph_engine.G.nodes[target].get("type") != "disease" or data.get("relationship") == "CONTRAINDICATED_WARNING":
+            continue
+        rank = graph_engine.EVIDENCE_TIER_RANK.get(data.get("evidence_tier"), 9)
+        if best is None or (rank, graph_engine.G.nodes[target].get("label", "")) < best[0]:
+            best = ((rank, graph_engine.G.nodes[target].get("label", "")), data.get("evidence_tier"), graph_engine.G.nodes[target].get("label"))
+    return {"evidence_tier": best[1], "evidence_for": best[2]} if best else {"evidence_tier": None, "evidence_for": None}
+
 @app.get("/api/silos")
 def analyze_silos():
     diseases = [dict(graph_engine.G.nodes[n]) for n in graph_engine.G.nodes() if graph_engine.G.nodes[n].get("type") == "disease"]
@@ -154,12 +165,8 @@ def analyze_silos():
             key=lambda x: -x["synergy_score"]
         )[:25],
         "repurposing_matrix": [
-            {
-                "drug": d.get("label"),
-                "status": d.get("fda_status"),
-                "confidence": d.get("repurposing_confidence"),
-                "mechanism": d.get("mechanism")
-            } for d in drugs
+            {"drug": d.get("label"), "status": d.get("fda_status"), "mechanism": d.get("mechanism"), **_strongest_evidence(d["id"])}
+            for d in drugs
         ]
     }
 

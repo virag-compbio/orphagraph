@@ -17,7 +17,7 @@ import {
   ShieldCheck
 } from 'lucide-react';
 import { GraphNode, NodeType } from '../types';
-import { NODE_CONFIG, formatConfidence } from '../utils/colors';
+import { NODE_CONFIG } from '../utils/colors';
 import { fetchNodeNeighborhood } from '../services/api';
 
 interface NodeDetailDrawerProps {
@@ -209,14 +209,6 @@ export const NodeDetailDrawer: React.FC<NodeDetailDrawerProps> = ({
               <div className="bg-slate-50/60 p-2 rounded-lg border border-slate-200">
                 <span className="text-[10px] text-slate-500 block">Prevalence</span>
                 <span className="text-slate-700 font-semibold">{node.prevalence}</span>
-              </div>
-            )}
-            {node.repurposing_confidence !== undefined && (
-              <div className="bg-slate-50/60 p-2 rounded-lg border border-slate-200">
-                <span className="text-[10px] text-slate-500 block">Repurposing Score</span>
-                <span className="text-emerald-600 font-bold font-mono">
-                  {formatConfidence(node.repurposing_confidence)}
-                </span>
               </div>
             )}
             {node.status && (

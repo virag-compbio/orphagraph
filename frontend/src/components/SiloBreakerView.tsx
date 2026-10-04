@@ -13,14 +13,14 @@ import {
   Share2
 } from 'lucide-react';
 import { fetchSiloAnalysis } from '../services/api';
-import { formatConfidence } from '../utils/colors';
+import { EvidenceTierBadge } from './EvidenceTierBadge';
 
 export const SiloBreakerView: React.FC = () => {
   const [data, setData] = useState<{
     total_curated_diseases: number;
     total_repurposable_molecules: number;
     cross_disease_pathways: Array<{ pathway: string; connected_diseases: string[]; synergy_score: number }>;
-    repurposing_matrix: Array<{ drug: string; status: string; confidence: number; mechanism: string }>;
+    repurposing_matrix: Array<{ drug: string; status: string; evidence_tier?: string; evidence_for?: string; mechanism: string }>;
   } | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -145,7 +145,7 @@ export const SiloBreakerView: React.FC = () => {
                     <th className="pb-3 px-3">Molecule / Drug</th>
                     <th className="pb-3 px-3">Clinical / Regulatory Status</th>
                     <th className="pb-3 px-3">Mechanism of Action</th>
-                    <th className="pb-3 px-3 text-right">Repurposing Score</th>
+                    <th className="pb-3 px-3 text-right">Strongest Evidence</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-200">
@@ -159,9 +159,10 @@ export const SiloBreakerView: React.FC = () => {
                       </td>
                       <td className="py-3 px-3 text-slate-500 max-w-md">{row.mechanism}</td>
                       <td className="py-3 px-3 text-right">
-                        <span className="font-mono font-bold text-emerald-600">
-                          {formatConfidence(row.confidence)}
-                        </span>
+                        <div className="flex flex-col items-end gap-1">
+                          <EvidenceTierBadge tier={row.evidence_tier} />
+                          {row.evidence_for && <span className="text-[10px] text-slate-500">{row.evidence_for}</span>}
+                        </div>
                       </td>
                     </tr>
                   ))}

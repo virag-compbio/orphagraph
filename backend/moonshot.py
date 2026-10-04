@@ -41,7 +41,7 @@ ROUTE_STAGES = [
     {
         "id": "connect",
         "label": "Find related communities, reusable protocols, investigators and registries",
-        "atlas_feature": "Maria's journey steps 1-3 (mechanism neighbours, assets, literature investigators, trials)",
+        "atlas_feature": "Disease page: connected diseases, resources and people, literature investigators, studies",
         "default_months": 1.0, "min_months": 0.25, "max_months": 3.0,
         "assumption": "The atlas surfaces the relevant protocol, registry and researchers in days; confirming them by "
                       "contacting the people involved takes weeks.",

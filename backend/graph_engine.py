@@ -504,12 +504,17 @@ class RareDiseaseGraphEngine:
         return {"claims": claims, "n_papers": len(pmids), "contradictions": [c for c in claims if c["contradicts"]]}
 
     def _disease_groups(self, disease_id: str, rel: Dict[str, Any]) -> Dict[str, List[Dict[str, Any]]]:
-        own = [dict(self.G.nodes[g]) for g in self._in(disease_id, "PATIENT_ADVOCACY_LEADER")]
-        related = []
+        # Disease-specific organizations first (fewest linked diseases), then umbrella organizations
+        own_ids = sorted(self._in(disease_id, "PATIENT_ADVOCACY_LEADER"),
+                         key=lambda g: (len(self._out(g, "PATIENT_ADVOCACY_LEADER")), self._label(g)))
+        own = [dict(self.G.nodes[g]) for g in own_ids]
+        related, seen = [], set(own_ids)
         for r in rel["related"]:
             if r["basis"] == "mechanism":
                 for g in self._in(r["disease_id"], "PATIENT_ADVOCACY_LEADER"):
-                    related.append({**dict(self.G.nodes[g]), "related_disease": r["label"], "shared_pathways": r["shared_pathways"]})
+                    if g not in seen:
+                        seen.add(g)
+                        related.append({**dict(self.G.nodes[g]), "related_disease": r["label"], "shared_pathways": r["shared_pathways"]})
         return {"own": own, "related": related}
 
     def _disease_context(self, disease_id: str) -> Dict[str, Any]:

@@ -1,0 +1,9 @@
+**/node_modules
+frontend/dist
+**/__pycache__
+backend/data/raw
+demo
+*.pptx
+*.pdf
+*.rtf
+.git

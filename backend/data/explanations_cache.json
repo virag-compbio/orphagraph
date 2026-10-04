@@ -1796,553 +1796,6 @@
   ],
   "dropped": []
  },
- "journey|DIS_NOONAN|maria|gpt-oss:20b|2fba66a49bbb": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 11 more; their phenotype similarity score is 0.34 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 13 more; their phenotype similarity score is 0.33 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 9 more; their phenotype similarity score is 0.32 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "The atlas shows that Noonan Syndrome\u202f1 shares several biological pathways with other Noonan disorders, especially Noonan syndrome\u202f6 and 3, through the \u2018Signaling by FLT3 ITD and TKD mutants\u2019 and \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019 pathways (similarity score 0.34 and 0.33 respectively)\u3010F4\u3011\u3010F5\u3011. It also shares different pathways related to immune and growth signaling with a Noonan\u2011like disorder that can involve juvenile myelomonocytic leukemia (similarity score 0.35)\u3010F7\u3011. Other Noonan\u2011type conditions (noonan syndrome\u202f2,\u202f10, and Neurofibromatosis\u2011Noonan syndrome) have similar clinical features but no common pathways identified, so that similarity may be coincidental and does not prove a shared mechanism\u3010F8\u3011\u3010F9\u3011\u3010F10\u3011. There are no approved or registered treatments for Noonan Syndrome\u202f1 in the atlas, but a small clinical case report supports using trametinib (an MEK inhibitor) for heart and lymphatic issues (evidence tier CLINICAL_CASE_REPORTS)\u3010F11\u3011. Genetic testing confirms that Noonan Syndrome\u202f1 is caused by mutations in the PTPN11 gene, and this is the first described causal gene for the condition\u3010F14\u3011. Clinical reports also note common features such as widely spaced eyes (hypertelorism)\u3010F12\u3011 and an increased risk of leukemia\u3010F13\u3011, helping shape monitoring and early\u2011intervention plans.",
-  "sentences": [
-   {
-    "text": "The atlas shows that Noonan Syndrome\u202f1 shares several biological pathways with other Noonan disorders, especially Noonan syndrome\u202f6 and 3, through the \u2018Signaling by FLT3 ITD and TKD mutants\u2019 and \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019 pathways (similarity score 0.34 and 0.33 respectively)\u3010F4\u3011\u3010F5\u3011.",
-    "facts": [
-     "F4",
-     "F5"
-    ]
-   },
-   {
-    "text": "It also shares different pathways related to immune and growth signaling with a Noonan\u2011like disorder that can involve juvenile myelomonocytic leukemia (similarity score 0.35)\u3010F7\u3011.",
-    "facts": [
-     "F7"
-    ]
-   },
-   {
-    "text": "Other Noonan\u2011type conditions (noonan syndrome\u202f2,\u202f10, and Neurofibromatosis\u2011Noonan syndrome) have similar clinical features but no common pathways identified, so that similarity may be coincidental and does not prove a shared mechanism\u3010F8\u3011\u3010F9\u3011\u3010F10\u3011.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "There are no approved or registered treatments for Noonan Syndrome\u202f1 in the atlas, but a small clinical case report supports using trametinib (an MEK inhibitor) for heart and lymphatic issues (evidence tier CLINICAL_CASE_REPORTS)\u3010F11\u3011.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "Genetic testing confirms that Noonan Syndrome\u202f1 is caused by mutations in the PTPN11 gene, and this is the first described causal gene for the condition\u3010F14\u3011.",
-    "facts": [
-     "F14"
-    ]
-   },
-   {
-    "text": "Clinical reports also note common features such as widely spaced eyes (hypertelorism)\u3010F12\u3011 and an increased risk of leukemia\u3010F13\u3011, helping shape monitoring and early\u2011intervention plans.",
-    "facts": [
-     "F12",
-     "F13"
-    ]
-   }
-  ],
-  "dropped": []
- },
- "journey|DIS_NOONAN|devon|gpt-oss:20b|b7536ceeda79": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 11 more; their phenotype similarity score is 0.34 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 13 more; their phenotype similarity score is 0.33 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 9 more; their phenotype similarity score is 0.32 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "This atlas shows that Noonan Syndrome\u202f1 is linked to several other Noonan\u2010type conditions, especially Noonan syndrome\u202f6,\u202f3, and\u202f4, which share similar biological pathways and have phenotype similarity scores around 0.32\u20110.34. A related disorder called Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia also shares some pathways and has a slightly higher similarity score of 0.35. Other Noonan syndromes (2, 10, and neurofibromatosis\u2011Noonan syndrome) have similar physical features but no shared pathways have been recorded, so we cannot say they work in the same way. There are no approved treatments listed in this atlas, but a drug called trametinib (Mekinist), which blocks MEK1/MEK2, has been described in a few case reports for heart and lymphatic problems in Noonan Syndrome\u202f1. The atlas notes that Noonan Syndrome\u202f1 is caused by changes in the PTPN11 gene and that people often have wide\u2011spaced eyes and a higher risk of leukemia, as shown in several studies. If you want more information or support, you could reach out to the researchers listed in the atlas, such as Dr. Bradley\u202fMiller or Dr. Pranoot\u202fTanpaiboon, who have published work on this condition.",
-  "sentences": [
-   {
-    "text": "This atlas shows that Noonan Syndrome\u202f1 is linked to several other Noonan\u2010type conditions, especially Noonan syndrome\u202f6,\u202f3, and\u202f4, which share similar biological pathways and have phenotype similarity scores around 0.32\u20110.34.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "A related disorder called Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia also shares some pathways and has a slightly higher similarity score of 0.35.",
-    "facts": [
-     "F7"
-    ]
-   },
-   {
-    "text": "Other Noonan syndromes (2, 10, and neurofibromatosis\u2011Noonan syndrome) have similar physical features but no shared pathways have been recorded, so we cannot say they work in the same way.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "There are no approved treatments listed in this atlas, but a drug called trametinib (Mekinist), which blocks MEK1/MEK2, has been described in a few case reports for heart and lymphatic problems in Noonan Syndrome\u202f1.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "The atlas notes that Noonan Syndrome\u202f1 is caused by changes in the PTPN11 gene and that people often have wide\u2011spaced eyes and a higher risk of leukemia, as shown in several studies.",
-    "facts": [
-     "F12",
-     "F13",
-     "F14"
-    ]
-   },
-   {
-    "text": "If you want more information or support, you could reach out to the researchers listed in the atlas, such as Dr. Bradley\u202fMiller or Dr. Pranoot\u202fTanpaiboon, who have published work on this condition.",
-    "facts": [
-     "F15",
-     "F16"
-    ]
-   }
-  ],
-  "dropped": []
- },
- "journey|DIS_NOONAN|priya|gpt-oss:20b|bb580fbca402": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 11 more; their phenotype similarity score is 0.34 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 13 more; their phenotype similarity score is 0.33 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 9 more; their phenotype similarity score is 0.32 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "Pathway\u2011based connections exist with three other Noonan syndromes: Noonan syndrome 6, 3, and 4 all share the Reactome pathways 'Signaling by FLT3 ITD and TKD mutants' and 'Activated NTRK2 signals through FRS2 and FRS3', with phenotype similarity scores of 0.34, 0.33, and 0.32 respectively. An additional link to a Noonan\u2011like disorder with or without juvenile myelomonocytic leukemia shares the pathways 'Interleukin\u20116 signaling' and 'Spry regulation of FGF signaling' and has a higher phenotype similarity of 0.35, suggesting a potentially stronger phenotypic overlap. Phenotype\u2011only similarities to Noonan syndrome 2, 10, and Neurofibromatosis\u2011Noonan syndrome (similarity scores 0.33, 0.30, 0.26) do not provide shared pathway evidence and therefore do not support a common mechanism. A clinical\u2011case\u2011report tier (CLINICAL_CASE_REPORTS) supports the repurposing of Trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, for cardiac and lymphatic complications of Noonan Syndrome 1. Genetic evidence identifies PTPN11 variants as a causative gene for Noonan Syndrome 1, aligning with the MEK pathway involvement suggested by the trametinib data. Key phenotypic features such as hypertelorism and leukemic risk reinforce the clinical profile, while authors Bradley S Miller and Pranoot Tanpaiboon provide potential contacts for deeper literature and data access.",
-  "sentences": [
-   {
-    "text": "Pathway\u2011based connections exist with three other Noonan syndromes: Noonan syndrome 6, 3, and 4 all share the Reactome pathways 'Signaling by FLT3 ITD and TKD mutants' and 'Activated NTRK2 signals through FRS2 and FRS3', with phenotype similarity scores of 0.34, 0.33, and 0.32 respectively.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "An additional link to a Noonan\u2011like disorder with or without juvenile myelomonocytic leukemia shares the pathways 'Interleukin\u20116 signaling' and 'Spry regulation of FGF signaling' and has a higher phenotype similarity of 0.35, suggesting a potentially stronger phenotypic overlap.",
-    "facts": [
-     "F7"
-    ]
-   },
-   {
-    "text": "Phenotype\u2011only similarities to Noonan syndrome 2, 10, and Neurofibromatosis\u2011Noonan syndrome (similarity scores 0.33, 0.30, 0.26) do not provide shared pathway evidence and therefore do not support a common mechanism.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "A clinical\u2011case\u2011report tier (CLINICAL_CASE_REPORTS) supports the repurposing of Trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, for cardiac and lymphatic complications of Noonan Syndrome 1.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "Genetic evidence identifies PTPN11 variants as a causative gene for Noonan Syndrome 1, aligning with the MEK pathway involvement suggested by the trametinib data.",
-    "facts": [
-     "F14",
-     "F11"
-    ]
-   },
-   {
-    "text": "Key phenotypic features such as hypertelorism and leukemic risk reinforce the clinical profile, while authors Bradley S Miller and Pranoot Tanpaiboon provide potential contacts for deeper literature and data access.",
-    "facts": [
-     "F12",
-     "F13",
-     "F15",
-     "F16"
-    ]
-   }
-  ],
-  "dropped": [
-   {
-    "text": "Only Noonan Syndrome 1 appears in the atlas with no approved treatment or registered studies.",
-    "reason": "number(s) not in cited facts: 1"
-   }
-  ]
- },
- "journey|DIS_NOONAN|dr_osei|gpt-oss:20b|f1863eb49c54": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 11 more; their phenotype similarity score is 0.34 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 13 more; their phenotype similarity score is 0.33 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Signaling by FLT3 ITD and TKD mutants', 'Activated NTRK2 signals through FRS2 and FRS3' and 9 more; their phenotype similarity score is 0.32 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "The atlas indicates that Noonan Syndrome\u00a01 (NS1) shares Reactome pathways with Noonan syndrome\u00a06, 3, and 4, specifically the \u2018Signaling by FLT3 ITD and TKD mutants\u2019 and \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019 pathways, with 11, 13, and\u00a09 additional pathways respectively, and phenotype similarity scores of 0.34, 0.33, and 0.32, suggesting comparable underlying signalling aberrations across these related syndromes. NS1 also shares the \u2018Interleukin\u20116 signaling\u2019 and \u2018Spry regulation of FGF signaling\u2019 pathways with Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia, and has a slightly higher phenotype similarity score of 0.35, pointing toward potential inflammatory and growth\u2011factor mediated mechanisms. Unlike these genetically defined overlaps, Noonan syndrome\u00a02,\u00a010, and Neurofibromatosis\u2011Noonan syndrome only display phenotype similarity scores of 0.33, 0.30, and 0.26 respectively but lack any shared pathway entries, which limits inference of common pathogenic mechanisms from the atlas alone. Therapeutic options are minimal; the only clinical\u2011case\u2011report\u2011tier candidate is trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, reported for cardiac and lymphatic complications of NS1 (PMID\u00a040041314), although no larger trials are captured in the atlas. Genetic underpinnings are supported by PubMed evidence that PTPN11 variants cause NS1 (PMID\u00a031115193) and that the syndrome exhibits features such as hypertelorism (PMID\u00a033089815) and a heightened leukemia risk (PMID\u00a028144274), underscoring the clinical relevance of these manifestations. Research leadership is highlighted by authors Bradley S. Miller and Pranoot Tanpaiboon who have each contributed a PubMed paper on NS1 to the atlas, offering potential collaborative contacts for clinical trials or mechanistic studies. Overall, the atlas provides pathway\u2011based connections to closely related Noonan phenocopies, a single case\u2011report therapeutic lead, and key genotype\u2011phenotype data, but lacks formal treatment trials or broader genetic studies, indicating a need for prospective investigation of MEK inhibition and pathway\u2011specific interventions.",
-  "sentences": [
-   {
-    "text": "The atlas indicates that Noonan Syndrome\u00a01 (NS1) shares Reactome pathways with Noonan syndrome\u00a06, 3, and 4, specifically the \u2018Signaling by FLT3 ITD and TKD mutants\u2019 and \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019 pathways, with 11, 13, and\u00a09 additional pathways respectively, and phenotype similarity scores of 0.34, 0.33, and 0.32, suggesting comparable underlying signalling aberrations across these related syndromes.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "NS1 also shares the \u2018Interleukin\u20116 signaling\u2019 and \u2018Spry regulation of FGF signaling\u2019 pathways with Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia, and has a slightly higher phenotype similarity score of 0.35, pointing toward potential inflammatory and growth\u2011factor mediated mechanisms.",
-    "facts": [
-     "F7"
-    ]
-   },
-   {
-    "text": "Unlike these genetically defined overlaps, Noonan syndrome\u00a02,\u00a010, and Neurofibromatosis\u2011Noonan syndrome only display phenotype similarity scores of 0.33, 0.30, and 0.26 respectively but lack any shared pathway entries, which limits inference of common pathogenic mechanisms from the atlas alone.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "Therapeutic options are minimal; the only clinical\u2011case\u2011report\u2011tier candidate is trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, reported for cardiac and lymphatic complications of NS1 (PMID\u00a040041314), although no larger trials are captured in the atlas.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "Genetic underpinnings are supported by PubMed evidence that PTPN11 variants cause NS1 (PMID\u00a031115193) and that the syndrome exhibits features such as hypertelorism (PMID\u00a033089815) and a heightened leukemia risk (PMID\u00a028144274), underscoring the clinical relevance of these manifestations.",
-    "facts": [
-     "F12",
-     "F13",
-     "F14"
-    ]
-   },
-   {
-    "text": "Research leadership is highlighted by authors Bradley S. Miller and Pranoot Tanpaiboon who have each contributed a PubMed paper on NS1 to the atlas, offering potential collaborative contacts for clinical trials or mechanistic studies.",
-    "facts": [
-     "F15",
-     "F16"
-    ]
-   },
-   {
-    "text": "Overall, the atlas provides pathway\u2011based connections to closely related Noonan phenocopies, a single case\u2011report therapeutic lead, and key genotype\u2011phenotype data, but lacks formal treatment trials or broader genetic studies, indicating a need for prospective investigation of MEK inhibition and pathway\u2011specific interventions.",
-    "facts": [
-     "F2",
-     "F3",
-     "F11"
-    ]
-   }
-  ],
-  "dropped": []
- },
  "journey|DIS_CLN3|maria|gpt-oss:20b|97a120ff61ef": {
   "facts": [
    {
@@ -2668,520 +2121,6 @@
     "reason": "number(s) not in cited facts: 228346"
    }
   ]
- },
- "journey|DIS_COSTELLO|maria|gpt-oss:20b|8c5ee550ccea": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.28 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.25 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 14 share the Reactome pathway(s) 'RAS signaling downstream of NF1 loss-of-function variants'; their phenotype similarity score is 0.22 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 13 share the Reactome pathway(s) 'Estrogen-stimulated signaling through PRKCZ', 'NCAM signaling for neurite out-growth' and 3 more; their phenotype similarity score is 0.20 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Simpson-Golabi-Behmel syndrome, type 1 has similar phenotypes to Costello Syndrome (similarity score 0.17; shared features include Overgrowth, Urinary tract neoplasm, Macroglossia) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "investigator",
-    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
-   },
-   {
-    "id": "F13",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Signaling by FLT3 ITD and TKD mutants, Activated NTRK2 signals through FRS2 and FRS3."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "The atlas shows that Costello Syndrome shares common biological pathways with three other RASopathies: Noonan syndrome 3, Cardiofaciocutaneous syndrome 1, and Noonan syndrome 14, with phenotype similarity scores ranging from 0.22 to 0.28. Because these shared pathways involve RAS signaling, they suggest that drugs targeting this pathway might be relevant, although this is only based on pathway overlap and has not yet been confirmed in clinical studies for Costello Syndrome. Other conditions that look similar to Costello Syndrome\u2014such as Noonan syndrome 2, Noonan syndrome 8, and Simpson\u2011Golabi\u2011Behmel syndrome type\u202f1\u2014have only phenotypic overlap and no shared pathways recorded in the atlas, so they do not provide evidence of a common mechanism. There is no approved treatment or registered clinical trial for Costello Syndrome in the atlas, and the only drug candidate listed (trametinib) is at the \u201cINFERRED_HYPOTHESIS\u201d level, meaning it is based on indirect evidence from related diseases. The atlas identifies one researcher, Mohammadreza Abbaszadegan, who has authored a publication about Costello Syndrome, and a second researcher, Bradley S. Miller, who works on Noonan syndrome but who may not have direct findings for Costello Syndrome. Because of the lack of approved therapies and ongoing trials, the next practical steps would be to reach out to the identified researchers for potential collaboration, to monitor the literature for any new studies that might confirm trametinib\u2019s safety in Costello Syndrome, and to encourage participation in future clinical trials once they become available.",
-  "sentences": [
-   {
-    "text": "The atlas shows that Costello Syndrome shares common biological pathways with three other RASopathies: Noonan syndrome 3, Cardiofaciocutaneous syndrome 1, and Noonan syndrome 14, with phenotype similarity scores ranging from 0.22 to 0.28.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "Because these shared pathways involve RAS signaling, they suggest that drugs targeting this pathway might be relevant, although this is only based on pathway overlap and has not yet been confirmed in clinical studies for Costello Syndrome.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "Other conditions that look similar to Costello Syndrome\u2014such as Noonan syndrome 2, Noonan syndrome 8, and Simpson\u2011Golabi\u2011Behmel syndrome type\u202f1\u2014have only phenotypic overlap and no shared pathways recorded in the atlas, so they do not provide evidence of a common mechanism.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "There is no approved treatment or registered clinical trial for Costello Syndrome in the atlas, and the only drug candidate listed (trametinib) is at the \u201cINFERRED_HYPOTHESIS\u201d level, meaning it is based on indirect evidence from related diseases.",
-    "facts": [
-     "F2",
-     "F3",
-     "F11"
-    ]
-   },
-   {
-    "text": "The atlas identifies one researcher, Mohammadreza Abbaszadegan, who has authored a publication about Costello Syndrome, and a second researcher, Bradley S. Miller, who works on Noonan syndrome but who may not have direct findings for Costello Syndrome.",
-    "facts": [
-     "F12",
-     "F13"
-    ]
-   },
-   {
-    "text": "Because of the lack of approved therapies and ongoing trials, the next practical steps would be to reach out to the identified researchers for potential collaboration, to monitor the literature for any new studies that might confirm trametinib\u2019s safety in Costello Syndrome, and to encourage participation in future clinical trials once they become available.",
-    "facts": [
-     "F12",
-     "F13",
-     "F11",
-     "F2",
-     "F3"
-    ]
-   }
-  ],
-  "dropped": [
-   {
-    "text": "For now, it is safest to discuss any experimental treatment options with the patient\u2019s care team and to stay in touch with patient\u2011advocacy groups that track research progress on RAS\u2011related disorders.",
-    "reason": "no valid fact citation"
-   }
-  ]
- },
- "journey|DIS_COSTELLO|devon|gpt-oss:20b|8cea8f39a40c": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.28 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.25 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 14 share the Reactome pathway(s) 'RAS signaling downstream of NF1 loss-of-function variants'; their phenotype similarity score is 0.22 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 13 share the Reactome pathway(s) 'Estrogen-stimulated signaling through PRKCZ', 'NCAM signaling for neurite out-growth' and 3 more; their phenotype similarity score is 0.20 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Simpson-Golabi-Behmel syndrome, type 1 has similar phenotypes to Costello Syndrome (similarity score 0.17; shared features include Overgrowth, Urinary tract neoplasm, Macroglossia) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "investigator",
-    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
-   },
-   {
-    "id": "F13",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Signaling by FLT3 ITD and TKD mutants, Activated NTRK2 signals through FRS2 and FRS3."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "The atlas shows that Costello Syndrome has shared biological pathways with a few other rare diseases, mainly those that also involve the RAS signalling system. For example, Costello Syndrome and Noonan syndrome 3, as well as Cardiofaciocutaneous syndrome 1, share many of the same RAS\u2011related pathways, giving them a phenotype similarity score of 0.28 and 0.25 respectively, which suggests a notable but not complete overlap. Costello Syndrome also shares a pathway with Noonan syndrome 14, specifically the RAS signalling downstream of NF1 loss\u2011of\u2011function, with a similarity score of 0.22. There are some families where the diseases look similar (for instance Noonan syndrome 2 and 8, and Simpson\u2011Golabi\u2011Behmel syndrome), but no common pathways have been recorded, so it is unclear whether they share a biological mechanism. No approved treatment is currently listed for Costello Syndrome, and no clinical studies appear in the atlas for it. A possible treatment option mentioned is the drug Trametinib (Mekinist), which is an inhibitor that works on a specific protein in the RAS pathway and is noted in case reports for a related condition (Noonan syndrome); however this is only an inferred hypothesis and not yet proven for Costello Syndrome. If you want to learn more or explore research papers, you could look up the one paper by Mohammadreza Abbaszadegan or contact specialists who work on related RAS\u2011signalling diseases, as they may have useful insights or resources.",
-  "sentences": [
-   {
-    "text": "The atlas shows that Costello Syndrome has shared biological pathways with a few other rare diseases, mainly those that also involve the RAS signalling system.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "For example, Costello Syndrome and Noonan syndrome 3, as well as Cardiofaciocutaneous syndrome 1, share many of the same RAS\u2011related pathways, giving them a phenotype similarity score of 0.28 and 0.25 respectively, which suggests a notable but not complete overlap.",
-    "facts": [
-     "F4",
-     "F5"
-    ]
-   },
-   {
-    "text": "Costello Syndrome also shares a pathway with Noonan syndrome 14, specifically the RAS signalling downstream of NF1 loss\u2011of\u2011function, with a similarity score of 0.22.",
-    "facts": [
-     "F6"
-    ]
-   },
-   {
-    "text": "There are some families where the diseases look similar (for instance Noonan syndrome 2 and 8, and Simpson\u2011Golabi\u2011Behmel syndrome), but no common pathways have been recorded, so it is unclear whether they share a biological mechanism.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "No approved treatment is currently listed for Costello Syndrome, and no clinical studies appear in the atlas for it.",
-    "facts": [
-     "F2",
-     "F3"
-    ]
-   },
-   {
-    "text": "A possible treatment option mentioned is the drug Trametinib (Mekinist), which is an inhibitor that works on a specific protein in the RAS pathway and is noted in case reports for a related condition (Noonan syndrome); however this is only an inferred hypothesis and not yet proven for Costello Syndrome.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "If you want to learn more or explore research papers, you could look up the one paper by Mohammadreza Abbaszadegan or contact specialists who work on related RAS\u2011signalling diseases, as they may have useful insights or resources.",
-    "facts": [
-     "F12",
-     "F13"
-    ]
-   }
-  ],
-  "dropped": []
- },
- "journey|DIS_COSTELLO|priya|gpt-oss:20b|e5f71ee07d31": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.28 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.25 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 14 share the Reactome pathway(s) 'RAS signaling downstream of NF1 loss-of-function variants'; their phenotype similarity score is 0.22 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 13 share the Reactome pathway(s) 'Estrogen-stimulated signaling through PRKCZ', 'NCAM signaling for neurite out-growth' and 3 more; their phenotype similarity score is 0.20 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Simpson-Golabi-Behmel syndrome, type 1 has similar phenotypes to Costello Syndrome (similarity score 0.17; shared features include Overgrowth, Urinary tract neoplasm, Macroglossia) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "investigator",
-    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
-   },
-   {
-    "id": "F13",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Signaling by FLT3 ITD and TKD mutants, Activated NTRK2 signals through FRS2 and FRS3."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "The atlas shows no approved treatment or registered studies for Costello Syndrome. Costello Syndrome shares multiple Reactome pathways with Noonan syndrome 3, including 'Signaling by RAS GAP mutants' and 'Signaling by RAS GTPase mutants'. It also shares the same two pathways and 57 additional ones with Cardiofaciocutaneous syndrome 1, but the phenotype similarity is slightly lower. A more specific shared pathway with Noonan syndrome 14 is 'RAS signaling downstream of NF1 loss\u2011of\u2011function variants', with a phenotype similarity of 0.22. Noonan syndrome 13 shares 'Estrogen\u2011stimulated signaling through PRKCZ', 'NCAM signaling for neurite out\u2011growth', and 3 more pathways, yielding a score of 0.20. Other Noonan subtypes and Simpson\u2011Golabi\u2011Behmel syndrome present phenotype overlap (scores 0.26, 0.22, 0.17) but lack evidence of shared pathways, so no mechanistic link is established. Trametinib, an allosteric MEK1/MEK2 inhibitor, is listed as a candidate therapy (INFERRED_HYPOTHESIS) based on case reports in Noonan syndrome cardiopathy. The only documented researcher linked to Costello Syndrome in the atlas is the last author of a single PubMed paper, indicating limited current literature. A researcher working on Noonan syndrome 1, which shares distinct FLT3 and NTRK2 signaling pathways, is noted but not directly connected to Costello Syndrome.",
-  "sentences": [
-   {
-    "text": "The atlas shows no approved treatment or registered studies for Costello Syndrome.",
-    "facts": [
-     "F1",
-     "F2",
-     "F3"
-    ]
-   },
-   {
-    "text": "Costello Syndrome shares multiple Reactome pathways with Noonan syndrome 3, including 'Signaling by RAS GAP mutants' and 'Signaling by RAS GTPase mutants'.",
-    "facts": [
-     "F4"
-    ]
-   },
-   {
-    "text": "It also shares the same two pathways and 57 additional ones with Cardiofaciocutaneous syndrome 1, but the phenotype similarity is slightly lower.",
-    "facts": [
-     "F5"
-    ]
-   },
-   {
-    "text": "A more specific shared pathway with Noonan syndrome 14 is 'RAS signaling downstream of NF1 loss\u2011of\u2011function variants', with a phenotype similarity of 0.22.",
-    "facts": [
-     "F6"
-    ]
-   },
-   {
-    "text": "Noonan syndrome 13 shares 'Estrogen\u2011stimulated signaling through PRKCZ', 'NCAM signaling for neurite out\u2011growth', and 3 more pathways, yielding a score of 0.20.",
-    "facts": [
-     "F7"
-    ]
-   },
-   {
-    "text": "Other Noonan subtypes and Simpson\u2011Golabi\u2011Behmel syndrome present phenotype overlap (scores 0.26, 0.22, 0.17) but lack evidence of shared pathways, so no mechanistic link is established.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "Trametinib, an allosteric MEK1/MEK2 inhibitor, is listed as a candidate therapy (INFERRED_HYPOTHESIS) based on case reports in Noonan syndrome cardiopathy.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "The only documented researcher linked to Costello Syndrome in the atlas is the last author of a single PubMed paper, indicating limited current literature.",
-    "facts": [
-     "F12"
-    ]
-   },
-   {
-    "text": "A researcher working on Noonan syndrome 1, which shares distinct FLT3 and NTRK2 signaling pathways, is noted but not directly connected to Costello Syndrome.",
-    "facts": [
-     "F13"
-    ]
-   }
-  ],
-  "dropped": []
- },
- "journey|DIS_COSTELLO|dr_osei|gpt-oss:20b|7997dc5de871": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "No approved treatment is recorded in the atlas."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.28 on a 0-1 scale."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Signaling by RAS GAP mutants', 'Signaling by RAS GTPase mutants' and 57 more; their phenotype similarity score is 0.25 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 14 share the Reactome pathway(s) 'RAS signaling downstream of NF1 loss-of-function variants'; their phenotype similarity score is 0.22 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Costello Syndrome and Noonan syndrome 13 share the Reactome pathway(s) 'Estrogen-stimulated signaling through PRKCZ', 'NCAM signaling for neurite out-growth' and 3 more; their phenotype similarity score is 0.20 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Simpson-Golabi-Behmel syndrome, type 1 has similar phenotypes to Costello Syndrome (similarity score 0.17; shared features include Overgrowth, Urinary tract neoplasm, Macroglossia) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
-   },
-   {
-    "id": "F12",
-    "kind": "investigator",
-    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
-   },
-   {
-    "id": "F13",
-    "kind": "investigator",
-    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Signaling by FLT3 ITD and TKD mutants, Activated NTRK2 signals through FRS2 and FRS3."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "Atlas analysis shows that Costello Syndrome shares multiple Reactome pathways with a subset of RASopathies, notably Noonan syndrome 3 and Cardiofaciocutaneous syndrome 1, both exhibiting a phenotype similarity score near 0.25. The shared pathways include \u2018Signaling by RAS GAP mutants\u2019 and \u2018Signaling by RAS GTPase mutants\u2019, suggesting a mechanistic overlap in downstream RAS signaling perturbation. Additional RAS-pathway intersections are reported with Noonan syndrome 14 (RAS signaling downstream of NF1 loss-of-function variants) and Noonan syndrome 13 (estrogen\u2011stimulated PRKCZ signaling, NCAM neurite out\u2011growth), each with lower phenotype similarity scores between 0.20 and 0.22. Other Noonan subtypes (2, 8) and Simpson\u2011Golabi\u2011Behmel syndrome type 1 show phenotypic resemblance to Costello Syndrome but lack documented shared pathways, limiting inference of common mechanisms. No approved therapies for Costello Syndrome are recorded, and the atlas lists no registered clinical studies. An inferential hypothesis proposes Trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, as a potential therapeutic based on case reports addressing cardiac and lymphatic complications in Noonan syndrome but not directly validated in Costello Syndrome. Existing research connections include a PubMed contributor who authored a single Costello syndrome paper and a researcher actively studying Noonan syndrome 1 pathways, indicating possible translational insights to explore.",
-  "sentences": [
-   {
-    "text": "Atlas analysis shows that Costello Syndrome shares multiple Reactome pathways with a subset of RASopathies, notably Noonan syndrome 3 and Cardiofaciocutaneous syndrome 1, both exhibiting a phenotype similarity score near 0.25.",
-    "facts": [
-     "F4",
-     "F5"
-    ]
-   },
-   {
-    "text": "The shared pathways include \u2018Signaling by RAS GAP mutants\u2019 and \u2018Signaling by RAS GTPase mutants\u2019, suggesting a mechanistic overlap in downstream RAS signaling perturbation.",
-    "facts": [
-     "F4",
-     "F5"
-    ]
-   },
-   {
-    "text": "Additional RAS-pathway intersections are reported with Noonan syndrome 14 (RAS signaling downstream of NF1 loss-of-function variants) and Noonan syndrome 13 (estrogen\u2011stimulated PRKCZ signaling, NCAM neurite out\u2011growth), each with lower phenotype similarity scores between 0.20 and 0.22.",
-    "facts": [
-     "F6",
-     "F7"
-    ]
-   },
-   {
-    "text": "Other Noonan subtypes (2, 8) and Simpson\u2011Golabi\u2011Behmel syndrome type 1 show phenotypic resemblance to Costello Syndrome but lack documented shared pathways, limiting inference of common mechanisms.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "No approved therapies for Costello Syndrome are recorded, and the atlas lists no registered clinical studies.",
-    "facts": [
-     "F2",
-     "F3"
-    ]
-   },
-   {
-    "text": "An inferential hypothesis proposes Trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, as a potential therapeutic based on case reports addressing cardiac and lymphatic complications in Noonan syndrome but not directly validated in Costello Syndrome.",
-    "facts": [
-     "F11"
-    ]
-   },
-   {
-    "text": "Existing research connections include a PubMed contributor who authored a single Costello syndrome paper and a researcher actively studying Noonan syndrome 1 pathways, indicating possible translational insights to explore.",
-    "facts": [
-     "F12",
-     "F13"
-    ]
-   }
-  ],
-  "dropped": []
  },
  "journey|DIS_FXN|maria|gpt-oss:20b|ba56e3a404b3": {
   "facts": [
@@ -4164,578 +3103,6 @@
    }
   ],
   "dropped": []
- },
- "journey|DIS_MECP2|maria|gpt-oss:20b|03bf1746f4ce": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5hmC-DNA', 'Loss of MECP2 binding ability to 5mC-DNA' and 7 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5mC-DNA', 'MECP2 regulates transcription of neuronal ligands' and 2 more; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "The atlas shows that Rett Syndrome shares certain biological pathways with a few other conditions, especially those also caused by changes to the MECP2 gene, such as Intellectual developmental disorder, X-linked syndromic, Lubs type and Witteveen\u2011Kolk syndrome. Both of those diseases have a phenotype similarity score of 0.18 and 0.08 respectively, which suggests some overlap in symptoms and biology. Developmental and epileptic encephalopathy 89 also shares a pathway involving MECP2 and GABA signaling with Rett Syndrome, but its similarity score is only 0.10, indicating a weaker connection. Other disorders that look similar in signs, like the neurodevelopmental disorder with hypotonia and the neurodegeneration with brain atrophy, do not have any shared pathways identified in the atlas, so we can\u2019t say they share a biological mechanism. An approved therapy, Trofinetide (Daybue), is listed for Rett Syndrome with clinical evidence, but how it helps is still not fully understood. There are no current studies in the atlas for Rett Syndrome, so the next step would be to keep an eye on emerging clinical trials. Key research papers confirm the role of MECP2 in Rett Syndrome and describe important features such as autonomic dysfunction and broad\u2011based gait, which help clinicians recognize the disorder early. If you are looking for collaborators or experts, the atlas notes that certain authors appear on multiple papers related to Rett Syndrome, which could be useful contacts when planning research or patient support initiatives.",
-  "sentences": [
-   {
-    "text": "The atlas shows that Rett Syndrome shares certain biological pathways with a few other conditions, especially those also caused by changes to the MECP2 gene, such as Intellectual developmental disorder, X-linked syndromic, Lubs type and Witteveen\u2011Kolk syndrome. Both of those diseases have a phenotype similarity score of 0.18 and 0.08 respectively, which suggests some overlap in symptoms and biology.",
-    "facts": [
-     "F4",
-     "F6"
-    ]
-   },
-   {
-    "text": "Developmental and epileptic encephalopathy 89 also shares a pathway involving MECP2 and GABA signaling with Rett Syndrome, but its similarity score is only 0.10, indicating a weaker connection.",
-    "facts": [
-     "F5"
-    ]
-   },
-   {
-    "text": "Other disorders that look similar in signs, like the neurodevelopmental disorder with hypotonia and the neurodegeneration with brain atrophy, do not have any shared pathways identified in the atlas, so we can\u2019t say they share a biological mechanism.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "An approved therapy, Trofinetide (Daybue), is listed for Rett Syndrome with clinical evidence, but how it helps is still not fully understood. There are no current studies in the atlas for Rett Syndrome, so the next step would be to keep an eye on emerging clinical trials.",
-    "facts": [
-     "F2",
-     "F3",
-     "F11"
-    ]
-   },
-   {
-    "text": "Key research papers confirm the role of MECP2 in Rett Syndrome and describe important features such as autonomic dysfunction and broad\u2011based gait, which help clinicians recognize the disorder early.",
-    "facts": [
-     "F12",
-     "F13",
-     "F14"
-    ]
-   },
-   {
-    "text": "If you are looking for collaborators or experts, the atlas notes that certain authors appear on multiple papers related to Rett Syndrome, which could be useful contacts when planning research or patient support initiatives.",
-    "facts": [
-     "F15",
-     "F16"
-    ]
-   }
-  ],
-  "dropped": []
- },
- "journey|DIS_MECP2|devon|gpt-oss:20b|af93d703636e": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5hmC-DNA', 'Loss of MECP2 binding ability to 5mC-DNA' and 7 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5mC-DNA', 'MECP2 regulates transcription of neuronal ligands' and 2 more; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "We found one approved medicine that doctors use for Rett Syndrome, called Trofinetide, and it has been shown to help some people. In the atlas there are no ongoing clinical studies listed yet for Rett Syndrome, so more research is still needed. The atlas shows that Rett Syndrome shares some biological pathways with a few other rare diseases, like Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, Developmental and epileptic encephalopathy 89, and Witteveen\u2011Kolk syndrome, meaning they might use a similar part of the body\u2019s chemistry. The strongest overlap is with the Lubs type disease, with a similarity score of 0.18, but even that only tells us they have some similar features, not that they are exactly the same. Other conditions, such as Neurodevelopmental disorder with or without hyperkinetic movements, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset, have similar symptoms to Rett Syndrome, but no shared biological pathways have been detected, so we cannot be sure they share the same underlying cause. The atlas records that some people with Rett Syndrome have an abnormal nervous system that can affect breathing and a wide, unsteady walk, which doctors note as common features. These facts come from a study that says Rett Syndrome is caused by changes in the MECP2 gene on the X chromosome, which helps explain why similar genetic changes can lead to related conditions.",
-  "sentences": [
-   {
-    "text": "We found one approved medicine that doctors use for Rett Syndrome, called Trofinetide, and it has been shown to help some people.",
-    "facts": [
-     "F2",
-     "F11"
-    ]
-   },
-   {
-    "text": "In the atlas there are no ongoing clinical studies listed yet for Rett Syndrome, so more research is still needed.",
-    "facts": [
-     "F3"
-    ]
-   },
-   {
-    "text": "The atlas shows that Rett Syndrome shares some biological pathways with a few other rare diseases, like Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, Developmental and epileptic encephalopathy 89, and Witteveen\u2011Kolk syndrome, meaning they might use a similar part of the body\u2019s chemistry. The strongest overlap is with the Lubs type disease, with a similarity score of 0.18, but even that only tells us they have some similar features, not that they are exactly the same.",
-    "facts": [
-     "F4",
-     "F5",
-     "F6"
-    ]
-   },
-   {
-    "text": "Other conditions, such as Neurodevelopmental disorder with or without hyperkinetic movements, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset, have similar symptoms to Rett Syndrome, but no shared biological pathways have been detected, so we cannot be sure they share the same underlying cause.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "The atlas records that some people with Rett Syndrome have an abnormal nervous system that can affect breathing and a wide, unsteady walk, which doctors note as common features.",
-    "facts": [
-     "F12",
-     "F13"
-    ]
-   },
-   {
-    "text": "These facts come from a study that says Rett Syndrome is caused by changes in the MECP2 gene on the X chromosome, which helps explain why similar genetic changes can lead to related conditions.",
-    "facts": [
-     "F14"
-    ]
-   }
-  ],
-  "dropped": [
-   {
-    "text": "Because we have limited studies and data, it may be helpful to talk with a specialist or look for patient support groups that can help you ask the right questions and find the right resources.",
-    "reason": "no valid fact citation"
-   }
-  ]
- },
- "journey|DIS_MECP2|priya|gpt-oss:20b|6f2dbf1035a8": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5hmC-DNA', 'Loss of MECP2 binding ability to 5mC-DNA' and 7 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5mC-DNA', 'MECP2 regulates transcription of neuronal ligands' and 2 more; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "Rett Syndrome shows no registered clinical trials in the atlas. An approved therapy, Trofinetide (Daybue), is listed as a candidate with a CLINICAL_PROVEN evidence tier. The atlas identifies five conditions with shared Reactome pathways to Rett, most strongly Int. developmental disorder, X\u2011linked Lubs type via loss of MECP2 binding to 5hmC\u2011DNA and 5mC\u2011DNA. Developmental and epileptic encephalopathy 89 links through MECP2\u2011regulated GABA signaling, Witteveen\u2011Kolk syndrome via loss of MECP2 binding to 5mC\u2011DNA and neuronal ligand regulation, and a neurodevelopmental disorder with hypotonia through transcription factor regulation. Other diseases with similar phenotype scores (0.24\u20130.21) such as Neurodevelopmental disorder with hyperkinetic movements, CDKL5 Deficiency Disorder, and Childhood\u2011onset neurodegeneration lack documented shared pathways, providing no mechanistic link. Pathogenic variants in MECP2 underlie Rett, supporting a mechanistic focus on MECP2\u2011mediated transcriptional regulation for future drug development. Current literature resources include PubMed reports of autonomic dysfunction, broad\u2011based gait, and potential therapeutic angles targeting MECP2 pathways, while author links may aid outreach to experts in the field.",
-  "sentences": [
-   {
-    "text": "Rett Syndrome shows no registered clinical trials in the atlas.",
-    "facts": [
-     "F1",
-     "F3"
-    ]
-   },
-   {
-    "text": "An approved therapy, Trofinetide (Daybue), is listed as a candidate with a CLINICAL_PROVEN evidence tier.",
-    "facts": [
-     "F2",
-     "F11"
-    ]
-   },
-   {
-    "text": "The atlas identifies five conditions with shared Reactome pathways to Rett, most strongly Int. developmental disorder, X\u2011linked Lubs type via loss of MECP2 binding to 5hmC\u2011DNA and 5mC\u2011DNA.",
-    "facts": [
-     "F4"
-    ]
-   },
-   {
-    "text": "Developmental and epileptic encephalopathy 89 links through MECP2\u2011regulated GABA signaling, Witteveen\u2011Kolk syndrome via loss of MECP2 binding to 5mC\u2011DNA and neuronal ligand regulation, and a neurodevelopmental disorder with hypotonia through transcription factor regulation.",
-    "facts": [
-     "F5",
-     "F6",
-     "F7"
-    ]
-   },
-   {
-    "text": "Other diseases with similar phenotype scores (0.24\u20130.21) such as Neurodevelopmental disorder with hyperkinetic movements, CDKL5 Deficiency Disorder, and Childhood\u2011onset neurodegeneration lack documented shared pathways, providing no mechanistic link.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "Pathogenic variants in MECP2 underlie Rett, supporting a mechanistic focus on MECP2\u2011mediated transcriptional regulation for future drug development.",
-    "facts": [
-     "F14"
-    ]
-   },
-   {
-    "text": "Current literature resources include PubMed reports of autonomic dysfunction, broad\u2011based gait, and potential therapeutic angles targeting MECP2 pathways, while author links may aid outreach to experts in the field.",
-    "facts": [
-     "F12",
-     "F13",
-     "F15",
-     "F16"
-    ]
-   }
-  ],
-  "dropped": []
- },
- "journey|DIS_MECP2|dr_osei|gpt-oss:20b|88712df2b00b": {
-  "facts": [
-   {
-    "id": "F1",
-    "kind": "disease",
-    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
-   },
-   {
-    "id": "F2",
-    "kind": "treatment",
-    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
-   },
-   {
-    "id": "F3",
-    "kind": "trials",
-    "text": "No registered studies in the atlas for this condition."
-   },
-   {
-    "id": "F4",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5hmC-DNA', 'Loss of MECP2 binding ability to 5mC-DNA' and 7 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
-   },
-   {
-    "id": "F5",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
-   },
-   {
-    "id": "F6",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'Loss of MECP2 binding ability to 5mC-DNA', 'MECP2 regulates transcription of neuronal ligands' and 2 more; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F7",
-    "kind": "mechanism",
-    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
-   },
-   {
-    "id": "F8",
-    "kind": "phenotype",
-    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F9",
-    "kind": "phenotype",
-    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F10",
-    "kind": "phenotype",
-    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
-   },
-   {
-    "id": "F11",
-    "kind": "lead",
-    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
-   },
-   {
-    "id": "F12",
-    "kind": "literature",
-    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F13",
-    "kind": "literature",
-    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F14",
-    "kind": "literature",
-    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
-   },
-   {
-    "id": "F15",
-    "kind": "investigator",
-    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   },
-   {
-    "id": "F16",
-    "kind": "investigator",
-    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
-   }
-  ],
-  "model": "gpt-oss:20b",
-  "endpoint": "http://localhost:11434/v1",
-  "source": "llm",
-  "text": "No clinical studies registered for Rett Syndrome are reported in the atlas. The atlas identifies a similarity between Rett Syndrome and Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, sharing the Reactome pathways involving loss of MECP2 binding to 5hmC\u2011DNA and 5mC\u2011DNA, among others, with a phenotype similarity score of 0.18, and both are caused by variants in the same gene, MECP2. Rett Syndrome also links to Developmental and epileptic encephalopathy 89 through shared GABA signaling transcriptional regulation by MECP2, with a lower phenotype similarity of 0.10. Additional mechanistic overlap exists with Witteveen\u2011Kolk syndrome via loss of MECP2 binding to 5mC\u2011DNA and regulation of neuronal ligands, yielding a phenotype similarity of 0.08. Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language shares MECP2\u2011regulated transcription factor pathways, producing an 0.08 similarity score. Other conditions such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset, with brain atrophy exhibit phenotype similarities of 0.24, 0.24, and 0.21 respectively, but their shared features lack recorded pathways, providing no evidence of a shared mechanism. Phenotypic features specific to Rett Syndrome, such as abnormal autonomic nervous system physiology, broad\u2011based gait, and the causative role of MECP2 variants, are documented in the literature cited by the atlas. The atlas indicates limited editorial depth for Rett Syndrome, with only two authors (B Dan and Rohit Srivastava) linked through a single PubMed paper each. Given the current evidence, the most robust mechanistic connection is with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, suggesting shared pathogenic pathways mediated by MECP2; further functional studies of the loss\u2011of\u2011binding pathways would clarify therapeutic overlap, while the presence of Trofinetide offers a clinically validated yet mechanistically unconfirmed intervention that warrants prospective evaluation within Rett cohorts.",
-  "sentences": [
-   {
-    "text": "No clinical studies registered for Rett Syndrome are reported in the atlas.",
-    "facts": [
-     "F3"
-    ]
-   },
-   {
-    "text": "The atlas identifies a similarity between Rett Syndrome and Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, sharing the Reactome pathways involving loss of MECP2 binding to 5hmC\u2011DNA and 5mC\u2011DNA, among others, with a phenotype similarity score of 0.18, and both are caused by variants in the same gene, MECP2.",
-    "facts": [
-     "F4"
-    ]
-   },
-   {
-    "text": "Rett Syndrome also links to Developmental and epileptic encephalopathy 89 through shared GABA signaling transcriptional regulation by MECP2, with a lower phenotype similarity of 0.10.",
-    "facts": [
-     "F5"
-    ]
-   },
-   {
-    "text": "Additional mechanistic overlap exists with Witteveen\u2011Kolk syndrome via loss of MECP2 binding to 5mC\u2011DNA and regulation of neuronal ligands, yielding a phenotype similarity of 0.08.",
-    "facts": [
-     "F6"
-    ]
-   },
-   {
-    "text": "Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language shares MECP2\u2011regulated transcription factor pathways, producing an 0.08 similarity score.",
-    "facts": [
-     "F7"
-    ]
-   },
-   {
-    "text": "Other conditions such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset, with brain atrophy exhibit phenotype similarities of 0.24, 0.24, and 0.21 respectively, but their shared features lack recorded pathways, providing no evidence of a shared mechanism.",
-    "facts": [
-     "F8",
-     "F9",
-     "F10"
-    ]
-   },
-   {
-    "text": "Phenotypic features specific to Rett Syndrome, such as abnormal autonomic nervous system physiology, broad\u2011based gait, and the causative role of MECP2 variants, are documented in the literature cited by the atlas.",
-    "facts": [
-     "F12",
-     "F13",
-     "F14"
-    ]
-   },
-   {
-    "text": "The atlas indicates limited editorial depth for Rett Syndrome, with only two authors (B Dan and Rohit Srivastava) linked through a single PubMed paper each.",
-    "facts": [
-     "F15",
-     "F16"
-    ]
-   },
-   {
-    "text": "Given the current evidence, the most robust mechanistic connection is with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, suggesting shared pathogenic pathways mediated by MECP2; further functional studies of the loss\u2011of\u2011binding pathways would clarify therapeutic overlap, while the presence of Trofinetide offers a clinically validated yet mechanistically unconfirmed intervention that warrants prospective evaluation within Rett cohorts.",
-    "facts": [
-     "F2",
-     "F4",
-     "F11"
-    ]
-   }
-  ],
-  "dropped": [
-   {
-    "text": "Rett Syndrome (ORPHA:778) is the principal focus of the atlas and is associated with the approved therapy Trofinetide (Daybue).",
-    "reason": "number(s) not in cited facts: 778"
-   }
-  ]
  },
  "journey|DIS_STXBP1|maria|gpt-oss:20b|92fec4753165": {
   "facts": [
@@ -6574,5 +4941,1616 @@
    }
   ],
   "dropped": []
+ },
+ "journey|DIS_NOONAN|maria|gpt-oss:20b|39864b80c4a0": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 9 more; their phenotype similarity score is 0.34 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 11 more; their phenotype similarity score is 0.33 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 8 more; their phenotype similarity score is 0.32 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "The atlas shows that Noonan Syndrome\u202f1 shares several biological pathways with other Noonan\u2011type conditions, notably with Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia (pathways such as Interleukin\u20116 signaling and Spry regulation of FGF signaling) and with Noonan syndromes\u202f6,\u202f3, and\u202f4 (shared pathways including Activated NTRK2 signals through FRS2 and FRS3 and Tie2 signaling). These connections are quantified by phenotype similarity scores ranging from 0.32 to 0.35, indicating moderate overlap in observable features among these related syndromes. Other Noonan\u2011related disorders, such as Noonan syndrome\u202f2,\u202f10, and Neurofibromatosis\u2011Noonan syndrome, have similar clinical pictures but no shared pathways recorded in the atlas, so their link reflects only phenotypic resemblance, not a proven shared mechanism. There is a single clinical report (Tier CLINICAL_CASE_REPORTS) that suggests the drug trametinib, an allosteric MEK1/MEK2 inhibitor, may help treat cardiac and lymphatic complications in Noonan Syndrome\u202f1, although this evidence is limited to case reports. The atlas lists key published findings, including the prevalence of hypertelorism in Noonan Syndrome\u202f1 (PMID\u202f33089815) and an increased leukemia risk (PMID\u202f28144274), and identifies PTPN11 mutations as the first genetic cause discovered (PMID\u202f31115193). Practical next steps are to discuss the potential use of trametinib with the clinical team, consult the latest clinical guidelines, and consider participating in or advocating for clinical trials that may further evaluate targeted therapies for this condition. Because the atlas shows only moderately strong pathway and phenotype links, more research is needed to confirm shared mechanisms before new treatments can be widely recommended.",
+  "sentences": [
+   {
+    "text": "The atlas shows that Noonan Syndrome\u202f1 shares several biological pathways with other Noonan\u2011type conditions, notably with Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia (pathways such as Interleukin\u20116 signaling and Spry regulation of FGF signaling) and with Noonan syndromes\u202f6,\u202f3, and\u202f4 (shared pathways including Activated NTRK2 signals through FRS2 and FRS3 and Tie2 signaling).",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "These connections are quantified by phenotype similarity scores ranging from 0.32 to 0.35, indicating moderate overlap in observable features among these related syndromes.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other Noonan\u2011related disorders, such as Noonan syndrome\u202f2,\u202f10, and Neurofibromatosis\u2011Noonan syndrome, have similar clinical pictures but no shared pathways recorded in the atlas, so their link reflects only phenotypic resemblance, not a proven shared mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "There is a single clinical report (Tier CLINICAL_CASE_REPORTS) that suggests the drug trametinib, an allosteric MEK1/MEK2 inhibitor, may help treat cardiac and lymphatic complications in Noonan Syndrome\u202f1, although this evidence is limited to case reports.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "The atlas lists key published findings, including the prevalence of hypertelorism in Noonan Syndrome\u202f1 (PMID\u202f33089815) and an increased leukemia risk (PMID\u202f28144274), and identifies PTPN11 mutations as the first genetic cause discovered (PMID\u202f31115193).",
+    "facts": [
+     "F12",
+     "F13",
+     "F14"
+    ]
+   },
+   {
+    "text": "Practical next steps are to discuss the potential use of trametinib with the clinical team, consult the latest clinical guidelines, and consider participating in or advocating for clinical trials that may further evaluate targeted therapies for this condition.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "Because the atlas shows only moderately strong pathway and phenotype links, more research is needed to confirm shared mechanisms before new treatments can be widely recommended.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7"
+    ]
+   }
+  ],
+  "dropped": []
+ },
+ "journey|DIS_NOONAN|devon|gpt-oss:20b|f04ab72edb53": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 9 more; their phenotype similarity score is 0.34 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 11 more; their phenotype similarity score is 0.33 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 8 more; their phenotype similarity score is 0.32 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "It finds close links to a few other Noonan\u2011like disorders that share some of the same biological pathways and have similar features, for example a similarity score of about 0.35 with a Noonan\u2011like disorder that can involve a certain type of blood disease. It also shows scores of roughly 0.32 to 0.34 with several other Noonan Syndrome types, all of which share the same signalling pathways. Other conditions that look a bit like Noonan Syndrome 1, such as a certain form called Noonan syndrome 2 or a related disease with fewer links, do not have recorded shared pathways, so we can\u2019t say they work in the same way. One possible therapy that has appeared in a few case reports is a drug called trametinib (Mekinist) that targets a specific enzyme in the pathway, but it is still only a case\u2011report level of evidence. The atlas also notes that the gene PTPN11 may be the root cause of Noonan Syndrome 1, according to a 2019 paper, and this matches the fact that a researcher named Dr. Miller has written a paper on the disease.",
+  "sentences": [
+   {
+    "text": "It finds close links to a few other Noonan\u2011like disorders that share some of the same biological pathways and have similar features, for example a similarity score of about 0.35 with a Noonan\u2011like disorder that can involve a certain type of blood disease.",
+    "facts": [
+     "F4"
+    ]
+   },
+   {
+    "text": "It also shows scores of roughly 0.32 to 0.34 with several other Noonan Syndrome types, all of which share the same signalling pathways.",
+    "facts": [
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other conditions that look a bit like Noonan Syndrome 1, such as a certain form called Noonan syndrome 2 or a related disease with fewer links, do not have recorded shared pathways, so we can\u2019t say they work in the same way.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "One possible therapy that has appeared in a few case reports is a drug called trametinib (Mekinist) that targets a specific enzyme in the pathway, but it is still only a case\u2011report level of evidence.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "The atlas also notes that the gene PTPN11 may be the root cause of Noonan Syndrome 1, according to a 2019 paper, and this matches the fact that a researcher named Dr. Miller has written a paper on the disease.",
+    "facts": [
+     "F14",
+     "F15",
+     "F16"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "This atlas says that Noonan Syndrome 1 is a condition with no approved treatment or ongoing studies listed.",
+    "reason": "number(s) not in cited facts: 1"
+   },
+   {
+    "text": "If you want to learn more or discuss options, it helps to talk with your doctor or a genetics specialist and look up the papers referenced here for deeper information.",
+    "reason": "no valid fact citation"
+   }
+  ]
+ },
+ "journey|DIS_NOONAN|priya|gpt-oss:20b|ccb81aa3db04": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 9 more; their phenotype similarity score is 0.34 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 11 more; their phenotype similarity score is 0.33 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 8 more; their phenotype similarity score is 0.32 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "NS1 shares several Reactome pathways with Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia, including interleukin\u20116 signaling and Spry regulation of FGF signaling, and has a phenotype similarity score of 0.35. It also shares the \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019 and \u2018Tie2 Signaling\u2019 pathways with Noonan syndromes\u00a06,\u00a03, and\u00a04, with phenotype similarity scores ranging from 0.32 to 0.34. Phenotypic similarities to Noonan syndrome\u00a02,\u00a010, and neurofibromatosis\u2011Noonan syndrome exist but lack shared pathway evidence, so no mechanistic link is supported. A case\u2011report evidence tier clinical observation supports the use of Trametinib, an allosteric MEK1/MEK2 inhibitor, for cardiac and lymphatic complications in NS1. Genetic and phenotypic data show PTPN11 as the causative gene and hypertelorism and a higher leukemia risk as reported clinical features. Future steps could involve exploring MEK inhibition further, leveraging the pathway overlaps with related Noonan syndromes, or collaborating with the identified experts (Miller and Tanpaiboon) for potential patient cohort studies.",
+  "sentences": [
+   {
+    "text": "NS1 shares several Reactome pathways with Noonan syndrome\u2011like disorder with or without juvenile myelomonocytic leukemia, including interleukin\u20116 signaling and Spry regulation of FGF signaling, and has a phenotype similarity score of 0.35.",
+    "facts": [
+     "F4"
+    ]
+   },
+   {
+    "text": "It also shares the \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019 and \u2018Tie2 Signaling\u2019 pathways with Noonan syndromes\u00a06,\u00a03, and\u00a04, with phenotype similarity scores ranging from 0.32 to 0.34.",
+    "facts": [
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Phenotypic similarities to Noonan syndrome\u00a02,\u00a010, and neurofibromatosis\u2011Noonan syndrome exist but lack shared pathway evidence, so no mechanistic link is supported.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "A case\u2011report evidence tier clinical observation supports the use of Trametinib, an allosteric MEK1/MEK2 inhibitor, for cardiac and lymphatic complications in NS1.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "Genetic and phenotypic data show PTPN11 as the causative gene and hypertelorism and a higher leukemia risk as reported clinical features.",
+    "facts": [
+     "F14",
+     "F12",
+     "F13"
+    ]
+   },
+   {
+    "text": "Future steps could involve exploring MEK inhibition further, leveraging the pathway overlaps with related Noonan syndromes, or collaborating with the identified experts (Miller and Tanpaiboon) for potential patient cohort studies.",
+    "facts": [
+     "F15",
+     "F16"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "Noonan Syndrome\u00a01 (NS1) has no approved treatment or registered studies in the atlas.",
+    "reason": "number(s) not in cited facts: 1"
+   }
+  ]
+ },
+ "journey|DIS_NOONAN|dr_osei|gpt-oss:20b|51c1b33c58f5": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Noonan Syndrome 1 (OMIM:163950) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome-like disorder with or without juvenile myelomonocytic leukemia share the Reactome pathway(s) 'Interleukin-6 signaling', 'Spry regulation of FGF signaling' and 5 more; their phenotype similarity score is 0.35 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 6 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 9 more; their phenotype similarity score is 0.34 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 3 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 11 more; their phenotype similarity score is 0.33 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Noonan Syndrome 1 and Noonan syndrome 4 share the Reactome pathway(s) 'Activated NTRK2 signals through FRS2 and FRS3', 'Tie2 Signaling' and 8 more; their phenotype similarity score is 0.32 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.33; shared features include Shield chest, Cystic hygroma, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 10 has similar phenotypes to Noonan Syndrome 1 (similarity score 0.30; shared features include Abnormality of the intrinsic pathway, Pleural effusion, Cubitus valgus) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurofibromatosis-Noonan syndrome has similar phenotypes to Noonan Syndrome 1 (similarity score 0.26; shared features include Superior pectus carinatum, Pectus excavatum of inferior sternum, Soft tissue sarcoma) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Noonan Syndrome 1 with evidence tier CLINICAL_CASE_REPORTS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 33089815 (2020, patients) reports that Noonan Syndrome 1 has the feature Hypertelorism. Quote: \"Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 28144274 (2017, patients) reports that Noonan Syndrome 1 has the feature Leukemia. Quote: \"Patients with NS also have higher risk for leukemia and specific solid tumors.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 31115193 (2019, patients) reports that Noonan Syndrome 1 is caused by variants in PTPN11. Quote: \"Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Pranoot Tanpaiboon (Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.) is linked because: Last author of 1 PubMed paper on Noonan Syndrome 1 in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "Phenotype\u2010similarity analysis links it to Noonan syndrome\u2011like disorder (J1) with a score of 0.35 via shared Reactome pathways \u2018Interleukin\u20116 signaling\u2019, \u2018Spry regulation of FGF signaling\u2019, among five additional pathways. Further similarity scores close to 0.32\u20110.34 are reported for Noonan syndrome\u00a06, 3 and 4, each sharing the pathways \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019, \u2018Tie2 Signaling\u2019 and 8\u201311 additional pathways. Other Noonan variants with comparable phenotype scores (0.30\u20130.33) such as Noonan syndrome\u00a02, 10 and Neurofibromatosis\u2011Noonan syndrome lack any documented shared pathway, thus phenotype similarity alone does not support a common mechanism. Case reports provide the only therapeutic evidence for Noonan Syndrome\u00a01, showing that the MEK inhibitor Trametinib (Mekinist) has been used in cardiac and lymphatic complications. Genomic evidence confirms PTPN11 as a causal gene, and clinical phenotypes such as hypertelorism and leukemia have been reported in patient cohorts. The atlas identifies two senior authors, Bradley\u00a0S\u202fMiller and Pranoot\u00a0Tanpaiboon, who authored a key paper on the syndrome, offering potential expert contacts for collaborative research.",
+  "sentences": [
+   {
+    "text": "Phenotype\u2010similarity analysis links it to Noonan syndrome\u2011like disorder (J1) with a score of 0.35 via shared Reactome pathways \u2018Interleukin\u20116 signaling\u2019, \u2018Spry regulation of FGF signaling\u2019, among five additional pathways.",
+    "facts": [
+     "F4"
+    ]
+   },
+   {
+    "text": "Further similarity scores close to 0.32\u20110.34 are reported for Noonan syndrome\u00a06, 3 and 4, each sharing the pathways \u2018Activated NTRK2 signals through FRS2 and FRS3\u2019, \u2018Tie2 Signaling\u2019 and 8\u201311 additional pathways.",
+    "facts": [
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other Noonan variants with comparable phenotype scores (0.30\u20130.33) such as Noonan syndrome\u00a02, 10 and Neurofibromatosis\u2011Noonan syndrome lack any documented shared pathway, thus phenotype similarity alone does not support a common mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "Case reports provide the only therapeutic evidence for Noonan Syndrome\u00a01, showing that the MEK inhibitor Trametinib (Mekinist) has been used in cardiac and lymphatic complications.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "Genomic evidence confirms PTPN11 as a causal gene, and clinical phenotypes such as hypertelorism and leukemia have been reported in patient cohorts.",
+    "facts": [
+     "F12",
+     "F13",
+     "F14"
+    ]
+   },
+   {
+    "text": "The atlas identifies two senior authors, Bradley\u00a0S\u202fMiller and Pranoot\u00a0Tanpaiboon, who authored a key paper on the syndrome, offering potential expert contacts for collaborative research.",
+    "facts": [
+     "F15",
+     "F16"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "Noonan Syndrome\u00a01 (OMIM:163950) currently has no approved treatment recorded in the atlas and no registered studies.",
+    "reason": "number(s) not in cited facts: 1, 163950"
+   }
+  ]
+ },
+ "journey|DIS_COSTELLO|maria|gpt-oss:20b|3ef39e81a5f9": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.28 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.25 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 6 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 4 share the Reactome pathway(s) 'SOS-mediated signalling', 'Activated NTRK3 signals through RAS' and 28 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 14 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Deep palmar crease, Curly hair, Mitral valve prolapse) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "investigator",
+    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
+   },
+   {
+    "id": "F13",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Activated NTRK2 signals through FRS2 and FRS3, Tie2 Signaling."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "The atlas shows no approved or registered treatments for Costello Syndrome, so clinical options are limited right now. Costello Syndrome shares several biological pathways with Noonan syndrome 3, Cardiofaciocutaneous syndrome 1, and Noonan syndrome 6, with phenotype similarity scores ranging from 0.17 to 0.28, indicating a moderate likelihood of a related underlying mechanism. It also shares some pathways with Noonan syndrome 4, but the similarity score is lower (0.17). Other Noonan syndrome variants (2, 8, 14) have phenotypic overlap with Costello Syndrome but no known shared pathways, so these connections do not suggest a shared biological mechanism. A drug called Trametinib, an MEK inhibitor, is listed as a potential treatment based on an inferred hypothesis and has been used in case reports for cardiac and lymphatic issues in Noonan syndrome, but no formal evidence exists for Costello Syndrome. One recent contributor to the atlas is Mohammadreza Abbaszadegan, who published a paper on Costello Syndrome, which may be a useful contact for research collaborations. In short, the atlas suggests focusing on shared pathway therapies like MEK inhibition and exploring collaborations with researchers who have experience in related RASopathies while recognizing that the evidence is still primarily inferred and unverified.",
+  "sentences": [
+   {
+    "text": "The atlas shows no approved or registered treatments for Costello Syndrome, so clinical options are limited right now.",
+    "facts": [
+     "F2",
+     "F3"
+    ]
+   },
+   {
+    "text": "Costello Syndrome shares several biological pathways with Noonan syndrome 3, Cardiofaciocutaneous syndrome 1, and Noonan syndrome 6, with phenotype similarity scores ranging from 0.17 to 0.28, indicating a moderate likelihood of a related underlying mechanism.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6"
+    ]
+   },
+   {
+    "text": "It also shares some pathways with Noonan syndrome 4, but the similarity score is lower (0.17).",
+    "facts": [
+     "F7"
+    ]
+   },
+   {
+    "text": "Other Noonan syndrome variants (2, 8, 14) have phenotypic overlap with Costello Syndrome but no known shared pathways, so these connections do not suggest a shared biological mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "A drug called Trametinib, an MEK inhibitor, is listed as a potential treatment based on an inferred hypothesis and has been used in case reports for cardiac and lymphatic issues in Noonan syndrome, but no formal evidence exists for Costello Syndrome.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "One recent contributor to the atlas is Mohammadreza Abbaszadegan, who published a paper on Costello Syndrome, which may be a useful contact for research collaborations.",
+    "facts": [
+     "F12"
+    ]
+   },
+   {
+    "text": "In short, the atlas suggests focusing on shared pathway therapies like MEK inhibition and exploring collaborations with researchers who have experience in related RASopathies while recognizing that the evidence is still primarily inferred and unverified.",
+    "facts": [
+     "F2",
+     "F3",
+     "F4",
+     "F5",
+     "F6",
+     "F7",
+     "F8",
+     "F9",
+     "F10",
+     "F11",
+     "F12"
+    ]
+   }
+  ],
+  "dropped": []
+ },
+ "journey|DIS_COSTELLO|devon|gpt-oss:20b|bc7952966504": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.28 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.25 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 6 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 4 share the Reactome pathway(s) 'SOS-mediated signalling', 'Activated NTRK3 signals through RAS' and 28 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 14 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Deep palmar crease, Curly hair, Mitral valve prolapse) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "investigator",
+    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
+   },
+   {
+    "id": "F13",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Activated NTRK2 signals through FRS2 and FRS3, Tie2 Signaling."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "The atlas shows that Costello Syndrome is linked to several other rare conditions that share some biological pathways and similar symptoms. It shares a common group of molecular routes, called Reactome pathways, with Noonan syndrome 3, Cardiofaciocutaneous syndrome 1, and Noonan syndrome 6, which might hint at a related underlying process. The shared pathway list includes 38 items for the first three connections, while Noonan syndrome 4 shares a smaller set of 28 pathways; these links give a similarity score ranging from 0.17 to 0.28 out of 1, meaning they are moderately related. Other Noonan syndromes, like Noonan 2, 14, and 8, also have some overlapping symptoms with Costello Syndrome, but because no common pathways have been noted, the atlas does not treat these as strong evidence of a shared mechanism. At present, there is no approved treatment listed for Costello Syndrome in the atlas, and no clinical studies have been registered for this condition yet. One possible therapy that researchers have considered is the drug trametinib (Mekinist). It is a MEK1/MEK2 inhibitor, which means it blocks a specific protein that can be overactive in related syndromes, and it has been used in reports for heart and lymphatic problems in Noonan syndrome, but its use in Costello Syndrome is only based on a hypothesis, not proven evidence. If you would like to learn more, you might discuss the atlas findings and the potential use of trametinib with your medical team, and they can help you decide if any ongoing research or specialized programs could be relevant for your situation. The atlas also connects you to a researcher named Mohammadreza Abbaszadegan, who has written a paper on Costello Syndrome, and to Bradley S Miller, who works on Noonan syndrome related to some of the same signaling pathways. While this information does not directly change care, it can help you explore research contacts who might have deeper insights.",
+  "sentences": [
+   {
+    "text": "The atlas shows that Costello Syndrome is linked to several other rare conditions that share some biological pathways and similar symptoms.",
+    "facts": [
+     "F1"
+    ]
+   },
+   {
+    "text": "It shares a common group of molecular routes, called Reactome pathways, with Noonan syndrome 3, Cardiofaciocutaneous syndrome 1, and Noonan syndrome 6, which might hint at a related underlying process. The shared pathway list includes 38 items for the first three connections, while Noonan syndrome 4 shares a smaller set of 28 pathways; these links give a similarity score ranging from 0.17 to 0.28 out of 1, meaning they are moderately related.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other Noonan syndromes, like Noonan 2, 14, and 8, also have some overlapping symptoms with Costello Syndrome, but because no common pathways have been noted, the atlas does not treat these as strong evidence of a shared mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "At present, there is no approved treatment listed for Costello Syndrome in the atlas, and no clinical studies have been registered for this condition yet.",
+    "facts": [
+     "F2",
+     "F3"
+    ]
+   },
+   {
+    "text": "One possible therapy that researchers have considered is the drug trametinib (Mekinist). It is a MEK1/MEK2 inhibitor, which means it blocks a specific protein that can be overactive in related syndromes, and it has been used in reports for heart and lymphatic problems in Noonan syndrome, but its use in Costello Syndrome is only based on a hypothesis, not proven evidence.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "If you would like to learn more, you might discuss the atlas findings and the potential use of trametinib with your medical team, and they can help you decide if any ongoing research or specialized programs could be relevant for your situation.",
+    "facts": [
+     "F1",
+     "F11"
+    ]
+   },
+   {
+    "text": "The atlas also connects you to a researcher named Mohammadreza Abbaszadegan, who has written a paper on Costello Syndrome, and to Bradley S Miller, who works on Noonan syndrome related to some of the same signaling pathways. While this information does not directly change care, it can help you explore research contacts who might have deeper insights.",
+    "facts": [
+     "F12",
+     "F13"
+    ]
+   }
+  ],
+  "dropped": []
+ },
+ "journey|DIS_COSTELLO|priya|gpt-oss:20b|a79fee70a8a9": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.28 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.25 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 6 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 4 share the Reactome pathway(s) 'SOS-mediated signalling', 'Activated NTRK3 signals through RAS' and 28 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 14 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Deep palmar crease, Curly hair, Mitral valve prolapse) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "investigator",
+    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
+   },
+   {
+    "id": "F13",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Activated NTRK2 signals through FRS2 and FRS3, Tie2 Signaling."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "Costello Syndrome has no approved treatments and no registered studies in the atlas. It shares Reactome pathways \u2013 for example, \u2018Activation of RAS in B cells\u2019 and \u2018Estrogen\u2011stimulated signaling through PRKCZ\u2019 \u2013 with Noonan syndrome 3, 1, and 6, and a common pathway set with Noonan syndrome 4; phenotype similarity scores range from 0.17 to 0.28. Other Noonan syndrome subtypes (2, 14, 8) show phenotype similarity (0.22\u20110.26) but lack shared pathways, so no mechanistic evidence is present. The only therapeutic candidate listed is Trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, with an INFERRED_HYPOTHESIS tier citing case reports for cardiac and lymphatic complications of Noonan syndrome. One author on a Costello Syndrome paper is linked to the atlas, and an expert on Noonan Syndrome 1 is cited, suggesting potential for collaboration but not direct evidence of treatment efficacy. Given the pathway overlap with RAS\u2011signaling disorders, exploring MEK inhibition or other RAS pathway modulators is a rational next step, while acknowledging that current evidence is inferred and unverified.",
+  "sentences": [
+   {
+    "text": "Costello Syndrome has no approved treatments and no registered studies in the atlas.",
+    "facts": [
+     "F2",
+     "F3"
+    ]
+   },
+   {
+    "text": "It shares Reactome pathways \u2013 for example, \u2018Activation of RAS in B cells\u2019 and \u2018Estrogen\u2011stimulated signaling through PRKCZ\u2019 \u2013 with Noonan syndrome 3, 1, and 6, and a common pathway set with Noonan syndrome 4; phenotype similarity scores range from 0.17 to 0.28.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other Noonan syndrome subtypes (2, 14, 8) show phenotype similarity (0.22\u20110.26) but lack shared pathways, so no mechanistic evidence is present.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "The only therapeutic candidate listed is Trametinib (Mekinist), an allosteric MEK1/MEK2 inhibitor, with an INFERRED_HYPOTHESIS tier citing case reports for cardiac and lymphatic complications of Noonan syndrome.",
+    "facts": [
+     "F11"
+    ]
+   },
+   {
+    "text": "One author on a Costello Syndrome paper is linked to the atlas, and an expert on Noonan Syndrome 1 is cited, suggesting potential for collaboration but not direct evidence of treatment efficacy.",
+    "facts": [
+     "F12",
+     "F13"
+    ]
+   },
+   {
+    "text": "Given the pathway overlap with RAS\u2011signaling disorders, exploring MEK inhibition or other RAS pathway modulators is a rational next step, while acknowledging that current evidence is inferred and unverified.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7",
+     "F11"
+    ]
+   }
+  ],
+  "dropped": []
+ },
+ "journey|DIS_COSTELLO|dr_osei|gpt-oss:20b|952766bf56ce": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Costello Syndrome (ORPHA:3071) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "No approved treatment is recorded in the atlas."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 3 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.28 on a 0-1 scale."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Cardiofaciocutaneous syndrome 1 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.25 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 6 share the Reactome pathway(s) 'Activation of RAS in B cells', 'Estrogen-stimulated signaling through PRKCZ' and 38 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Costello Syndrome and Noonan syndrome 4 share the Reactome pathway(s) 'SOS-mediated signalling', 'Activated NTRK3 signals through RAS' and 28 more; their phenotype similarity score is 0.17 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 2 has similar phenotypes to Costello Syndrome (similarity score 0.26; shared features include Redundant neck skin, Curly hair, Enlarged thorax) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 14 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Deep palmar crease, Curly hair, Mitral valve prolapse) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Noonan syndrome 8 has similar phenotypes to Costello Syndrome (similarity score 0.22; shared features include Curly hair, Abnormal pleura morphology, Webbed neck) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trametinib (Mekinist) is listed as a candidate for Costello Syndrome with evidence tier INFERRED_HYPOTHESIS. Allosteric MEK1/MEK2 inhibitor. Reported in case reports for cardiac and lymphatic complications of Noonan syndrome (PMID 40041314)."
+   },
+   {
+    "id": "F12",
+    "kind": "investigator",
+    "text": "Mohammadreza Abbaszadegan (Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.) is linked because: Last author of 1 PubMed paper on Costello Syndrome in the atlas."
+   },
+   {
+    "id": "F13",
+    "kind": "investigator",
+    "text": "Bradley S Miller (Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e) is linked because: Works on Noonan Syndrome 1, which shares Activated NTRK2 signals through FRS2 and FRS3, Tie2 Signaling."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "Mechanistic overlap was identified primarily with RAS pathway\u2010driven disorders: Costello shares 38 Reactome pathways\u2014including \u2018Activation of RAS in B cells\u2019 and \u2018Estrogen\u2011stimulated signaling through PRKCZ\u2019\u2014with Noonan syndrome 3, yielding a phenotype similarity of 0.28. Costello also shares the same 38 RAS\u2011related pathways with Cardiofaciocutaneous syndrome 1, with a phenotype similarity of 0.25. With Noonan syndrome 6, the shared pathways remain the same 38 RAS\u2011related pathways, but the phenotype similarity falls to 0.17. Noonan syndrome 4 contributes additional shared pathways\u2014\u2018SOS\u2011mediated signalling\u2019 and \u2018Activated NTRK3 signals through RAS\u2019\u2014alongside 28 others, and its phenotype similarity to Costello is 0.17. Other Noonan variants (2, 8, 14) exhibit phenotype overlap with Costello (scores 0.26, 0.22, 0.22 respectively) but lack recorded shared pathways, so they do not support a shared mechanism. An INFERRED_HYPOTHESIS candidate, Trametinib (Mekinist), a MEK1/2 inhibitor, is mentioned for Costello based on case reports of cardiac and lymphatic complications in Noonan syndrome (PMID\u00a040041314), but this remains unverified and should be discussed with the treating team.",
+  "sentences": [
+   {
+    "text": "Mechanistic overlap was identified primarily with RAS pathway\u2010driven disorders: Costello shares 38 Reactome pathways\u2014including \u2018Activation of RAS in B cells\u2019 and \u2018Estrogen\u2011stimulated signaling through PRKCZ\u2019\u2014with Noonan syndrome 3, yielding a phenotype similarity of 0.28.",
+    "facts": [
+     "F4"
+    ]
+   },
+   {
+    "text": "Costello also shares the same 38 RAS\u2011related pathways with Cardiofaciocutaneous syndrome 1, with a phenotype similarity of 0.25.",
+    "facts": [
+     "F5"
+    ]
+   },
+   {
+    "text": "With Noonan syndrome 6, the shared pathways remain the same 38 RAS\u2011related pathways, but the phenotype similarity falls to 0.17.",
+    "facts": [
+     "F6"
+    ]
+   },
+   {
+    "text": "Noonan syndrome 4 contributes additional shared pathways\u2014\u2018SOS\u2011mediated signalling\u2019 and \u2018Activated NTRK3 signals through RAS\u2019\u2014alongside 28 others, and its phenotype similarity to Costello is 0.17.",
+    "facts": [
+     "F7"
+    ]
+   },
+   {
+    "text": "Other Noonan variants (2, 8, 14) exhibit phenotype overlap with Costello (scores 0.26, 0.22, 0.22 respectively) but lack recorded shared pathways, so they do not support a shared mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "An INFERRED_HYPOTHESIS candidate, Trametinib (Mekinist), a MEK1/2 inhibitor, is mentioned for Costello based on case reports of cardiac and lymphatic complications in Noonan syndrome (PMID\u00a040041314), but this remains unverified and should be discussed with the treating team.",
+    "facts": [
+     "F11"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "The atlas lists Costello syndrome (ORPHA:3071) as lacking any approved treatments or registered clinical studies.",
+    "reason": "number(s) not in cited facts: 3071"
+   }
+  ]
+ },
+ "journey|DIS_MECP2|maria|gpt-oss:20b|128501b6efc6": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling', 'MECP2 regulates transcription factors' and 3 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'MECP2 regulates transcription of neuronal ligands', 'MECP2 regulates neuronal receptors and channels' and 1 more; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "There are currently no registered studies in the atlas for Rett Syndrome, so new research projects are not listed. Two diseases that share the same gene \u2013 MECP2 \u2013 show strong mechanistic links: Intellectual developmental disorder, X\u2011linked syndromic, Lubs type and Developmental and epileptic encephalopathy 89.  They share the MECP2\u2011mediated GABA signaling pathway and other transcriptional pathways, indicating a likely shared biological mechanism, even though the symptoms are not identical (similarity scores 0.18 and 0.10). Witteveen\u2011Kolk syndrome and a neurodevelopmental disorder with hypotonia also share MECP2\u2011related neuronal ligand and receptor pathways, but their phenotype overlap is lower (scores 0.08).  This suggests a more distant connection and less evidence of a shared mechanism. Other disorders that look alike in symptoms \u2013 such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and childhood\u2011onset neurodegeneration with brain atrophy \u2013 do not share any pathways in the atlas, so the similarity is purely phenotypic and does not confirm a common underlying disease mechanism. Because the biological links are strongest with the MECP2\u2011related disorders, a practical next step is to explore collaboration or data sharing with research groups focusing on those diseases, and to discuss the use of Trofinetide as a treatment option with the care team.",
+  "sentences": [
+   {
+    "text": "There are currently no registered studies in the atlas for Rett Syndrome, so new research projects are not listed.",
+    "facts": [
+     "F3"
+    ]
+   },
+   {
+    "text": "Two diseases that share the same gene \u2013 MECP2 \u2013 show strong mechanistic links: Intellectual developmental disorder, X\u2011linked syndromic, Lubs type and Developmental and epileptic encephalopathy 89.  They share the MECP2\u2011mediated GABA signaling pathway and other transcriptional pathways, indicating a likely shared biological mechanism, even though the symptoms are not identical (similarity scores 0.18 and 0.10).",
+    "facts": [
+     "F4",
+     "F5",
+     "F14"
+    ]
+   },
+   {
+    "text": "Witteveen\u2011Kolk syndrome and a neurodevelopmental disorder with hypotonia also share MECP2\u2011related neuronal ligand and receptor pathways, but their phenotype overlap is lower (scores 0.08).  This suggests a more distant connection and less evidence of a shared mechanism.",
+    "facts": [
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other disorders that look alike in symptoms \u2013 such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and childhood\u2011onset neurodegeneration with brain atrophy \u2013 do not share any pathways in the atlas, so the similarity is purely phenotypic and does not confirm a common underlying disease mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "Because the biological links are strongest with the MECP2\u2011related disorders, a practical next step is to explore collaboration or data sharing with research groups focusing on those diseases, and to discuss the use of Trofinetide as a treatment option with the care team.",
+    "facts": [
+     "F2",
+     "F4",
+     "F5",
+     "F11"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "Rett Syndrome (ORPHA:778) has a confirmed therapy option with Trofinetide (Daybue) that is clinically proven for this condition.",
+    "reason": "number(s) not in cited facts: 778"
+   }
+  ]
+ },
+ "journey|DIS_MECP2|devon|gpt-oss:20b|792bf5484ee4": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling', 'MECP2 regulates transcription factors' and 3 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'MECP2 regulates transcription of neuronal ligands', 'MECP2 regulates neuronal receptors and channels' and 1 more; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "The atlas shows that Rett Syndrome is linked to a few other neuro\u2011developmental conditions. It shares some biological pathways with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, and with Developmental and epileptic encephalopathy 89. The shared pathways include genes that control GABA, a brain chemical that helps calm nerve signals, and also genes that control how neurons use signals and receptors. The similarity scores show how often the two conditions have the same symptoms. The score is 0.18 with the Lubs type disorder (fairly close) and 0.10 with the encephalopathy (less similar). Rett Syndrome also shares two pathways with Witteveen\u2011Kolk syndrome, and one pathway with a disorder that causes hand movements and language problems. The scores for these links are 0.08, which means the similarities are weaker. No other conditions in the atlas are shown to have a strong shared pathway with Rett Syndrome. There are conditions that look like Rett Syndrome by how they make people feel (the same symptoms), such as the disease with hyper\u2011motile movements and seizures or the one with an early brain loss. However, the atlas finds no shared biological pathways for these conditions, so it isn\u2019t clear if they work in the same way as Rett Syndrome. Trofinetide (Daybue) is the only drug listed in the atlas for Rett Syndrome; it has been proven to work in clinical studies. It is a synthetic cousin of a small piece of the insulin\u2011like growth factor 1 protein, but how it helps is still not fully understood. The atlas also notes that the Rett condition is caused by changes in the MECP2 gene on the X chromosome, and that people with Rett Syndrome often have trouble with their nervous system and can develop a wide\u2011based walking pattern. These features come from scientific papers that have studied the gene and the symptoms.",
+  "sentences": [
+   {
+    "text": "The atlas shows that Rett Syndrome is linked to a few other neuro\u2011developmental conditions. It shares some biological pathways with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, and with Developmental and epileptic encephalopathy 89. The shared pathways include genes that control GABA, a brain chemical that helps calm nerve signals, and also genes that control how neurons use signals and receptors. The similarity scores show how often the two conditions have the same symptoms. The score is 0.18 with the Lubs type disorder (fairly close) and 0.10 with the encephalopathy (less similar).",
+    "facts": [
+     "F4",
+     "F5"
+    ]
+   },
+   {
+    "text": "Rett Syndrome also shares two pathways with Witteveen\u2011Kolk syndrome, and one pathway with a disorder that causes hand movements and language problems. The scores for these links are 0.08, which means the similarities are weaker. No other conditions in the atlas are shown to have a strong shared pathway with Rett Syndrome.",
+    "facts": [
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "There are conditions that look like Rett Syndrome by how they make people feel (the same symptoms), such as the disease with hyper\u2011motile movements and seizures or the one with an early brain loss. However, the atlas finds no shared biological pathways for these conditions, so it isn\u2019t clear if they work in the same way as Rett Syndrome.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "Trofinetide (Daybue) is the only drug listed in the atlas for Rett Syndrome; it has been proven to work in clinical studies. It is a synthetic cousin of a small piece of the insulin\u2011like growth factor 1 protein, but how it helps is still not fully understood.",
+    "facts": [
+     "F2",
+     "F11"
+    ]
+   },
+   {
+    "text": "The atlas also notes that the Rett condition is caused by changes in the MECP2 gene on the X chromosome, and that people with Rett Syndrome often have trouble with their nervous system and can develop a wide\u2011based walking pattern. These features come from scientific papers that have studied the gene and the symptoms.",
+    "facts": [
+     "F14",
+     "F12",
+     "F13"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "If your family wants to explore more, you could look up the clinical trial information that was mentioned for Trofinetide, talk to a doctor familiar with Rett Syndrome, or reach out to patient groups that list these conditions in their resources.",
+    "reason": "no valid fact citation"
+   }
+  ]
+ },
+ "journey|DIS_MECP2|priya|gpt-oss:20b|99e25a22bf99": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling', 'MECP2 regulates transcription factors' and 3 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'MECP2 regulates transcription of neuronal ligands', 'MECP2 regulates neuronal receptors and channels' and 1 more; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "The atlas indicates that the only approved therapy for Rett Syndrome (ORPHA:778) is Trofinetide (Daybue), which has a clinical proven evidence tier. Rett Syndrome shares the Reactome pathway \u201cMECP2 regulates transcription of genes involved in GABA signaling\u201d with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, with a phenotype similarity score of 0.18. It also shares the same MECP2\u2011regulated GABA signaling pathway with Developmental and epileptic encephalopathy 89, though the similarity score is lower at 0.10. Additional MECP2\u2011regulated neuronal ligand and receptor pathways link Rett Syndrome to Witteveen\u2011Kolk syndrome, and the transcription\u2011factor pathway connects it to a Neurodevelopmental disorder with hypotonia, but both relationships have modest similarity scores (0.08) and no therapeutic overlap is recorded. Other phenotypically similar diseases\u2014such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset, with brain atrophy\u2014share features but lack documented shared pathways, so no mechanistic inference is supported. The available literature confirms Mecp2 as the causative gene for Rett Syndrome and describes autonomic dysfunction and broad\u2011based gait, reinforcing its biological complexity but not pointing to new drug targets beyond Trofinetide. Next steps for a biotech scout include reviewing the Trofinetide clinical data for evidence of efficacy in the identified pathway\u2011shared disorders and exploring potential repurposing or combination strategies that target MECP2\u2011regulated GABA signaling, while acknowledging that mechanistic links for the weaker similarity scores remain unverified.",
+  "sentences": [
+   {
+    "text": "The atlas indicates that the only approved therapy for Rett Syndrome (ORPHA:778) is Trofinetide (Daybue), which has a clinical proven evidence tier.",
+    "facts": [
+     "F1",
+     "F2",
+     "F11"
+    ]
+   },
+   {
+    "text": "Rett Syndrome shares the Reactome pathway \u201cMECP2 regulates transcription of genes involved in GABA signaling\u201d with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, with a phenotype similarity score of 0.18.",
+    "facts": [
+     "F4"
+    ]
+   },
+   {
+    "text": "It also shares the same MECP2\u2011regulated GABA signaling pathway with Developmental and epileptic encephalopathy 89, though the similarity score is lower at 0.10.",
+    "facts": [
+     "F5"
+    ]
+   },
+   {
+    "text": "Additional MECP2\u2011regulated neuronal ligand and receptor pathways link Rett Syndrome to Witteveen\u2011Kolk syndrome, and the transcription\u2011factor pathway connects it to a Neurodevelopmental disorder with hypotonia, but both relationships have modest similarity scores (0.08) and no therapeutic overlap is recorded.",
+    "facts": [
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other phenotypically similar diseases\u2014such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset, with brain atrophy\u2014share features but lack documented shared pathways, so no mechanistic inference is supported.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "The available literature confirms Mecp2 as the causative gene for Rett Syndrome and describes autonomic dysfunction and broad\u2011based gait, reinforcing its biological complexity but not pointing to new drug targets beyond Trofinetide.",
+    "facts": [
+     "F14",
+     "F12",
+     "F13"
+    ]
+   },
+   {
+    "text": "Next steps for a biotech scout include reviewing the Trofinetide clinical data for evidence of efficacy in the identified pathway\u2011shared disorders and exploring potential repurposing or combination strategies that target MECP2\u2011regulated GABA signaling, while acknowledging that mechanistic links for the weaker similarity scores remain unverified.",
+    "facts": [
+     "F4",
+     "F5",
+     "F6",
+     "F7",
+     "F11"
+    ]
+   }
+  ],
+  "dropped": []
+ },
+ "journey|DIS_MECP2|dr_osei|gpt-oss:20b|5bfa995bb533": {
+  "facts": [
+   {
+    "id": "F1",
+    "kind": "disease",
+    "text": "Rett Syndrome (ORPHA:778) is the condition being explored."
+   },
+   {
+    "id": "F2",
+    "kind": "treatment",
+    "text": "Approved therapy recorded in the atlas: Trofinetide (Daybue)."
+   },
+   {
+    "id": "F3",
+    "kind": "trials",
+    "text": "No registered studies in the atlas for this condition."
+   },
+   {
+    "id": "F4",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Intellectual developmental disorder, X-linked syndromic, Lubs type share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling', 'MECP2 regulates transcription factors' and 3 more; their phenotype similarity score is 0.18 on a 0-1 scale. They are caused by the same gene (MECP2), so variant effects may differ."
+   },
+   {
+    "id": "F5",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Developmental and epileptic encephalopathy 89 share the Reactome pathway(s) 'MECP2 regulates transcription of genes involved in GABA signaling'; their phenotype similarity score is 0.10 on a 0-1 scale."
+   },
+   {
+    "id": "F6",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Witteveen-Kolk syndrome share the Reactome pathway(s) 'MECP2 regulates transcription of neuronal ligands', 'MECP2 regulates neuronal receptors and channels' and 1 more; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F7",
+    "kind": "mechanism",
+    "text": "Rett Syndrome and Neurodevelopmental disorder with hypotonia, stereotypic hand movements, and impaired language share the Reactome pathway(s) 'MECP2 regulates transcription factors'; their phenotype similarity score is 0.08 on a 0-1 scale."
+   },
+   {
+    "id": "F8",
+    "kind": "phenotype",
+    "text": "Neurodevelopmental disorder with or without hyperkinetic movements and seizures, autosomal dominant has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Stereotypical hand wringing, Bruxism, Constipation) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F9",
+    "kind": "phenotype",
+    "text": "CDKL5 Deficiency Disorder has similar phenotypes to Rett Syndrome (similarity score 0.24; shared features include Hyperventilation, Profound intellectual disability, Short foot) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F10",
+    "kind": "phenotype",
+    "text": "Neurodegeneration, childhood-onset, with brain atrophy has similar phenotypes to Rett Syndrome (similarity score 0.21; shared features include Profound intellectual disability, Cerebral cortical atrophy, Secondary microcephaly) but no recorded shared pathway, so this is not evidence of a shared mechanism."
+   },
+   {
+    "id": "F11",
+    "kind": "lead",
+    "text": "Trofinetide (Daybue) is listed as a candidate for Rett Syndrome with evidence tier CLINICAL_PROVEN. Synthetic analog of glycine-proline-glutamate (GPE), a fragment of IGF-1; how it works in Rett syndrome is not fully understood."
+   },
+   {
+    "id": "F12",
+    "kind": "literature",
+    "text": "PubMed paper PMID 22670134 (2012, unspecified) reports that Rett Syndrome has the feature Abnormal autonomic nervous system physiology. Quote: \"early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F13",
+    "kind": "literature",
+    "text": "PubMed paper PMID 20711295 (2005, patients) reports that Rett Syndrome has the feature Broad-based gait. Quote: \"gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F14",
+    "kind": "literature",
+    "text": "PubMed paper PMID 17289941 (2007, unspecified) reports that Rett Syndrome is caused by variants in MECP2. Quote: \"Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.\" (extracted automatically, quote checked against the abstract)."
+   },
+   {
+    "id": "F15",
+    "kind": "investigator",
+    "text": "B Dan is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   },
+   {
+    "id": "F16",
+    "kind": "investigator",
+    "text": "Rohit Srivastava is linked because: Last author of 1 PubMed paper on Rett Syndrome in the atlas."
+   }
+  ],
+  "model": "gpt-oss:20b",
+  "endpoint": "http://localhost:11434/v1",
+  "source": "llm",
+  "text": "The atlas records Trofinetide (Daybue) as an approved therapeutic candidate for Rett Syndrome with clinical\u2011proven evidence. Witteveen\u2011Kolk syndrome and Neurodevelopmental disorder with transcription factors involve additional MECP2\u2011related neuronal ligand and receptor pathways, but their phenotype similarity with Rett Syndrome is lower (0.08), suggesting weaker clinical overlap. Other phenotypically similar disorders\u2014such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset\u2014share features with Rett Syndrome (similarity scores ranging from 0.21 to 0.24) but have no shared pathways listed; thus they do not provide evidence of a shared mechanism. The atlas lists no clinical studies for Rett Syndrome, indicating a gap for prospective research despite the availability of an approved drug. Literature references highlight autonomic dysfunction (PMID 22670134) and broad\u2011based gait (PMID 20711295) as clinical features, and confirm MECP2 as the etiological gene (PMID 17289941). Author\u2011level links (e.g., B Dan and Rohit Srivastava) may serve as entry points for expert collaboration.",
+  "sentences": [
+   {
+    "text": "The atlas records Trofinetide (Daybue) as an approved therapeutic candidate for Rett Syndrome with clinical\u2011proven evidence.",
+    "facts": [
+     "F2",
+     "F11"
+    ]
+   },
+   {
+    "text": "Witteveen\u2011Kolk syndrome and Neurodevelopmental disorder with transcription factors involve additional MECP2\u2011related neuronal ligand and receptor pathways, but their phenotype similarity with Rett Syndrome is lower (0.08), suggesting weaker clinical overlap.",
+    "facts": [
+     "F6",
+     "F7"
+    ]
+   },
+   {
+    "text": "Other phenotypically similar disorders\u2014such as Neurodevelopmental disorder with or without hyperkinetic movements and seizures, CDKL5 Deficiency Disorder, and Neurodegeneration, childhood\u2011onset\u2014share features with Rett Syndrome (similarity scores ranging from 0.21 to 0.24) but have no shared pathways listed; thus they do not provide evidence of a shared mechanism.",
+    "facts": [
+     "F8",
+     "F9",
+     "F10"
+    ]
+   },
+   {
+    "text": "The atlas lists no clinical studies for Rett Syndrome, indicating a gap for prospective research despite the availability of an approved drug.",
+    "facts": [
+     "F3"
+    ]
+   },
+   {
+    "text": "Literature references highlight autonomic dysfunction (PMID 22670134) and broad\u2011based gait (PMID 20711295) as clinical features, and confirm MECP2 as the etiological gene (PMID 17289941).",
+    "facts": [
+     "F12",
+     "F13",
+     "F14"
+    ]
+   },
+   {
+    "text": "Author\u2011level links (e.g., B Dan and Rohit Srivastava) may serve as entry points for expert collaboration.",
+    "facts": [
+     "F15",
+     "F16"
+    ]
+   }
+  ],
+  "dropped": [
+   {
+    "text": "Rett Syndrome shares 5 Reactome pathways with Intellectual developmental disorder, X\u2011linked syndromic, Lubs type, and 1 pathway with Developmental and epileptic encephalopathy 89, indicating a potential mechanistic overlap via MECP2\u2011mediated transcriptional regulation; these relationships have phenotype similarity scores of 0.18 and 0.10 respectively.",
+    "reason": "number(s) not in cited facts: 5"
+   }
+  ]
  }
 }

@@ -72,7 +72,7 @@ To deploy: push the repository to GitHub, then in Render choose **New → Bluepr
                                 ▼
                   graph_engine.py  (NetworkX)
                   mechanism & phenotype neighbours, counterexamples, gaps,
-                  assets, investigators, leads, journey, dossiers
+                  assets, investigators, leads, search, dossiers
                         │                         │
                         ▼                         ▼
               explain.py (gpt-oss)          moonshot.py
@@ -90,26 +90,30 @@ To deploy: push the repository to GitHub, then in Render choose **New → Bluepr
 | Curated layer | `backend/curated.py` | Verified trials, drugs, publications, assets, investigators, organizations |
 | Verification | `backend/ingest/verify_curated.py` | Re-checks curated links, PMIDs and NCT ids |
 | Merge | `backend/database.py` | Combines the three layers |
-| Engine | `backend/graph_engine.py` | All graph reasoning behind the journey, dossiers, path finder and chat |
+| Engine | `backend/graph_engine.py` | All graph reasoning behind search, disease and entity pages, dossiers, path finder and questions |
 | Explain | `backend/explain.py` | Turns graph facts into persona-specific text with per-sentence citations |
 | 10× model | `backend/moonshot.py` | Sourced NGLY1 timeline and the atlas-route assumptions |
 | API | `backend/main.py` | FastAPI endpoints (`/docs` lists them) |
-| UI | `frontend/src/` | React views: journey, graph, dossiers, 10×, pathways, trials, chat |
+| UI | `frontend/src/` | React search engine: home, disease, gene, symptom, drug and answer pages; Explore: graph, pathways, 10× |
 
 ---
 
 ## 🚀 Features
 
-- **Maria's journey (4 steps), built from the graph for any disease.**
-  1. Diagnosis: approved therapies and registered studies with their current status.
-  2. Mechanism: diseases sharing a Reactome pathway (ranked by pathway specificity plus phenotype similarity), phenotype-only neighbours labelled as such, **counterexamples** (same pathway, opposite variant effect, e.g. SCN2A gain- vs loss-of-function) and an explicit **gap statement** when nothing is connected. Literature claims are listed with quotes and PubMed links.
-  3. Reusable assets and investigators, each with the reason it is linked; researchers publishing on more than one disease are marked as bridging communities.
-  4. Actions for this week and an outreach draft built only from what was found.
-- **Explanations for four personas** (Maria, Devon, Priya, Dr. Osei): written by the local LLM from numbered facts; each sentence cites its facts, and sentences without valid citations or with numbers not in the cited facts are removed.
-- **Persona dossiers:** repurposing leads with evidence tiers, computed research gaps, patient checklist, shared-mechanism view for researchers.
-- **Knowledge graph explorer and path finder** (contraindications are never used as links).
-- **Trial and registry finder** with phenotype filters and live study status.
-- **Q&A chat:** answers from atlas facts with sentence-level citations.
+- **One search box** for diseases, genes, symptoms and drugs (by name, synonym, Orphanet, OMIM or HPO id), or a free-text question.
+- **A page for every disease**, built from the graph, in the order of a patient group's journey:
+  1. Cited summary, written for the reader chosen under "Explain for".
+  2. Treatments and registered studies with their current status.
+  3. Connected diseases: diseases sharing a Reactome pathway (ranked by pathway specificity plus phenotype similarity), phenotype-only neighbours labelled as such, **counterexamples** (same pathway, opposite variant effect, e.g. SCN2A gain- vs loss-of-function) and an explicit **gap statement** when nothing is connected.
+  4. Literature claims with verbatim quotes and PubMed links.
+  5. Repurposing leads with evidence tiers, and cautions.
+  6. Research resources and people, each with the reason it is linked.
+  7. Patient organizations with registry and contact links.
+  8. Next steps and an outreach draft built only from what was found; the full dossier downloads as JSON.
+- **Gene, symptom and drug pages** listing their links to diseases, each with its source.
+- **"Explain for" four readers** (patient organization, family, biotech, researcher): written by the local LLM from numbered facts; each sentence cites its facts, and sentences without valid citations or with numbers not in the cited facts are removed.
+- **Questions:** free text gets a cited answer from the facts about the disease it names, plus matching entries.
+- **Explore:** the full knowledge graph with a path finder (contraindications are never used as links), pathways shared by several diseases, and the 10× Moonshot.
 - **10× Moonshot:** sourced NGLY1 baseline (49.9 or 80.7 months to a first prospective natural-history cohort) versus an assumption-based atlas route (default 11 months, i.e. 4.5× or 7.3×), with sliders and a list of what must be validated.
 
 ---
@@ -132,10 +136,10 @@ To deploy: push the repository to GitHub, then in Render choose **New → Bluepr
 
 ## 🎬 Suggested Demo Path
 
-1. **Maria's Journey → NGLY1 Deficiency:** registered studies (Phase 3 gene therapy, not recruiting) → step 2: shared ER glycan-trimming pathway with CDG type IIB, literature quotes → step 3: published iPSC models, natural-history study design, trial PIs → step 4: outreach draft.
-2. Switch to **SCN2A Loss-of-Function:** the counterexample and the sodium channel blocker caution (PMID 28379373).
-3. Switch to **CDKL5 Deficiency Disorder:** no shared pathway is recorded, so step 2 lists only phenotype-similar diseases and says this is not evidence of a shared mechanism; switch persona to **Devon** for the plain-language explanation.
-4. **10× Moonshot:** the sourced timeline and the assumptions that would have to hold for 10×.
+1. Search **NGLY1** and open the disease page: the cited summary, registered studies (Phase 3 gene therapy, not recruiting), the shared ER glycan-trimming pathway with CDG type IIB, literature quotes, published iPSC models and trial investigators, and the outreach draft under Next steps.
+2. Search **SCN2A** and open **SCN2A Loss-of-Function:** the counterexample and the sodium channel blocker caution (PMID 28379373).
+3. Open **CDKL5 Deficiency Disorder:** no shared pathway is recorded, so only similar-looking diseases are listed, labelled as not evidence of a shared mechanism; set "Explain for" to **Family** for the plain-language summary.
+4. **Explore → 10× Moonshot:** the sourced timeline and the assumptions that would have to hold for 10×.
 
 ---
 
@@ -189,7 +193,7 @@ For each curated disease it searches PubMed (primary papers with abstracts, revi
 
 ## 🤖 Explanations with an LLM (OpenAI gpt-oss, run locally)
 
-Journey step 2 and the chat answers are written by an LLM from numbered **facts** built out of the graph (`backend/explain.py`). The model only rephrases: every sentence must cite fact ids, and a sentence is dropped if it cites no valid fact or contains a number that is not in the facts it cites. The UI shows the citations, the facts given to the model and how many sentences were removed. If the model is unavailable, the template text is shown.
+The summaries on disease pages and the answers to questions are written by an LLM from numbered **facts** built out of the graph (`backend/explain.py`). The model only rephrases: every sentence must cite fact ids, and a sentence is dropped if it cites no valid fact or contains a number that is not in the facts it cites. The UI shows the citations, the facts given to the model and how many sentences were removed. If the model is unavailable, the template text is shown.
 
 **Default setup: free and local, no API key.** It uses OpenAI's open-weight `gpt-oss-20b` through [Ollama](https://ollama.com):
 ```bash
@@ -210,7 +214,7 @@ Other settings: `LLM_TIMEOUT` (seconds, default 180), `LLM_DISABLED=1` (always u
 
 ## ⏱ The 10× Moonshot
 
-`backend/moonshot.py` and the *10× Moonshot* tab compare one milestone: the first prospective natural-history cohort for a newly described ultra-rare disease, with NGLY1 deficiency as the case study.
+`backend/moonshot.py` and the *10× Moonshot* page (Explore menu) compare one milestone: the first prospective natural-history cohort for a newly described ultra-rare disease, with NGLY1 deficiency as the case study.
 
 - **Baseline (measured):** elapsed time between dated PubMed and ClinicalTrials.gov records: first patient report (PMID 22581936, May 2012) to first prospective cohort (PMID 27388694, July 2016) = 49.9 months; to the first registered natural-history study (NCT03834987, Feb 2019) = 80.7 months.
 - **Atlas route (assumed):** three steps the atlas supports (find partners and reusable assets, adapt an existing protocol and get ethics approval, enrol via existing registries), each with a stated default and range. Defaults give 11 months, i.e. 4.5× (conservative baseline) or 7.3× (registered-study baseline). 10× requires the route to take 5.0 or 8.1 months respectively.

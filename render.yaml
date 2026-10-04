@@ -1,0 +1,12 @@
+# Render Blueprint: one free web service running the Dockerfile (frontend + API).
+services:
+  - name: orphagraph-atlas
+    type: web
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    envVars:
+      - key: LLM_DISABLED
+        value: "1"

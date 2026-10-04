@@ -1,0 +1,2718 @@
+{
+ "metadata": {
+  "built": "2026-10-04",
+  "model": "gpt-oss:20b",
+  "prompt_version": "v1",
+  "abstracts": 151,
+  "raw_claims": 359,
+  "kept_claims": 53,
+  "rejected": {
+   "quote does not state the claim": 62,
+   "unmapped phenotype": 71,
+   "unmapped drug": 20,
+   "unmapped disease": 66,
+   "quote not verbatim": 71,
+   "unmapped gene": 12,
+   "gene link not in OMIM data": 2,
+   "malformed": 2
+  },
+  "per_disease": 12
+ },
+ "nodes": [
+  {
+   "id": "PUB_33315951",
+   "type": "publication",
+   "label": "Hamed Jafar-Nejad, 2020",
+   "pmid": "33315951",
+   "title": "A conserved role for AMP-activated protein kinase in NGLY1 deficiency.",
+   "journal": "PLoS genetics",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_27388694",
+   "type": "publication",
+   "label": "Lynne Wolfe, 2017",
+   "pmid": "27388694",
+   "title": "Prospective phenotyping of NGLY1-CDDG, the first congenital disorder of deglycosylation.",
+   "journal": "Genetics in medicine : official journal of the American College of Medical Genetics",
+   "year": 2017,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_32071843",
+   "type": "publication",
+   "label": "Anna Tylki-Szyma\u0144ska, 2020",
+   "pmid": "32071843",
+   "title": "NGLY1 deficiency: Novel patient, review of the literature and diagnostic algorithm.",
+   "journal": "JIMD reports",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_31311714",
+   "type": "publication",
+   "label": "Judith J M Jans, 2019",
+   "pmid": "31311714",
+   "title": "Aspartylglycosamine is a biomarker for NGLY1-CDDG, a congenital disorder of deglycosylation.",
+   "journal": "Molecular genetics and metabolism",
+   "year": 2019,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_29550355",
+   "type": "publication",
+   "label": "Kimiyo M Raymond, 2018",
+   "pmid": "29550355",
+   "title": "Urine oligosaccharide screening by MALDI-TOF for the identification of NGLY1 deficiency.",
+   "journal": "Molecular genetics and metabolism",
+   "year": 2018,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_32395402",
+   "type": "publication",
+   "label": "Ana Gaspar, 2020",
+   "pmid": "32395402",
+   "title": "NGLY1 deficiency-A rare congenital disorder of deglycosylation.",
+   "journal": "JIMD reports",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_36209585",
+   "type": "publication",
+   "label": "Ping He, 2022",
+   "pmid": "36209585",
+   "title": "Comparative proteomics reveals elevated CCN2 in NGLY1-deficient cells.",
+   "journal": "Biochemical and biophysical research communications",
+   "year": 2022,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_30654231",
+   "type": "publication",
+   "label": "Danielle M Andrade, 2019",
+   "pmid": "30654231",
+   "title": "STXBP1 encephalopathy is associated with awake bruxism.",
+   "journal": "Epilepsy & behavior : E&B",
+   "year": 2019,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_34392114",
+   "type": "publication",
+   "label": "Cyril Mignot, 2021",
+   "pmid": "34392114",
+   "title": "Tremor-like subcortical myoclonus in STXBP1 encephalopathy.",
+   "journal": "European journal of paediatric neurology : EJPN : official journal of the European Paediatric Neurology Society",
+   "year": 2021,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_38360746",
+   "type": "publication",
+   "label": "Mingshan Xue \u859b\u540d\u6749, 2024",
+   "pmid": "38360746",
+   "title": "GABAergic/Glycinergic and Glutamatergic Neurons Mediate Distinct Neurodevelopmental Phenotypes of STXBP1 Encephalopathy.",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "year": 2024,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_33961044",
+   "type": "publication",
+   "label": "Shinichi Hirose, 2021",
+   "pmid": "33961044",
+   "title": "Impaired neuronal activity and differential gene expression in STXBP1 encephalopathy patient iPSC-derived GABAergic neurons.",
+   "journal": "Human molecular genetics",
+   "year": 2021,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_29538625",
+   "type": "publication",
+   "label": "Matthijs Verhage, 2018",
+   "pmid": "29538625",
+   "title": "Protein instability, haploinsufficiency, and cortical hyper-excitability underlie STXBP1 encephalopathy.",
+   "journal": "Brain : a journal of neurology",
+   "year": 2018,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_23763664",
+   "type": "publication",
+   "label": "Ingrid E Scheffer, 2013",
+   "pmid": "23763664",
+   "title": "Head stereotypies in STXBP1 encephalopathy.",
+   "journal": "Developmental medicine and child neurology",
+   "year": 2013,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_22670134",
+   "type": "publication",
+   "label": "B Dan, 2012",
+   "pmid": "22670134",
+   "title": "Rett Syndrome.",
+   "journal": "Molecular syndromology",
+   "year": 2012,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_20711295",
+   "type": "publication",
+   "label": "Rohit Srivastava, 2005",
+   "pmid": "20711295",
+   "title": "Rett syndrome.",
+   "journal": "Indian journal of psychiatry",
+   "year": 2005,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_17289941",
+   "type": "publication",
+   "label": "Adrian Bird, 2007",
+   "pmid": "17289941",
+   "title": "Reversal of neurological defects in a mouse model of Rett syndrome.",
+   "journal": "Science (New York, N.Y.)",
+   "year": 2007,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_23748415",
+   "type": "publication",
+   "label": "Brian W Bigger, 2013",
+   "pmid": "23748415",
+   "title": "Myeloid/Microglial driven autologous hematopoietic stem cell gene therapy corrects a neuronopathic lysosomal disease.",
+   "journal": "Molecular therapy : the journal of the American Society of Gene Therapy",
+   "year": 2013,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_38631900",
+   "type": "publication",
+   "label": "Daniele Lettieri-Barbato, 2024",
+   "pmid": "38631900",
+   "title": "Frataxin deficiency shifts metabolism to promote reactive microglia via glucose catabolism.",
+   "journal": "Life science alliance",
+   "year": 2024,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_32826895",
+   "type": "publication",
+   "label": "Vania Broccoli, 2020",
+   "pmid": "32826895",
+   "title": "Frataxin gene editing rescues Friedreich's ataxia pathology in dorsal root ganglia organoid-derived sensory neurons.",
+   "journal": "Nature communications",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_34313403",
+   "type": "publication",
+   "label": "Joseph D Buxbaum, 2021",
+   "pmid": "34313403",
+   "title": "Reduced brain volume and white matter alterations in Shank3-deficient rats.",
+   "journal": "Autism research : official journal of the International Society for Autism Research",
+   "year": 2021,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_36564435",
+   "type": "publication",
+   "label": "Yazm\u00edn Ramiro-Cort\u00e9s, 2022",
+   "pmid": "36564435",
+   "title": "Haploinsufficiency of Shank3 increases the orientation selectivity of V1 neurons.",
+   "journal": "Scientific reports",
+   "year": 2022,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_40855273",
+   "type": "publication",
+   "label": "Lauren E Ethridge, 2025",
+   "pmid": "40855273",
+   "title": "Phenotypic variation in neural sensory processing by deletion size, age, and sex in Phelan-McDermid syndrome.",
+   "journal": "Journal of neurodevelopmental disorders",
+   "year": 2025,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_34791077",
+   "type": "publication",
+   "label": "Yuri Bozzi, 2022",
+   "pmid": "34791077",
+   "title": "Abnormal Whisker-Dependent Behaviors and Altered Cortico-Hippocampal Connectivity in Shank3b-/- Mice.",
+   "journal": "Cerebral cortex (New York, N.Y. : 1991)",
+   "year": 2022,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_30921255",
+   "type": "publication",
+   "label": "Colleen Hadigan, 2019",
+   "pmid": "30921255",
+   "title": "Incontinence in Phelan-McDermid Syndrome.",
+   "journal": "Journal of pediatric gastroenterology and nutrition",
+   "year": 2019,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_38874638",
+   "type": "publication",
+   "label": "Alberto Verrotti, 2024",
+   "pmid": "38874638",
+   "title": "CDKL5 deficiency-related neurodevelopmental disorders: a multi-center cohort study in Italy.",
+   "journal": "Journal of neurology",
+   "year": 2024,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_32079229",
+   "type": "publication",
+   "label": "Robert \u015amigiel, 2020",
+   "pmid": "32079229",
+   "title": "CDKL5 Deficiency Disorder-A Complex Epileptic Encephalopathy.",
+   "journal": "Brain sciences",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_32585155",
+   "type": "publication",
+   "label": "Douglas A Coulter, 2020",
+   "pmid": "32585155",
+   "title": "Aged heterozygous Cdkl5 mutant mice exhibit spontaneous epileptic spasms.",
+   "journal": "Experimental neurology",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_38326557",
+   "type": "publication",
+   "label": "Sila K Ultanir, 2024",
+   "pmid": "38326557",
+   "title": "Cell type-specific expression, regulation and compensation of CDKL5 activity in mouse brain.",
+   "journal": "Molecular psychiatry",
+   "year": 2024,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_41558486",
+   "type": "publication",
+   "label": "Lily Yeh Jan, 2026",
+   "pmid": "41558486",
+   "title": "CLN3 mediates chloride efflux from lysosomes.",
+   "journal": "Neuron",
+   "year": 2026,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_27629717",
+   "type": "publication",
+   "label": "Tammy Kielian, 2016",
+   "pmid": "27629717",
+   "title": "Self-Complementary AAV9 Gene Delivery Partially Corrects Pathology Associated with Juvenile Neuronal Ceroid Lipofuscinosis (CLN3).",
+   "journal": "The Journal of neuroscience : the official journal of the Society for Neuroscience",
+   "year": 2016,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_25051496",
+   "type": "publication",
+   "label": "Mika O Ruonala, 2014",
+   "pmid": "25051496",
+   "title": "FRET-assisted determination of CLN3 membrane topology.",
+   "journal": "PloS one",
+   "year": 2014,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_28144274",
+   "type": "publication",
+   "label": "Mohammadreza Abbaszadegan, 2017",
+   "pmid": "28144274",
+   "title": "Noonan syndrome - a new survey.",
+   "journal": "Archives of medical science : AMS",
+   "year": 2017,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_31115193",
+   "type": "publication",
+   "label": "Bradley S Miller, 2019",
+   "pmid": "31115193",
+   "title": "The History of Noonan Syndrome.",
+   "journal": "Pediatric endocrinology reviews : PER",
+   "year": 2019,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_33089815",
+   "type": "publication",
+   "label": "Pranoot Tanpaiboon, 2020",
+   "pmid": "33089815",
+   "title": "Noonan Syndrome in Thai Children.",
+   "journal": "Indian pediatrics",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_32381719",
+   "type": "publication",
+   "label": "James C Sacchettini, 2020",
+   "pmid": "32381719",
+   "title": "Elesclomol alleviates Menkes pathology and mortality by escorting Cu to cuproenzymes in mice.",
+   "journal": "Science (New York, N.Y.)",
+   "year": 2020,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_29675083",
+   "type": "publication",
+   "label": "Nahin Hussain, 2017",
+   "pmid": "29675083",
+   "title": "Neuroimaging in Menkes Disease.",
+   "journal": "Journal of pediatric neurosciences",
+   "year": 2017,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "PUB_21494555",
+   "type": "publication",
+   "label": "Lisbeth Birk M\u00f8ller, 2011",
+   "pmid": "21494555",
+   "title": "Splice site mutations in the ATP7A gene.",
+   "journal": "PloS one",
+   "year": 2011,
+   "source": "PubMed (literature extraction)"
+  },
+  {
+   "id": "INV_HAMEDJAFARNEJAD",
+   "type": "investigator",
+   "label": "Hamed Jafar-Nejad",
+   "institution": "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, Texas, United States of America.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "33315951"
+   ]
+  },
+  {
+   "id": "INV_LYNNEWOLFE",
+   "type": "investigator",
+   "label": "Lynne Wolfe",
+   "institution": "NIH Undiagnosed Diseases Program, Common Fund, Office of the Director, National Institutes of Health, Bethesda, Maryland, USA.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "27388694"
+   ]
+  },
+  {
+   "id": "INV_ANNATYLKISZYMASKA",
+   "type": "investigator",
+   "label": "Anna Tylki-Szyma\u0144ska",
+   "institution": "Department of Pediatrics, Nutrition and Metabolic Diseases The Children's Memorial Health Institute Warsaw Poland.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "32071843"
+   ]
+  },
+  {
+   "id": "INV_JUDITHJMJANS",
+   "type": "investigator",
+   "label": "Judith J M Jans",
+   "institution": "Section Metabolic Diagnostics, Department of Genetics, Utrecht University, University Medical Centre Utrecht, Lundlaan 6, 3584 EA Utrecht, the Netherlands. Elec",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "31311714"
+   ]
+  },
+  {
+   "id": "INV_KIMIYOMRAYMOND",
+   "type": "investigator",
+   "label": "Kimiyo M Raymond",
+   "institution": "Biochemical Genetics Laboratory, Department of Laboratory Medicine and Pathology Mayo Clinic College of Medicine, Rochester, MN, USA.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "29550355"
+   ]
+  },
+  {
+   "id": "INV_ANAGASPAR",
+   "type": "investigator",
+   "label": "Ana Gaspar",
+   "institution": "Metabolic Diseases Unit, Pediatric Department, Santa Maria's Hospital - Lisbon North University Hospital Center EPE, Pediatric University Clinic, Faculty of Med",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "32395402"
+   ]
+  },
+  {
+   "id": "INV_PINGHE",
+   "type": "investigator",
+   "label": "Ping He",
+   "institution": "Department of Biochemistry, Lake Erie College of Osteopathic Medicine, Erie, PA, USA. Electronic address: pinghe718@gmail.com.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "36209585"
+   ]
+  },
+  {
+   "id": "INV_DANIELLEMANDRADE",
+   "type": "investigator",
+   "label": "Danielle M Andrade",
+   "institution": "Krembil Neurosciences Epilepsy Genetics Program, Toronto Western Hospital, University of Toronto, Toronto, Ontario, Canada; Division of Neurology, Department of",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "30654231"
+   ]
+  },
+  {
+   "id": "INV_CYRILMIGNOT",
+   "type": "investigator",
+   "label": "Cyril Mignot",
+   "institution": "APHP-Sorbonne Universit\u00e9, D\u00e9partement de G\u00e9n\u00e9tique, Groupe Hospitalier Piti\u00e9-Salp\u00eatri\u00e8re and H\u00f4pital Armand Trousseau, Paris, France; Centre de R\u00e9f\u00e9rence D\u00e9fici",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "34392114"
+   ]
+  },
+  {
+   "id": "INV_MINGSHANXUE",
+   "type": "investigator",
+   "label": "Mingshan Xue \u859b\u540d\u6749",
+   "institution": "Department of Neuroscience, Baylor College of Medicine, Houston, Texas 77030.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "38360746"
+   ]
+  },
+  {
+   "id": "INV_SHINICHIHIROSE",
+   "type": "investigator",
+   "label": "Shinichi Hirose",
+   "institution": "Department of Pediatrics, School of Medicine, Fukuoka University, Fukuoka 814-0180, Japan.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "33961044"
+   ]
+  },
+  {
+   "id": "INV_MATTHIJSVERHAGE",
+   "type": "investigator",
+   "label": "Matthijs Verhage",
+   "institution": "Department of Functional Genomics, Center for Neurogenomics and Cognitive Research (CNCR), VU University Amsterdam and VU Medical Center, de Boelelaan 1085, 108",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "29538625"
+   ]
+  },
+  {
+   "id": "INV_INGRIDESCHEFFER",
+   "type": "investigator",
+   "label": "Ingrid E Scheffer",
+   "institution": "",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "23763664"
+   ]
+  },
+  {
+   "id": "INV_BDAN",
+   "type": "investigator",
+   "label": "B Dan",
+   "institution": "",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "22670134"
+   ]
+  },
+  {
+   "id": "INV_ROHITSRIVASTAVA",
+   "type": "investigator",
+   "label": "Rohit Srivastava",
+   "institution": "",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "20711295"
+   ]
+  },
+  {
+   "id": "INV_ADRIANBIRD",
+   "type": "investigator",
+   "label": "Adrian Bird",
+   "institution": "",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "17289941"
+   ]
+  },
+  {
+   "id": "INV_BRIANWBIGGER",
+   "type": "investigator",
+   "label": "Brian W Bigger",
+   "institution": "",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "23748415"
+   ]
+  },
+  {
+   "id": "INV_DANIELELETTIERIBARBATO",
+   "type": "investigator",
+   "label": "Daniele Lettieri-Barbato",
+   "institution": "Department Biology, University of Rome Tor Vergata, Rome, Italy daniele.lettieri.barbato@uniroma2.it.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "38631900"
+   ]
+  },
+  {
+   "id": "INV_VANIABROCCOLI",
+   "type": "investigator",
+   "label": "Vania Broccoli",
+   "institution": "Division of Neuroscience, San Raffaele Scientific Institute, 20132, Milan, Italy. broccoli.vania@hsr.it.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "32826895"
+   ]
+  },
+  {
+   "id": "INV_JOSEPHDBUXBAUM",
+   "type": "investigator",
+   "label": "Joseph D Buxbaum",
+   "institution": "Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, New York, USA.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "34313403"
+   ]
+  },
+  {
+   "id": "INV_YAZMNRAMIROCORTS",
+   "type": "investigator",
+   "label": "Yazm\u00edn Ramiro-Cort\u00e9s",
+   "institution": "Divisi\u00f3n de Neurociencias, Instituto de Fisiolog\u00eda Celular, Universidad Nacional Aut\u00f3noma de M\u00e9xico, Mexico City, Mexico. yramiro@ifc.unam.mx.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "36564435"
+   ]
+  },
+  {
+   "id": "INV_LAURENEETHRIDGE",
+   "type": "investigator",
+   "label": "Lauren E Ethridge",
+   "institution": "Department of Psychology, University of Oklahoma, Norman, OK, USA.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "40855273"
+   ]
+  },
+  {
+   "id": "INV_YURIBOZZI",
+   "type": "investigator",
+   "label": "Yuri Bozzi",
+   "institution": "CIMeC - Center for Mind/Brain Sciences, University of Trento, 38068 Rovereto, TN, Italy.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "34791077"
+   ]
+  },
+  {
+   "id": "INV_COLLEENHADIGAN",
+   "type": "investigator",
+   "label": "Colleen Hadigan",
+   "institution": "Laboratory of Immunoregulation, National Institute of Allergy and Infectious Disease, National Institutes of Health.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "30921255"
+   ]
+  },
+  {
+   "id": "INV_ALBERTOVERROTTI",
+   "type": "investigator",
+   "label": "Alberto Verrotti",
+   "institution": "Department of Pediatrics, University of Perugia, Perugia, Italy.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "38874638"
+   ]
+  },
+  {
+   "id": "INV_ROBERTMIGIEL",
+   "type": "investigator",
+   "label": "Robert \u015amigiel",
+   "institution": "Department of Paediatrics and Rare Disorders, Wroclaw Medical University, 50-367 Wroclaw, Poland.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "32079229"
+   ]
+  },
+  {
+   "id": "INV_DOUGLASACOULTER",
+   "type": "investigator",
+   "label": "Douglas A Coulter",
+   "institution": "Division of Child Neurology and CHOP Research Institute, Children's Hospital of Philadelphia, United States of America; Department of Neuroscience and Pediatric",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "32585155"
+   ]
+  },
+  {
+   "id": "INV_SILAKULTANIR",
+   "type": "investigator",
+   "label": "Sila K Ultanir",
+   "institution": "Kinases and Brain Development Laboratory, The Francis Crick Institute, London, UK. sila.ultanir@crick.ac.uk.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "38326557"
+   ]
+  },
+  {
+   "id": "INV_LILYYEHJAN",
+   "type": "investigator",
+   "label": "Lily Yeh Jan",
+   "institution": "Department of Physiology, University of California at San Francisco, San Francisco, CA 94158, USA; Howard Hughes Medical Institute, University of California at ",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "41558486"
+   ]
+  },
+  {
+   "id": "INV_TAMMYKIELIAN",
+   "type": "investigator",
+   "label": "Tammy Kielian",
+   "institution": "Department of Pathology and Microbiology, University of Nebraska Medical Center, Omaha, Nebraska 68198, and tkielian@unmc.edu.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "27629717"
+   ]
+  },
+  {
+   "id": "INV_MIKAORUONALA",
+   "type": "investigator",
+   "label": "Mika O Ruonala",
+   "institution": "Center for Membrane Proteomics, Goethe University of Frankfurt am Main, Frankfurt, Germany.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "25051496"
+   ]
+  },
+  {
+   "id": "INV_MOHAMMADREZAABBASZADEGAN",
+   "type": "investigator",
+   "label": "Mohammadreza Abbaszadegan",
+   "institution": "Division of Human Genetics, Immunology Research Center, Avicenna Research Institute, Mashhad University of Medical Sciences, Mashhad, Iran.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "28144274"
+   ]
+  },
+  {
+   "id": "INV_BRADLEYSMILLER",
+   "type": "investigator",
+   "label": "Bradley S Miller",
+   "institution": "Division of Endocrinology, University of Minnesota Masonic Children's Hospital, 2450 Riverside Avenue, Minneapolis, Minnesota 55454, USA, E-mail: mille685@umn.e",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "31115193"
+   ]
+  },
+  {
+   "id": "INV_PRANOOTTANPAIBOON",
+   "type": "investigator",
+   "label": "Pranoot Tanpaiboon",
+   "institution": "Division of Genetics and Metabolism, Children National Health System, Washington, District of Columbia, USA.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "33089815"
+   ]
+  },
+  {
+   "id": "INV_JAMESCSACCHETTINI",
+   "type": "investigator",
+   "label": "James C Sacchettini",
+   "institution": "Department of Biochemistry and Biophysics, Texas A&M University, College Station, TX 77843, USA. vgohil@tamu.edu sacchett@tamu.edu.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "32381719"
+   ]
+  },
+  {
+   "id": "INV_NAHINHUSSAIN",
+   "type": "investigator",
+   "label": "Nahin Hussain",
+   "institution": "Leicester Royal Infirmary, University Hospitals of Leicester, Leicester, United Kingdom.",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "29675083"
+   ]
+  },
+  {
+   "id": "INV_LISBETHBIRKMLLER",
+   "type": "investigator",
+   "label": "Lisbeth Birk M\u00f8ller",
+   "institution": "",
+   "role": "Last author on PubMed papers in the atlas",
+   "source": "PubMed author list",
+   "pmids": [
+    "21494555"
+   ]
+  },
+  {
+   "id": "HP:0100022",
+   "type": "symptom",
+   "label": "Abnormality of movement",
+   "hpo_id": "HP:0100022",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0002019",
+   "type": "symptom",
+   "label": "Constipation",
+   "hpo_id": "HP:0002019",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0008020",
+   "type": "symptom",
+   "label": "Cone dystrophy",
+   "hpo_id": "HP:0008020",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0002750",
+   "type": "symptom",
+   "label": "Delayed skeletal maturation",
+   "hpo_id": "HP:0002750",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0001382",
+   "type": "symptom",
+   "label": "Joint hypermobility",
+   "hpo_id": "HP:0001382",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0002240",
+   "type": "symptom",
+   "label": "Hepatomegaly",
+   "hpo_id": "HP:0002240",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0002910",
+   "type": "symptom",
+   "label": "Elevated circulating hepatic transaminase concentration",
+   "hpo_id": "HP:0002910",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0002136",
+   "type": "symptom",
+   "label": "Broad-based gait",
+   "hpo_id": "HP:0002136",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0000556",
+   "type": "symptom",
+   "label": "Retinal dystrophy",
+   "hpo_id": "HP:0000556",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0000505",
+   "type": "symptom",
+   "label": "Visual impairment",
+   "hpo_id": "HP:0000505",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0001385",
+   "type": "symptom",
+   "label": "Hip dysplasia",
+   "hpo_id": "HP:0001385",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0005743",
+   "type": "symptom",
+   "label": "Avascular necrosis of the capital femoral epiphysis",
+   "hpo_id": "HP:0005743",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0100543",
+   "type": "symptom",
+   "label": "Cognitive impairment",
+   "hpo_id": "HP:0100543",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0002633",
+   "type": "symptom",
+   "label": "Vasculitis",
+   "hpo_id": "HP:0002633",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0004322",
+   "type": "symptom",
+   "label": "Short stature",
+   "hpo_id": "HP:0004322",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0001909",
+   "type": "symptom",
+   "label": "Leukemia",
+   "hpo_id": "HP:0001909",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0034350",
+   "type": "symptom",
+   "label": "Valvular pulmonary stenosis",
+   "hpo_id": "HP:0034350",
+   "source": "HPO (via literature extraction)"
+  },
+  {
+   "id": "HP:0000316",
+   "type": "symptom",
+   "label": "Hypertelorism",
+   "hpo_id": "HP:0000316",
+   "source": "HPO (via literature extraction)"
+  }
+ ],
+ "edges": [
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0001263",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "33315951",
+     "year": 2020,
+     "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0100022",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "33315951",
+     "year": 2020,
+     "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0002019",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "33315951",
+     "year": 2020,
+     "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0000648",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "27388694",
+     "year": 2017,
+     "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0008020",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "27388694",
+     "year": 2017,
+     "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0002750",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "27388694",
+     "year": 2017,
+     "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0001382",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "27388694",
+     "year": 2017,
+     "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0001773",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "27388694",
+     "year": 2017,
+     "quote": "We also confirmed and further quantified previously reported findings noting that decreased tear production, transient transaminitis, small feet, a complex hyperkinetic movement disorder, and varying degrees of global developmental delay with relatively preserved socialization are the most consistent features.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "GENE_NGLY1",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "32071843",
+     "year": 2020,
+     "quote": "NGLY1 deficiency is a congenital disorder of deglycosylation (NGLY1-CDDG).",
+     "context": "patients"
+    },
+    {
+     "pmid": "31311714",
+     "year": 2019,
+     "quote": "NGLY1-CDDG is a congenital disorder of deglycosylation caused by a defective peptide:N-glycanase (PNG).",
+     "context": "patients"
+    },
+    {
+     "pmid": "29550355",
+     "year": 2018,
+     "quote": "N-glycanase deficiency (NGLY1 deficiency, NGLY1-CDDG), the first autosomal recessive congenital disorder of N-linked deglycosylation (CDDG), is caused by pathogenic variants in NGLY1.",
+     "context": "patients"
+    },
+    {
+     "pmid": "32395402",
+     "year": 2020,
+     "quote": "Pathogenic variants in the NGLY1 gene are associated with a Congenital Disorder of Deglycosylation (CDDG)",
+     "context": "patients"
+    },
+    {
+     "pmid": "36209585",
+     "year": 2022,
+     "quote": "NGLY1 deficiency is a recently diagnosed rare genetic disorder.",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 5
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0001251",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "32395402",
+     "year": 2020,
+     "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NGLY1",
+   "target": "HP:0100660",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "32395402",
+     "year": 2020,
+     "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_STXBP1",
+   "target": "GENE_STXBP1",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "30654231",
+     "year": 2019,
+     "quote": "Heterozygous mutations in syntaxin-binding protein 1 (STXBP1) gene are associated with early infantile epileptic encephalopathy 4 (EIEE4).",
+     "context": "patients"
+    },
+    {
+     "pmid": "34392114",
+     "year": 2021,
+     "quote": "The phenotypic spectrum of STXBP1-related encephalopathy ranges from infantile epileptic encephalopathy to intellectual disability with nonsyndromic or absent epilepsy.",
+     "context": "patients"
+    },
+    {
+     "pmid": "38360746",
+     "year": 2024,
+     "quote": "STXBP1 encephalopathy caused by de novo heterozygous pathogenic variants in syntaxin-binding protein 1 (STXBP1, also known as MUNC18-1; Verhage and S\u00f8rensen, 2020; John et al., 2021).",
+     "context": "unspecified"
+    },
+    {
+     "pmid": "33961044",
+     "year": 2021,
+     "quote": "de novo pathogenic variants of STXBP1 cause a complex set of neurological disturbances, namely STXBP1 encephalopathy (STXBP1-E)",
+     "context": "unspecified"
+    },
+    {
+     "pmid": "29538625",
+     "year": 2018,
+     "quote": "De novo heterozygous mutations in STXBP1/Munc18-1 cause early infantile epileptic encephalopathies (EIEE4, OMIM #612164)",
+     "context": "patients"
+    },
+    {
+     "pmid": "23763664",
+     "year": 2013,
+     "quote": "STXBP1 encephalopathy is associated with a range of movement disorders.",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 6
+  },
+  {
+   "source": "DIS_STXBP1",
+   "target": "HP:0001337",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "34392114",
+     "year": 2021,
+     "quote": "Although being frequently reported, the tremor associated with STXBP1 has not been fully characterized to date.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_STXBP1",
+   "target": "HP:0001249",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "38360746",
+     "year": 2024,
+     "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021).",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_STXBP1",
+   "target": "HP:0100704",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "38360746",
+     "year": 2024,
+     "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021).",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_MECP2",
+   "target": "HP:0012332",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "22670134",
+     "year": 2012,
+     "quote": "early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder.",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_MECP2",
+   "target": "HP:0002136",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "20711295",
+     "year": 2005,
+     "quote": "gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing).",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_MECP2",
+   "target": "GENE_MECP2",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "17289941",
+     "year": 2007,
+     "quote": "Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons.",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_MPS3",
+   "target": "GENE_SGSH",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "23748415",
+     "year": 2013,
+     "quote": "Mucopolysaccharidosis type IIIA (MPSIIIA) is a lysosomal storage disorder caused by mutations in N-sulfoglucosamine sulfohydrolase (SGSH), resulting in heparan sulfate (HS) accumulation and progressive neurodegeneration.",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_FXN",
+   "target": "GENE_FXN",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "38631900",
+     "year": 2024,
+     "quote": "mitochondrial frataxin (FXN) depletion, the primary cause of Friedreich's ataxia (FRDA)",
+     "context": "animal_model"
+    },
+    {
+     "pmid": "32826895",
+     "year": 2020,
+     "quote": "Friedreich's ataxia (FRDA) is an autosomal-recessive neurodegenerative and cardiac disorder which occurs when transcription of the FXN gene is silenced due to an excessive expansion of GAA repeats into its first intron.",
+     "context": "cell_model"
+    }
+   ],
+   "n_papers": 2
+  },
+  {
+   "source": "DIS_SHANK3",
+   "target": "GENE_SHANK3",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "34313403",
+     "year": 2021,
+     "quote": "Mutations and deletions in the SHANK3 gene cause the major neurodevelopmental features of Phelan-McDermid syndrome",
+     "context": "patients"
+    },
+    {
+     "pmid": "36564435",
+     "year": 2022,
+     "quote": "An example is Phelan-McDermid syndrome, caused by a deletion of the Shank3 gene in one allele of chromosome 22.",
+     "context": "patients"
+    },
+    {
+     "pmid": "40855273",
+     "year": 2025,
+     "quote": "Phelan-McDermid Syndrome (PMS) is a rare genetic condition characterized by deletion or mutation of region 22q13.3, which includes the SHANK3 gene.",
+     "context": "patients"
+    },
+    {
+     "pmid": "34791077",
+     "year": 2022,
+     "quote": "Patients with Phelan-McDermid syndrome (PMS), caused by mutations in the SHANK3 gene, show ASD-like symptoms associated with aberrant tactile responses.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 4
+  },
+  {
+   "source": "DIS_SHANK3",
+   "target": "HP:0002019",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "30921255",
+     "year": 2019,
+     "quote": "Parent-reported history of symptoms were common: constipation (65%)",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_CDKL5",
+   "target": "GENE_CDKL5",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "38874638",
+     "year": 2024,
+     "quote": "CDKL5 deficiency disorder (CDD) is a complex clinical condition resulting from non-functional or absent CDKL5 protein",
+     "context": "patients"
+    },
+    {
+     "pmid": "32079229",
+     "year": 2020,
+     "quote": "CDKL5 deficiency disorder (CDD) is a complex of clinical symptoms resulting from the presence of non-functional CDKL5 protein",
+     "context": "patients"
+    },
+    {
+     "pmid": "32585155",
+     "year": 2020,
+     "quote": "CDKL5 deficiency disorder (CDD) is a devastating neurodevelopmental disorder characterized by early-onset epilepsy, severe intellectual disability, cortical visual impairment and motor disabilities.",
+     "context": "patients"
+    },
+    {
+     "pmid": "38326557",
+     "year": 2024,
+     "quote": "CDKL5 is a brain\u2011enriched serine/threonine kinase, associated with a profound developmental and epileptic encephalopathy called CDKL5 deficiency disorder (CDD).",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 4
+  },
+  {
+   "source": "DIS_CDKL5",
+   "target": "HP:0001252",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "38874638",
+     "year": 2024,
+     "quote": "with associated neurological phenotypes, such as hypotonia, movement disorders, visual impairment, and gastrointestinal issues",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_CDKL5",
+   "target": "HP:0000505",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "38874638",
+     "year": 2024,
+     "quote": "with associated neurological phenotypes, such as hypotonia, movement disorders, visual impairment, and gastrointestinal issues",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_CDKL5",
+   "target": "HP:0200134",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "32079229",
+     "year": 2020,
+     "quote": "epileptic encephalopathy secondary to seizures",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_CLN3",
+   "target": "GENE_CLN3",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "41558486",
+     "year": 2026,
+     "quote": "CLN3 (ceroid lipofuscinosis, neuronal 3), an endolysosomal protein that is linked to Batten disease",
+     "context": "unspecified"
+    },
+    {
+     "pmid": "27629717",
+     "year": 2016,
+     "quote": "Juvenile neuronal ceroid lipofuscinosis (JNCL) is a fatal lysosomal storage disease caused by autosomal-recessive mutations in CLN3 for which no treatment exists.",
+     "context": "unspecified"
+    },
+    {
+     "pmid": "25051496",
+     "year": 2014,
+     "quote": "Juvenile neuronal ceroid lipofuscinosis (JNCL) is caused by mutations in the CLN3 gene",
+     "context": "unspecified"
+    }
+   ],
+   "n_papers": 3
+  },
+  {
+   "source": "DIS_NOONAN",
+   "target": "HP:0004322",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "28144274",
+     "year": 2017,
+     "quote": "Various symptoms have been reported for this abnormality such as short stature, unusual facial characteristics, congenital heart abnormalities, developmental complications, and an elevated tumor incidence rate.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NOONAN",
+   "target": "HP:0001909",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "28144274",
+     "year": 2017,
+     "quote": "Patients with NS also have higher risk for leukemia and specific solid tumors.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NOONAN",
+   "target": "GENE_PTPN11",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "31115193",
+     "year": 2019,
+     "quote": "Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NOONAN",
+   "target": "HP:0034350",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "31115193",
+     "year": 2019,
+     "quote": "a number of children with valvular pulmonary stenosis had similar facial features.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_NOONAN",
+   "target": "HP:0000316",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "33089815",
+     "year": 2020,
+     "quote": "Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "DIS_ATP7A",
+   "target": "GENE_ATP7A",
+   "relationship": "LIT_CAUSED_BY",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "32381719",
+     "year": 2020,
+     "quote": "Loss-of-function mutations in the copper (Cu) transporter ATP7A cause Menkes disease.",
+     "context": "unspecified"
+    },
+    {
+     "pmid": "21494555",
+     "year": 2011,
+     "quote": "Menkes disease (MD) is caused by mutations in the ATP7A gene.",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 2
+  },
+  {
+   "source": "DIS_ATP7A",
+   "target": "HP:0001508",
+   "relationship": "LIT_HAS_PHENOTYPE",
+   "evidence_tier": "LITERATURE_EXTRACTED",
+   "extracted_by": "gpt-oss:20b",
+   "evidence": [
+    {
+     "pmid": "29675083",
+     "year": 2017,
+     "quote": "These patients can present with failure to thrive, severe psychomotor retardation, seizures and hypopigmented hair",
+     "context": "patients"
+    }
+   ],
+   "n_papers": 1
+  },
+  {
+   "source": "PUB_17289941",
+   "target": "DIS_MECP2",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_17289941",
+   "target": "GENE_MECP2",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_20711295",
+   "target": "DIS_MECP2",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_20711295",
+   "target": "HP:0002136",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_21494555",
+   "target": "DIS_ATP7A",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_21494555",
+   "target": "GENE_ATP7A",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_22670134",
+   "target": "DIS_MECP2",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_22670134",
+   "target": "HP:0012332",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_23748415",
+   "target": "DIS_MPS3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_23748415",
+   "target": "GENE_SGSH",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_23763664",
+   "target": "DIS_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_23763664",
+   "target": "GENE_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_25051496",
+   "target": "DIS_CLN3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_25051496",
+   "target": "GENE_CLN3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27388694",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27388694",
+   "target": "HP:0000648",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27388694",
+   "target": "HP:0001382",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27388694",
+   "target": "HP:0001773",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27388694",
+   "target": "HP:0002750",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27388694",
+   "target": "HP:0008020",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27629717",
+   "target": "DIS_CLN3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_27629717",
+   "target": "GENE_CLN3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_28144274",
+   "target": "DIS_NOONAN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_28144274",
+   "target": "HP:0001909",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_28144274",
+   "target": "HP:0004322",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_29538625",
+   "target": "DIS_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_29538625",
+   "target": "GENE_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_29550355",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_29550355",
+   "target": "GENE_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_29675083",
+   "target": "DIS_ATP7A",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_29675083",
+   "target": "HP:0001508",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_30654231",
+   "target": "DIS_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_30654231",
+   "target": "GENE_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_30921255",
+   "target": "DIS_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_30921255",
+   "target": "HP:0002019",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_31115193",
+   "target": "DIS_NOONAN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_31115193",
+   "target": "GENE_PTPN11",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_31115193",
+   "target": "HP:0034350",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_31311714",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_31311714",
+   "target": "GENE_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32071843",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32071843",
+   "target": "GENE_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32079229",
+   "target": "DIS_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32079229",
+   "target": "GENE_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32079229",
+   "target": "HP:0200134",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32381719",
+   "target": "DIS_ATP7A",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32381719",
+   "target": "GENE_ATP7A",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32395402",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32395402",
+   "target": "GENE_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32395402",
+   "target": "HP:0001251",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32395402",
+   "target": "HP:0100660",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32585155",
+   "target": "DIS_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32585155",
+   "target": "GENE_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32826895",
+   "target": "DIS_FXN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_32826895",
+   "target": "GENE_FXN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33089815",
+   "target": "DIS_NOONAN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33089815",
+   "target": "HP:0000316",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33315951",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33315951",
+   "target": "HP:0001263",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33315951",
+   "target": "HP:0002019",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33315951",
+   "target": "HP:0100022",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33961044",
+   "target": "DIS_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_33961044",
+   "target": "GENE_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34313403",
+   "target": "DIS_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34313403",
+   "target": "GENE_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34392114",
+   "target": "DIS_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34392114",
+   "target": "GENE_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34392114",
+   "target": "HP:0001337",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34791077",
+   "target": "DIS_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_34791077",
+   "target": "GENE_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_36209585",
+   "target": "DIS_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_36209585",
+   "target": "GENE_NGLY1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_36564435",
+   "target": "DIS_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_36564435",
+   "target": "GENE_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38326557",
+   "target": "DIS_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38326557",
+   "target": "GENE_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38360746",
+   "target": "DIS_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38360746",
+   "target": "GENE_STXBP1",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38360746",
+   "target": "HP:0001249",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38360746",
+   "target": "HP:0100704",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38631900",
+   "target": "DIS_FXN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38631900",
+   "target": "GENE_FXN",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38874638",
+   "target": "DIS_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38874638",
+   "target": "GENE_CDKL5",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38874638",
+   "target": "HP:0000505",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_38874638",
+   "target": "HP:0001252",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_40855273",
+   "target": "DIS_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_40855273",
+   "target": "GENE_SHANK3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_41558486",
+   "target": "DIS_CLN3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "PUB_41558486",
+   "target": "GENE_CLN3",
+   "relationship": "SUPPORTS_EVIDENCE",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_HAMEDJAFARNEJAD",
+   "target": "PUB_33315951",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LYNNEWOLFE",
+   "target": "PUB_27388694",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ANNATYLKISZYMASKA",
+   "target": "PUB_32071843",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_JUDITHJMJANS",
+   "target": "PUB_31311714",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_KIMIYOMRAYMOND",
+   "target": "PUB_29550355",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ANAGASPAR",
+   "target": "PUB_32395402",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_PINGHE",
+   "target": "PUB_36209585",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_DANIELLEMANDRADE",
+   "target": "PUB_30654231",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_CYRILMIGNOT",
+   "target": "PUB_34392114",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MINGSHANXUE",
+   "target": "PUB_38360746",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_SHINICHIHIROSE",
+   "target": "PUB_33961044",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MATTHIJSVERHAGE",
+   "target": "PUB_29538625",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_INGRIDESCHEFFER",
+   "target": "PUB_23763664",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_BDAN",
+   "target": "PUB_22670134",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ROHITSRIVASTAVA",
+   "target": "PUB_20711295",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ADRIANBIRD",
+   "target": "PUB_17289941",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_BRIANWBIGGER",
+   "target": "PUB_23748415",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_DANIELELETTIERIBARBATO",
+   "target": "PUB_38631900",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_VANIABROCCOLI",
+   "target": "PUB_32826895",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_JOSEPHDBUXBAUM",
+   "target": "PUB_34313403",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_YAZMNRAMIROCORTS",
+   "target": "PUB_36564435",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LAURENEETHRIDGE",
+   "target": "PUB_40855273",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_YURIBOZZI",
+   "target": "PUB_34791077",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_COLLEENHADIGAN",
+   "target": "PUB_30921255",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ALBERTOVERROTTI",
+   "target": "PUB_38874638",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ROBERTMIGIEL",
+   "target": "PUB_32079229",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_DOUGLASACOULTER",
+   "target": "PUB_32585155",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_SILAKULTANIR",
+   "target": "PUB_38326557",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LILYYEHJAN",
+   "target": "PUB_41558486",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_TAMMYKIELIAN",
+   "target": "PUB_27629717",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MIKAORUONALA",
+   "target": "PUB_25051496",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MOHAMMADREZAABBASZADEGAN",
+   "target": "PUB_28144274",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_BRADLEYSMILLER",
+   "target": "PUB_31115193",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_PRANOOTTANPAIBOON",
+   "target": "PUB_33089815",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_JAMESCSACCHETTINI",
+   "target": "PUB_32381719",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_NAHINHUSSAIN",
+   "target": "PUB_29675083",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LISBETHBIRKMLLER",
+   "target": "PUB_21494555",
+   "relationship": "AUTHOR_OF",
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_HAMEDJAFARNEJAD",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "33315951"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LYNNEWOLFE",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "27388694"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ANNATYLKISZYMASKA",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "32071843"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_JUDITHJMJANS",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "31311714"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_KIMIYOMRAYMOND",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "29550355"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ANAGASPAR",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "32395402"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_PINGHE",
+   "target": "DIS_NGLY1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "36209585"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_DANIELLEMANDRADE",
+   "target": "DIS_STXBP1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "30654231"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_CYRILMIGNOT",
+   "target": "DIS_STXBP1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "34392114"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MINGSHANXUE",
+   "target": "DIS_STXBP1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "38360746"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_SHINICHIHIROSE",
+   "target": "DIS_STXBP1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "33961044"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MATTHIJSVERHAGE",
+   "target": "DIS_STXBP1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "29538625"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_INGRIDESCHEFFER",
+   "target": "DIS_STXBP1",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "23763664"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_BDAN",
+   "target": "DIS_MECP2",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "22670134"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ROHITSRIVASTAVA",
+   "target": "DIS_MECP2",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "20711295"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ADRIANBIRD",
+   "target": "DIS_MECP2",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "17289941"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_BRIANWBIGGER",
+   "target": "DIS_MPS3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "23748415"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_DANIELELETTIERIBARBATO",
+   "target": "DIS_FXN",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "38631900"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_VANIABROCCOLI",
+   "target": "DIS_FXN",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "32826895"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_JOSEPHDBUXBAUM",
+   "target": "DIS_SHANK3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "34313403"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_YAZMNRAMIROCORTS",
+   "target": "DIS_SHANK3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "36564435"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LAURENEETHRIDGE",
+   "target": "DIS_SHANK3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "40855273"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_YURIBOZZI",
+   "target": "DIS_SHANK3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "34791077"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_COLLEENHADIGAN",
+   "target": "DIS_SHANK3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "30921255"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ALBERTOVERROTTI",
+   "target": "DIS_CDKL5",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "38874638"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_ROBERTMIGIEL",
+   "target": "DIS_CDKL5",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "32079229"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_DOUGLASACOULTER",
+   "target": "DIS_CDKL5",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "32585155"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_SILAKULTANIR",
+   "target": "DIS_CDKL5",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "38326557"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LILYYEHJAN",
+   "target": "DIS_CLN3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "41558486"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_TAMMYKIELIAN",
+   "target": "DIS_CLN3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "27629717"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MIKAORUONALA",
+   "target": "DIS_CLN3",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "25051496"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_MOHAMMADREZAABBASZADEGAN",
+   "target": "DIS_COSTELLO",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "28144274"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_BRADLEYSMILLER",
+   "target": "DIS_NOONAN",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "31115193"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_PRANOOTTANPAIBOON",
+   "target": "DIS_NOONAN",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "33089815"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_JAMESCSACCHETTINI",
+   "target": "DIS_ATP7A",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "32381719"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_NAHINHUSSAIN",
+   "target": "DIS_ATP7A",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "29675083"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  },
+  {
+   "source": "INV_LISBETHBIRKMLLER",
+   "target": "DIS_ATP7A",
+   "relationship": "PUBLISHES_ON",
+   "n_papers": 1,
+   "pmids": [
+    "21494555"
+   ],
+   "evidence_tier": "LITERATURE_EXTRACTED"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# Dependencies and build output
+node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Downloaded source data (~113 MB): rebuilt by `python3 backend/ingest/build_graph.py`
+backend/data/raw/*
+# ...but keep the small caches that make the literature layer reproducible without re-running the LLM
+!backend/data/raw/pubmed_cache.json
+!backend/data/raw/literature_llm_cache.json
+
+# Temporary files
+*.tmp
+.DS_Store
+.env
+

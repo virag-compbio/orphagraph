@@ -1,0 +1,3450 @@
+{
+ "34969094|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "35045343|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "33315951|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1 deficiency",
+    "context": "patients",
+    "quote": "Mutations in human N-glycanase 1 (NGLY1) cause the first known congenital disorder of deglycosylation (CDDG)."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "global developmental delay",
+    "context": "patients",
+    "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "neuropathy",
+    "context": "patients",
+    "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "movement disorder",
+    "context": "patients",
+    "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "constipation",
+    "context": "patients",
+    "quote": "Patients with this rare disease, which is also known as NGLY1 deficiency, exhibit global developmental delay and other phenotypes including neuropathy, movement disorder, and constipation."
+   },
+   {
+    "subject": "pharmacological activation of AMPK signaling",
+    "relation": "drug_improves_disease",
+    "object": "NGLY1 deficiency",
+    "context": "cell_model",
+    "quote": "pharmacological activation of AMPK signaling significantly suppressed the energy metabolism defects in these cells."
+   }
+  ]
+ },
+ "28750948|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "CDG",
+    "context": "patients",
+    "quote": "two children with a CDG subtype caused by NGLY1 deficiency"
+   }
+  ]
+ },
+ "27388694|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1-CDDG",
+    "context": "patients",
+    "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "optic atrophy",
+    "context": "patients",
+    "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "retinal pigmentary changes/cone dystrophy",
+    "context": "patients",
+    "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "delayed bone age",
+    "context": "patients",
+    "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "joint hypermobility",
+    "context": "patients",
+    "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "lower than predicted resting energy expenditure",
+    "context": "patients",
+    "quote": "In 12 individuals ages 2 to 21 years with confirmed, biallelic, pathogenic NGLY1 mutations, we identified previously unreported clinical features, including optic atrophy and retinal pigmentary changes/cone dystrophy, delayed bone age, joint hypermobility, and lower than predicted resting energy expenditure."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "low cerebral spinal fluid (CSF) total protein",
+    "context": "patients",
+    "quote": "Novel laboratory findings include low cerebral spinal fluid (CSF) total protein and albumin and unusually high antibody titers toward rubella and/or rubeola following vaccination."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "low cerebral spinal fluid (CSF) albumin",
+    "context": "patients",
+    "quote": "Novel laboratory findings include low cerebral spinal fluid (CSF) total protein and albumin and unusually high antibody titers toward rubella and/or rubeola following vaccination."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "unusually high antibody titers toward rubella and/or rubeola following vaccination",
+    "context": "patients",
+    "quote": "Novel laboratory findings include low cerebral spinal fluid (CSF) total protein and albumin and unusually high antibody titers toward rubella and/or rubeola following vaccination."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "decreased tear production",
+    "context": "patients",
+    "quote": "We also confirmed and further quantified previously reported findings noting that decreased tear production, transient transaminitis, small feet, a complex hyperkinetic movement disorder, and varying degrees of global developmental delay with relatively preserved socialization are the most consistent features."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "transient transaminitis",
+    "context": "patients",
+    "quote": "We also confirmed and further quantified previously reported findings noting that decreased tear production, transient transaminitis, small feet, a complex hyperkinetic movement disorder, and varying degrees of global developmental delay with relatively preserved socialization are the most consistent features."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "small feet",
+    "context": "patients",
+    "quote": "We also confirmed and further quantified previously reported findings noting that decreased tear production, transient transaminitis, small feet, a complex hyperkinetic movement disorder, and varying degrees of global developmental delay with relatively preserved socialization are the most consistent features."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "complex hyperkinetic movement disorder",
+    "context": "patients",
+    "quote": "We also confirmed and further quantified previously reported findings noting that decreased tear production, transient transaminitis, small feet, a complex hyperkinetic movement disorder, and varying degrees of global developmental delay with relatively preserved socialization are the most consistent features."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "varying degrees of global developmental delay with relatively preserved socialization",
+    "context": "patients",
+    "quote": "We also confirmed and further quantified previously reported findings noting that decreased tear production, transient transaminitis, small feet, a complex hyperkinetic movement disorder, and varying degrees of global developmental delay with relatively preserved socialization are the most consistent features."
+   }
+  ]
+ },
+ "32071843|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1-CDDG",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is a congenital disorder of deglycosylation (NGLY1-CDDG)."
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "global developmental delay",
+    "context": "patients",
+    "quote": "global developmental delay"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "hyperkinetic movement disorder",
+    "context": "patients",
+    "quote": "hyperkinetic movement disorder"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "stagnation of head growth",
+    "context": "patients",
+    "quote": "stagnation of head growth"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "hypolacrimia",
+    "context": "patients",
+    "quote": "hypolacrimia"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "elevated serum transaminases",
+    "context": "patients",
+    "quote": "elevated serum transaminases"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "hypolipidemia in infancy",
+    "context": "patients",
+    "quote": "hypolipidemia in infancy"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "global developmental disability",
+    "context": "patients",
+    "quote": "global developmental disability"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "hyperkinetic movements",
+    "context": "patients",
+    "quote": "hyperkinetic movements"
+   },
+   {
+    "subject": "NGLY1-CDDG",
+    "relation": "disease_has_phenotype",
+    "object": "alacrima/hypolacrima",
+    "context": "patients",
+    "quote": "alacrima/hypolacrima"
+   }
+  ]
+ },
+ "34697629|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1 deficiency",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is an ultra-rare autosomal recessive disorder characterized by developmental delay, peripheral neuropathy, elevated liver transaminases, hyperkinetic movement disorder and (hypo)-alacrima."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "developmental delay",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is an ultra-rare autosomal recessive disorder characterized by developmental delay, peripheral neuropathy, elevated liver transaminases, hyperkinetic movement disorder and (hypo)-alacrima."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "peripheral neuropathy",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is an ultra-rare autosomal recessive disorder characterized by developmental delay, peripheral neuropathy, elevated liver transaminases, hyperkinetic movement disorder and (hypo)-alacrima."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "elevated liver transaminases",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is an ultra-rare autosomal recessive disorder characterized by developmental delay, peripheral neuropathy, elevated liver transaminases, hyperkinetic movement disorder and (hypo)-alacrima."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "hyperkinetic movement disorder",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is an ultra-rare autosomal recessive disorder characterized by developmental delay, peripheral neuropathy, elevated liver transaminases, hyperkinetic movement disorder and (hypo)-alacrima."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "(hypo)-alacrima",
+    "context": "patients",
+    "quote": "NGLY1 deficiency is an ultra-rare autosomal recessive disorder characterized by developmental delay, peripheral neuropathy, elevated liver transaminases, hyperkinetic movement disorder and (hypo)-alacrima."
+   }
+  ]
+ },
+ "31311714|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1-CDDG",
+    "context": "patients",
+    "quote": "NGLY1-CDDG is a congenital disorder of deglycosylation caused by a defective peptide:N-glycanase (PNG)."
+   }
+  ]
+ },
+ "29550355|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1-CDDG",
+    "context": "patients",
+    "quote": "N-glycanase deficiency (NGLY1 deficiency, NGLY1-CDDG), the first autosomal recessive congenital disorder of N-linked deglycosylation (CDDG), is caused by pathogenic variants in NGLY1."
+   }
+  ]
+ },
+ "32395402|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "Congenital Disorder of Deglycosylation (CDDG)",
+    "context": "patients",
+    "quote": "Pathogenic variants in the NGLY1 gene are associated with a Congenital Disorder of Deglycosylation (CDDG)"
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "delays in reaching developmental milestones",
+    "context": "patients",
+    "quote": "Pathogenic variants in the NGLY1 gene are associated with a Congenital Disorder of Deglycosylation (CDDG) characterized by delays in reaching developmental milestones, complex hyperkinetic movement disorder, transient elevation of transaminases, and alacrima or hypolacrima."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "complex hyperkinetic movement disorder",
+    "context": "patients",
+    "quote": "Pathogenic variants in the NGLY1 gene are associated with a Congenital Disorder of Deglycosylation (CDDG) characterized by delays in reaching developmental milestones, complex hyperkinetic movement disorder, transient elevation of transaminases, and alacrima or hypolacrima."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "transient elevation of transaminases",
+    "context": "patients",
+    "quote": "Pathogenic variants in the NGLY1 gene are associated with a Congenital Disorder of Deglycosylation (CDDG) characterized by delays in reaching developmental milestones, complex hyperkinetic movement disorder, transient elevation of transaminases, and alacrima or hypolacrima."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "alacrima or hypolacrima",
+    "context": "patients",
+    "quote": "Pathogenic variants in the NGLY1 gene are associated with a Congenital Disorder of Deglycosylation (CDDG) characterized by delays in reaching developmental milestones, complex hyperkinetic movement disorder, transient elevation of transaminases, and alacrima or hypolacrima."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "ataxia",
+    "context": "patients",
+    "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "dyskinesia",
+    "context": "patients",
+    "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "visual impairment due to cone rod retinal dystrophy",
+    "context": "patients",
+    "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "low triglycerides",
+    "context": "patients",
+    "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed."
+   },
+   {
+    "subject": "Congenital Disorder of Deglycosylation (CDDG)",
+    "relation": "disease_has_phenotype",
+    "object": "persistently elevated liver transaminases",
+    "context": "patients",
+    "quote": "Subsequently, delays in reaching developmental milestones, ataxia, dyskinesia, visual impairment due to cone rod retinal dystrophy, low triglycerides, and persistently elevated liver transaminases were observed."
+   }
+  ]
+ },
+ "36209585|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NGLY1",
+    "relation": "gene_causes_disease",
+    "object": "NGLY1 deficiency",
+    "context": "unspecified",
+    "quote": "NGLY1 deficiency is a recently diagnosed rare genetic disorder."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "microscopic liver fibrosis",
+    "context": "unspecified",
+    "quote": "Given the important role of CCN2 and TGF-\u03b2 pathway in mediating systemic fibrosis, we propose a potential link of increased CCN2 and TGF-\u03b2 signaling to microscopic liver fibrosis in NGLY1 patients."
+   },
+   {
+    "subject": "NGLY1 deficiency",
+    "relation": "disease_has_phenotype",
+    "object": "broad spectrum of clinical features",
+    "context": "unspecified",
+    "quote": "The affected individuals present a broad spectrum of clinical features."
+   }
+  ]
+ },
+ "34291020|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDG",
+    "relation": "disease_has_phenotype",
+    "object": "hepatomegaly",
+    "context": "patients",
+    "quote": "At the time of the first consultation, 13/32 patients were diagnosed with hepatomegaly;"
+   },
+   {
+    "subject": "CDG",
+    "relation": "disease_has_phenotype",
+    "object": "elevated serum transaminases",
+    "context": "patients",
+    "quote": "As many as 23/32 persons had elevated serum transaminases, including 16 (70%) who had mildly elevated levels."
+   },
+   {
+    "subject": "CDG",
+    "relation": "disease_has_phenotype",
+    "object": "normalized serum transaminases",
+    "context": "patients",
+    "quote": "During the long-term follow-up ... serum transaminases normalized in 15/19 (79%) of them, including a spontaneous normalization in 12/15 (80%) of them."
+   },
+   {
+    "subject": "CDG",
+    "relation": "disease_has_phenotype",
+    "object": "normal GGT activity",
+    "context": "patients",
+    "quote": "The GGT activity was observed to be normal in all study cases."
+   },
+   {
+    "subject": "CDG",
+    "relation": "disease_has_phenotype",
+    "object": "decreased protein C, protein S and antithrombin activities",
+    "context": "patients",
+    "quote": "Protein C, protein S and antithrombin activities in plasma were observed in 16 patients, and they were decreased in all of them."
+   }
+  ]
+ },
+ "30654231|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "EIEE4",
+    "context": "patients",
+    "quote": "Heterozygous mutations in syntaxin-binding protein 1 (STXBP1) gene are associated with early infantile epileptic encephalopathy 4 (EIEE4)."
+   },
+   {
+    "subject": "EIEE4",
+    "relation": "disease_has_phenotype",
+    "object": "bruxism (BRX)",
+    "context": "patients",
+    "quote": "Bruxism was also reported in 81.4% (57/70) of the patients with STXBP1 encephalopathy through the online questionnaire."
+   }
+  ]
+ },
+ "34392114|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "STXBP1-related encephalopathy",
+    "context": "patients",
+    "quote": "The phenotypic spectrum of STXBP1-related encephalopathy ranges from infantile epileptic encephalopathy to intellectual disability with nonsyndromic or absent epilepsy."
+   },
+   {
+    "subject": "STXBP1-related encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "tremor",
+    "context": "patients",
+    "quote": "Although being frequently reported, the tremor associated with STXBP1 has not been fully characterized to date."
+   },
+   {
+    "subject": "STXBP1-related encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "postural and action distal tremor",
+    "context": "patients",
+    "quote": "Clinically, all had a postural and action distal tremor increased by emotions."
+   },
+   {
+    "subject": "tremor",
+    "relation": "disease_has_phenotype",
+    "object": "subcortical pseudo-rhythmic myoclonus",
+    "context": "patients",
+    "quote": "The tremor-like observed in STXBP1 encephalopathy is due to a subcortical pseudo-rhythmic myoclonus."
+   }
+  ]
+ },
+ "31813518|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "34840252|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "developmental and epileptic encephalopathy",
+    "context": "patients",
+    "quote": "which is associated with developmental and epileptic encephalopathy"
+   },
+   {
+    "subject": "developmental and epileptic encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "refractory epilepsy",
+    "context": "patients",
+    "quote": "including refractory epilepsy, ASD, intellectual disability, and movement disorders"
+   },
+   {
+    "subject": "developmental and epileptic encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "ASD",
+    "context": "patients",
+    "quote": "including refractory epilepsy, ASD, intellectual disability, and movement disorders"
+   },
+   {
+    "subject": "developmental and epileptic encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "intellectual disability",
+    "context": "patients",
+    "quote": "including refractory epilepsy, ASD, intellectual disability, and movement disorders"
+   },
+   {
+    "subject": "developmental and epileptic encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "movement disorders",
+    "context": "patients",
+    "quote": "including refractory epilepsy, ASD, intellectual disability, and movement disorders"
+   }
+  ]
+ },
+ "29538625|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "EIEE4",
+    "context": "patients",
+    "quote": "De novo heterozygous mutations in STXBP1/Munc18-1 cause early infantile epileptic encephalopathies (EIEE4, OMIM #612164)"
+   },
+   {
+    "subject": "levetiracetam",
+    "relation": "drug_improves_disease",
+    "object": "seizure/spasm phenotype",
+    "context": "animal_model",
+    "quote": "these seizure/spasm phenotype observed in humans, characterized by myoclonic jerks and spike-wave discharges that were suppressed by the antiepileptic drug levetiracetam."
+   }
+  ]
+ },
+ "38360746|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "STXBP1 encephalopathy",
+    "context": "unspecified",
+    "quote": "STXBP1 encephalopathy caused by de novo heterozygous pathogenic variants in syntaxin-binding protein 1 (STXBP1, also known as MUNC18-1; Verhage and S\u00f8rensen, 2020; John et al., 2021)."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "intellectual disability",
+    "context": "patients",
+    "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021)."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "epilepsy",
+    "context": "patients",
+    "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021)."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "movement disorders",
+    "context": "patients",
+    "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021)."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "cerebral visual impairment",
+    "context": "patients",
+    "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021)."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "psychiatric symptoms",
+    "context": "patients",
+    "quote": "The clinical features of these synaptic vesicle cycle disorders are diverse, but the most prevalent phenotypes include intellectual disability, epilepsy, movement disorders, cerebral visual impairment, and psychiatric symptoms ( Verhage and S\u00f8rensen, 2020; Bonnycastle et al., 2021; John et al., 2021; Melland et al., 2021)."
+   }
+  ]
+ },
+ "31929717|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "23763664|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "STXBP1 encephalopathy",
+    "context": "unspecified",
+    "quote": "STXBP1 encephalopathy is associated with a range of movement disorders."
+   }
+  ]
+ },
+ "32073399|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "STXBP1 encephalopathy",
+    "context": "unspecified",
+    "quote": "De novo heterozygous pathogenic variants in STXBP1 are among the most frequent causes of neurodevelopmental disorders including intellectual disabilities and epilepsies."
+   }
+  ]
+ },
+ "31855252|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "35283272|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "STXBP1 encephalopathy",
+    "context": "unspecified",
+    "quote": "Heterozygous mutations in this protein cause STXBP1 encephalopathy (STXBP1-E), which is characterized by intellectual disabilities and epilepsies."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "intellectual disabilities",
+    "context": "unspecified",
+    "quote": "Heterozygous mutations in this protein cause STXBP1 encephalopathy (STXBP1-E), which is characterized by intellectual disabilities and epilepsies."
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "epilepsies",
+    "context": "unspecified",
+    "quote": "Heterozygous mutations in this protein cause STXBP1 encephalopathy (STXBP1-E), which is characterized by intellectual disabilities and epilepsies."
+   }
+  ]
+ },
+ "38086378|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "neurodevelopmental disorders",
+    "context": "unspecified",
+    "quote": "De novo mutations in STXBP1 are among the most prevalent causes of neurodevelopmental disorders and lead to haploinsufficiency, cortical hyperexcitability, epilepsy, and other symptoms in people with mutations."
+   },
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "epilepsy",
+    "context": "unspecified",
+    "quote": "De novo mutations in STXBP1 are among the most prevalent causes of neurodevelopmental disorders and lead to haploinsufficiency, cortical hyperexcitability, epilepsy, and other symptoms in people with mutations."
+   },
+   {
+    "subject": "neurodevelopmental disorders",
+    "relation": "disease_has_phenotype",
+    "object": "cortical hyperexcitability",
+    "context": "unspecified",
+    "quote": "De novo mutations in STXBP1 are among the most prevalent causes of neurodevelopmental disorders and lead to haploinsufficiency, cortical hyperexcitability, epilepsy, and other symptoms in people with mutations."
+   },
+   {
+    "subject": "CX516",
+    "relation": "drug_improves_disease",
+    "object": "hyperexcitability",
+    "context": "animal_model",
+    "quote": "CX516, an ampakine that enhances excitatory synapses, restores interneuron recruitment and prevents hyperexcitability."
+   }
+  ]
+ },
+ "22670134|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "MECP2",
+    "relation": "gene_causes_disease",
+    "object": "Rett syndrome",
+    "context": "unspecified",
+    "quote": "It is a monogenic X-linked dominant neurodevelopmental disorder related to mutation in MECP2, which encodes the methyl-CpG-binding protein MeCP2."
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "autonomic dysfunction",
+    "context": "unspecified",
+    "quote": "early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder."
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "seizure disorder",
+    "context": "unspecified",
+    "quote": "early neurological regression that severely affects motor, cognitive and communication skills, by autonomic dysfunction and often a seizure disorder."
+   }
+  ]
+ },
+ "10957842|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "20711295|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "broad-based gait",
+    "context": "patients",
+    "quote": "gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing)."
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "typical midline stereotyped hand movements",
+    "context": "patients",
+    "quote": "gradually developed a broad-based gait and typical midline stereotyped hand movements (mouthing, rubbing)."
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "lost acquired, purposeful hand skills; expressive and receptive language; and reciprocal social interaction",
+    "context": "patients",
+    "quote": "over the next 4-5 months, she lost her acquired, purposeful hand skills; expressive and receptive language; and reciprocal social interaction;"
+   }
+  ]
+ },
+ "2133757|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Rett Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "developmental regression with dementia",
+    "context": "patients",
+    "quote": "The girls (four Chinese and one Indian) demonstrate the classic features of developmental regression with dementia, loss of hand function and stereotyped hand movements."
+   },
+   {
+    "subject": "Rett Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "loss of hand function",
+    "context": "patients",
+    "quote": "The girls (four Chinese and one Indian) demonstrate the classic features of developmental regression with dementia, loss of hand function and stereotyped hand movements."
+   },
+   {
+    "subject": "Rett Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "stereotyped hand movements",
+    "context": "patients",
+    "quote": "The girls (four Chinese and one Indian) demonstrate the classic features of developmental regression with dementia, loss of hand function and stereotyped hand movements."
+   }
+  ]
+ },
+ "17289941|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "MECP2",
+    "relation": "gene_causes_disease",
+    "object": "Rett syndrome",
+    "context": "unspecified",
+    "quote": "Rett syndrome is an autism spectrum disorder caused by mosaic expression of mutant copies of the X-linked MECP2 gene in neurons."
+   }
+  ]
+ },
+ "32109978|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "26175308|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "self-care",
+    "context": "patients",
+    "quote": "Among 11 mutation groups, a statistically significant group effect of mutation type was observed for self-care"
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "upper extremity function",
+    "context": "patients",
+    "quote": "Among 11 mutation groups, a statistically significant group effect of mutation type was observed for ... upper extremity function"
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "mobility",
+    "context": "patients",
+    "quote": "Among 11 mutation groups, a statistically significant group effect of mutation type was observed for ... mobility"
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "hand use",
+    "context": "patients",
+    "quote": "patients with R133C and R294X were most likely to have hand use"
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "ambulatory",
+    "context": "patients",
+    "quote": "patients with R133C, R294X, R306C and small deletions were most likely to be ambulatory"
+   },
+   {
+    "subject": "Rett syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "verbal",
+    "context": "patients",
+    "quote": "those with R133C were most likely to be verbal"
+   }
+  ]
+ },
+ "2475669|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "31658741|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "MECP2",
+    "relation": "gene_causes_disease",
+    "object": "Rett syndrome",
+    "context": "unspecified",
+    "quote": "caused by loss-of-function mutations in the MECP2 gene that encoded the methyl-CpG-binding protein 2."
+   }
+  ]
+ },
+ "3436161|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "33363173|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "28132121|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "6411049|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Sanfilippo's syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "poor vision",
+    "context": "patients",
+    "quote": "poor vision"
+   },
+   {
+    "subject": "Sanfilippo's syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "photoreceptor loss",
+    "context": "patients",
+    "quote": "marked photoreceptor loss"
+   },
+   {
+    "subject": "Sanfilippo's syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "fundus changes similar to those in retinitis pigmentosa",
+    "context": "patients",
+    "quote": "fundus changes similar to those in retinitis pigmentosa"
+   }
+  ]
+ },
+ "21675915|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "recombinant enzymes",
+    "relation": "drug_improves_disease",
+    "object": "Hurler syndrome",
+    "context": "unspecified",
+    "quote": "It paved the way for the development of enzyme replacement therapy with recombinant enzymes."
+   },
+   {
+    "subject": "recombinant enzymes",
+    "relation": "drug_improves_disease",
+    "object": "Hunter syndrome",
+    "context": "unspecified",
+    "quote": "It paved the way for the development of enzyme replacement therapy with recombinant enzymes."
+   }
+  ]
+ },
+ "31104888|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Sanfilippo syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "neuropathology arising due to impaired heparan sulphate catabolism",
+    "context": "patients",
+    "quote": "Sanfilippo syndrome or mucopolysaccharidosis type III (MPS III) is a childhood metabolic disorder marked by neuropathology arising due to impaired heparan sulphate (HS) catabolism."
+   }
+  ]
+ },
+ "33741007|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "MPS III",
+    "relation": "disease_has_phenotype",
+    "object": "Hip dysplasia",
+    "context": "patients",
+    "quote": "Hip dysplasia was present in 9/32 patients and was significantly associated with osteonecrosis of the femoral head (p = 0.04)."
+   },
+   {
+    "subject": "MPS III",
+    "relation": "disease_has_phenotype",
+    "object": "severe phenotype",
+    "context": "patients",
+    "quote": "Patients with a severe phenotype showed significantly higher rates of osteonecrosis (14/17) than patients with an intermediate phenotype."
+   },
+   {
+    "subject": "MPS III",
+    "relation": "disease_has_phenotype",
+    "object": "osteonecrosis of the femoral head",
+    "context": "patients",
+    "quote": "Osteonecrosis of the femoral head was observed in 17/32 patients."
+   }
+  ]
+ },
+ "23748415|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SGSH",
+    "relation": "gene_causes_disease",
+    "object": "MPSIIIA",
+    "context": "unspecified",
+    "quote": "Mucopolysaccharidosis type IIIA (MPSIIIA) is a lysosomal storage disorder caused by mutations in N-sulfoglucosamine sulfohydrolase (SGSH), resulting in heparan sulfate (HS) accumulation and progressive neurodegeneration."
+   }
+  ]
+ },
+ "20179679|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "AAV",
+    "relation": "drug_improves_disease",
+    "object": "lifespan",
+    "context": "unspecified",
+    "quote": "All treatments resulted in some improvement in clinical phenotype. Adeno-associated viral (AAV) treatment resulted in improvements in lifespan, motor function, hearing, time to activity onset, and daytime activity level..."
+   },
+   {
+    "subject": "AAV",
+    "relation": "drug_improves_disease",
+    "object": "motor function",
+    "context": "unspecified",
+    "quote": "Adeno-associated viral (AAV) treatment resulted in improvements in lifespan, motor function, hearing, time to activity onset, and daytime activity level..."
+   },
+   {
+    "subject": "AAV",
+    "relation": "drug_improves_disease",
+    "object": "hearing",
+    "context": "unspecified",
+    "quote": "Adeno-associated viral (AAV) treatment resulted in improvements in lifespan, motor function, hearing, time to activity onset, and daytime activity level..."
+   },
+   {
+    "subject": "AAV",
+    "relation": "drug_improves_disease",
+    "object": "time to activity onset",
+    "context": "unspecified",
+    "quote": "Adeno-associated viral (AAV) treatment resulted in improvements in lifespan, motor function, hearing, time to activity onset, and daytime activity level..."
+   },
+   {
+    "subject": "AAV",
+    "relation": "drug_no_effect_on_disease",
+    "object": "lysosomal storage",
+    "context": "unspecified",
+    "quote": "but no reduction of lysosomal storage."
+   },
+   {
+    "subject": "BMT",
+    "relation": "drug_improves_disease",
+    "object": "hearing",
+    "context": "unspecified",
+    "quote": "BMT resulted in improved hearing by 9 months..."
+   },
+   {
+    "subject": "BMT",
+    "relation": "drug_improves_disease",
+    "object": "circadian measures",
+    "context": "unspecified",
+    "quote": "and improved circadian measures..."
+   },
+   {
+    "subject": "BMT",
+    "relation": "drug_no_effect_on_disease",
+    "object": "lifespan",
+    "context": "unspecified",
+    "quote": "but had no effect on lifespan..."
+   },
+   {
+    "subject": "BMT",
+    "relation": "drug_no_effect_on_disease",
+    "object": "motor function",
+    "context": "unspecified",
+    "quote": "but had no effect on lifespan, motor function..."
+   },
+   {
+    "subject": "BMT",
+    "relation": "drug_no_effect_on_disease",
+    "object": "CNS lysosomal storage",
+    "context": "unspecified",
+    "quote": "...or central nervous system (CNS) lysosomal storage."
+   },
+   {
+    "subject": "AAV/BMT",
+    "relation": "drug_improves_disease",
+    "object": "hearing",
+    "context": "unspecified",
+    "quote": "AAV/BMT treatment resulted in improvements in hearing, time to activity onset, motor function..."
+   },
+   {
+    "subject": "AAV/BMT",
+    "relation": "drug_improves_disease",
+    "object": "time to activity onset",
+    "context": "unspecified",
+    "quote": "AAV/BMT treatment resulted in improvements in hearing, time to activity onset, motor function..."
+   },
+   {
+    "subject": "AAV/BMT",
+    "relation": "drug_improves_disease",
+    "object": "motor function",
+    "context": "unspecified",
+    "quote": "AAV/BMT treatment resulted in improvements in hearing, time to activity onset, motor function..."
+   },
+   {
+    "subject": "AAV/BMT",
+    "relation": "drug_improves_disease",
+    "object": "CNS lysosomal storage",
+    "context": "unspecified",
+    "quote": "but reduced CNS lysosomal storage..."
+   },
+   {
+    "subject": "AAV/BMT",
+    "relation": "drug_no_effect_on_disease",
+    "object": "lifespan",
+    "context": "unspecified",
+    "quote": "...but had no effect on lifespan."
+   },
+   {
+    "subject": "AAV",
+    "relation": "drug_improves_disease",
+    "object": "CNS lysosomal inclusions",
+    "context": "unspecified",
+    "quote": "Combination therapy compared to either therapy alone resulted in synergistic effects on hearing and CNS lysosomal inclusions..."
+   }
+  ]
+ },
+ "4366481|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Sanfilippo A disease",
+    "relation": "disease_has_phenotype",
+    "object": "increased levels of heparan sulphate",
+    "context": "patients",
+    "quote": "Increased levels of heparan sulphate were found in amniotic fluid and fetal liver"
+   },
+   {
+    "subject": "Sanfilippo A disease",
+    "relation": "disease_has_phenotype",
+    "object": "abnormal cytoplasmic inclusions",
+    "context": "patients",
+    "quote": "electronmicroscopy of cultured fetal fibroblasts and fetal liver showed abnormal cytoplasmic inclusions"
+   }
+  ]
+ },
+ "38907160|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "anakinra",
+    "relation": "drug_improves_disease",
+    "object": "Sanfilippo syndrome",
+    "context": "patients",
+    "quote": "anakinra was safe and associated with improved neurobehavioral and functional outcomes"
+   }
+  ]
+ },
+ "17139681|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "MPS IIIB",
+    "relation": "disease_has_phenotype",
+    "object": "profound neurological deterioration",
+    "context": "unspecified",
+    "quote": "Mucopolysaccharidosis IIIB (MPS IIIB; Sanfilippo syndrome type B) is characterized by profound neurological deterioration."
+   }
+  ]
+ },
+ "25466957|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NAGLU",
+    "relation": "gene_causes_disease",
+    "object": "Sanfilippo syndrome",
+    "context": "patients",
+    "quote": "Exome sequencing identified NAGLU as the most likely candidate gene with compound heterozygous mutations (chr17:40695717C\u2009>\u2009T and chr17:40693129A\u2009>\u2009G in hg19 coordinate), which were documented to be pathogenic. Sanger sequencing confirmed the recessive patterns of inheritance, leading to a genetic diagnosis of Sanfilippo syndrome (mucopolysaccharidosis IIIB)."
+   },
+   {
+    "subject": "Sanfilippo syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "idiopathic progressive cognitive decline",
+    "context": "patients",
+    "quote": "two siblings both began to develop idiopathic progressive cognitive decline starting from age six"
+   }
+  ]
+ },
+ "15466084|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "16846011|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "mucopolysaccharidosis type IIIA",
+    "relation": "disease_has_phenotype",
+    "object": "heparan sulfate accumulation, severe and progressive neurological deficits, and usually premature death",
+    "context": "patients",
+    "quote": "In the case of mucopolysaccharidosis type IIIA, a lack of active sulfamidase enzyme results in heparan sulfate accumulation, severe and progressive neurological deficits, and usually premature death."
+   }
+  ]
+ },
+ "8596916|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "X25",
+    "relation": "gene_causes_disease",
+    "object": "Friedreich's ataxia",
+    "context": "patients",
+    "quote": "A few FRDA patients were found to have point mutations in X25, but the majority were homozygous for an unstable GAA trinucleotide expansion in the first X25 intron."
+   }
+  ]
+ },
+ "15176725|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FRDA",
+    "relation": "disease_has_phenotype",
+    "object": "respiratory deficits",
+    "context": "animal_model",
+    "quote": "Respiratory deficits, abnormal cellular iron distribution and increased oxidative damage are associated with frataxin defects in yeast and mouse models of FRDA."
+   },
+   {
+    "subject": "FRDA",
+    "relation": "disease_has_phenotype",
+    "object": "abnormal cellular iron distribution",
+    "context": "animal_model",
+    "quote": "Respiratory deficits, abnormal cellular iron distribution and increased oxidative damage are associated with frataxin defects in yeast and mouse models of FRDA."
+   },
+   {
+    "subject": "FRDA",
+    "relation": "disease_has_phenotype",
+    "object": "increased oxidative damage",
+    "context": "animal_model",
+    "quote": "Respiratory deficits, abnormal cellular iron distribution and increased oxidative damage are associated with frataxin defects in yeast and mouse models of FRDA."
+   }
+  ]
+ },
+ "26856628|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "19305405|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "frataxin",
+    "relation": "gene_causes_disease",
+    "object": "Friedreich's ataxia",
+    "context": "unspecified",
+    "quote": "\"Frataxin is an essential mitochondrial protein whose reduced expression causes Friedreich's ataxia (FRDA)\""
+   }
+  ]
+ },
+ "20339857|gpt-oss:20b|v1": {
+  "claims": [],
+  "error": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "38631900|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FXN",
+    "relation": "gene_causes_disease",
+    "object": "FRDA",
+    "context": "animal_model",
+    "quote": "mitochondrial frataxin (FXN) depletion, the primary cause of Friedreich's ataxia (FRDA)"
+   },
+   {
+    "subject": "butyrate",
+    "relation": "drug_improves_disease",
+    "object": "FRDA",
+    "context": "animal_model",
+    "quote": "treatment with butyrate counteracts these immunometabolic changes, triggering an antioxidant response via the itaconate-Nrf2-GSH pathways and suppressing the expression of inflammatory genes."
+   },
+   {
+    "subject": "FRDA",
+    "relation": "disease_has_phenotype",
+    "object": "impaired coordination and muscle control",
+    "context": "unspecified",
+    "quote": "a debilitating neurodegenerative condition characterized by impaired coordination and muscle control."
+   }
+  ]
+ },
+ "17468497|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "frataxin",
+    "relation": "gene_causes_disease",
+    "object": "Friedreich's ataxia (FRDA)",
+    "context": "unspecified",
+    "quote": "The defective expression of frataxin causes the hereditary neurodegenerative disorder Friedreich's ataxia (FRDA)."
+   }
+  ]
+ },
+ "32826895|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FXN",
+    "relation": "gene_causes_disease",
+    "object": "Friedreich's ataxia",
+    "context": "cell_model",
+    "quote": "Friedreich's ataxia (FRDA) is an autosomal-recessive neurodegenerative and cardiac disorder which occurs when transcription of the FXN gene is silenced due to an excessive expansion of GAA repeats into its first intron."
+   }
+  ]
+ },
+ "16885713|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "frataxin gene",
+    "relation": "gene_causes_disease",
+    "object": "Friedreich's ataxia",
+    "context": "unspecified",
+    "quote": "\"The discovery of the gene for Friedreich's ataxia (FRDA) has not only broadened the FRDA phenotype\""
+   }
+  ]
+ },
+ "25814655|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "33905372|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FXN",
+    "relation": "gene_causes_disease",
+    "object": "pulmonary hypertension",
+    "context": "patients",
+    "quote": "An endothelial subpopulation in rodent and patient lungs across PH subtypes exhibited reduced FXN and elevated senescence."
+   },
+   {
+    "subject": "pharmacologic removal of senescent cells",
+    "relation": "drug_improves_disease",
+    "object": "pulmonary hypertension",
+    "context": "animal_model",
+    "quote": "pharmacologic removal of senescent cells in Fxn-deficient rodents ameliorated PH."
+   }
+  ]
+ },
+ "29744501|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "netropsin",
+    "relation": "drug_worsens_disease",
+    "object": "Friedreich's ataxia",
+    "context": "computational",
+    "quote": "the presence of netropsin in the minor groove destabilises the triplex as expected, reducing the dissociation free energy by approximately 50%."
+   }
+  ]
+ },
+ "28320496|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "21423165|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Shank3",
+    "relation": "gene_causes_disease",
+    "object": "autistic-like behaviours",
+    "context": "animal_model",
+    "quote": "Here we show that mice with Shank3 gene deletions exhibit self\u2011injurious repetitive grooming and deficits in social interaction."
+   }
+  ]
+ },
+ "18505557|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SHANK3",
+    "relation": "gene_causes_disease",
+    "object": "deletion 22q13.3 syndrome",
+    "context": "unspecified",
+    "quote": "the region containing the SHANK3 gene."
+   },
+   {
+    "subject": "deletion 22q13.3 syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "neonatal hypotonia",
+    "context": "unspecified",
+    "quote": "characterized by neonatal hypotonia"
+   },
+   {
+    "subject": "deletion 22q13.3 syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "global developmental delay",
+    "context": "unspecified",
+    "quote": "global developmental delay"
+   },
+   {
+    "subject": "deletion 22q13.3 syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "normal to accelerated growth",
+    "context": "unspecified",
+    "quote": "normal to accelerated growth"
+   }
+  ]
+ },
+ "29619162|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SHANK3",
+    "relation": "gene_causes_disease",
+    "object": "autism spectrum disorder",
+    "context": "unspecified",
+    "quote": "Human genetic and genomic studies have supported a strong causal role of SHANK3 deficiency in autism spectrum disorder (ASD)."
+   }
+  ]
+ },
+ "34313403|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SHANK3",
+    "relation": "gene_causes_disease",
+    "object": "Phelan-McDermid syndrome",
+    "context": "patients",
+    "quote": "Mutations and deletions in the SHANK3 gene cause the major neurodevelopmental features of Phelan-McDermid syndrome"
+   },
+   {
+    "subject": "Phelan-McDermid syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "intellectual disability",
+    "context": "patients",
+    "quote": "Phelan-McDermid syndrome (PMS) is characterized by intellectual disability, autism spectrum disorder, and sensory hyporeactivity"
+   },
+   {
+    "subject": "Phelan-McDermid syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "regional volume reductions",
+    "context": "patients",
+    "quote": "Clinical assessments and limited brain imaging studies of patients with PMS have uncovered regional volume reductions and white matter thinning"
+   }
+  ]
+ },
+ "36564435|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Shank3",
+    "relation": "gene_causes_disease",
+    "object": "Phelan-McDermid syndrome",
+    "context": "patients",
+    "quote": "An example is Phelan-McDermid syndrome, caused by a deletion of the Shank3 gene in one allele of chromosome 22."
+   }
+  ]
+ },
+ "40855273|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SHANK3",
+    "relation": "gene_causes_disease",
+    "object": "Phelan-McDermid Syndrome (PMS)",
+    "context": "patients",
+    "quote": "Phelan-McDermid Syndrome (PMS) is a rare genetic condition characterized by deletion or mutation of region 22q13.3, which includes the SHANK3 gene."
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome (PMS)",
+    "relation": "disease_has_phenotype",
+    "object": "severely impaired or absent expressive language, mildly dysmorphic features, neonatal hypotonia, developmental delays, intellectual impairments, and autistic-like traits including abnormal reactivity to sensory stimuli",
+    "context": "patients",
+    "quote": "Clinical descriptions of this population include severely impaired or absent expressive language, mildly dysmorphic features, neonatal hypotonia, developmental delays, intellectual impairments, and autistic-like traits including abnormal reactivity to sensory stimuli."
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome (PMS)",
+    "relation": "disease_has_phenotype",
+    "object": "impaired processing of stimulus properties",
+    "context": "patients",
+    "quote": "individuals with PMS had delayed or low amplitude P50, N1, and P2 responses in frontal and whole-head analyses as well as poor frontal phase-locking to auditory stimuli for alpha, beta and gamma ITC, indicating impaired processing of stimulus properties."
+   }
+  ]
+ },
+ "30653853|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "34791077|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SHANK3",
+    "relation": "gene_causes_disease",
+    "object": "Phelan-McDermid syndrome",
+    "context": "patients",
+    "quote": "Patients with Phelan-McDermid syndrome (PMS), caused by mutations in the SHANK3 gene, show ASD-like symptoms associated with aberrant tactile responses."
+   },
+   {
+    "subject": "Phelan-McDermid syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "ASD-like symptoms",
+    "context": "patients",
+    "quote": "Patients with Phelan-McDermid syndrome (PMS), caused by mutations in the SHANK3 gene, show ASD-like symptoms associated with aberrant tactile responses."
+   },
+   {
+    "subject": "Phelan-McDermid syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "aberrant tactile responses",
+    "context": "patients",
+    "quote": "Patients with Phelan-McDermid syndrome (PMS), caused by mutations in the SHANK3 gene, show ASD-like symptoms associated with aberrant tactile responses."
+   }
+  ]
+ },
+ "30921255|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "constipation",
+    "context": "patients",
+    "quote": "Parent-reported history of symptoms were common: constipation (65%)"
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "reflux",
+    "context": "patients",
+    "quote": "Parent-reported history of symptoms were common: reflux (59%)"
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "choking/gagging",
+    "context": "patients",
+    "quote": "Parent-reported history of symptoms were common: choking/gagging (41%)"
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "stool incontinence",
+    "context": "patients",
+    "quote": "Stool incontinence was highly prevalent (13/17)"
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "nonretentive incontinence",
+    "context": "patients",
+    "quote": "nonretentive features present in 12/17"
+   }
+  ]
+ },
+ "29760409|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Shank3",
+    "relation": "gene_causes_disease",
+    "object": "autism",
+    "context": "patients",
+    "quote": "Haploinsufficiency of Shank3, which encodes a scaffold protein at glutamatergic synapses, is causally linked to autism."
+   },
+   {
+    "subject": "autism",
+    "relation": "disease_has_phenotype",
+    "object": "social deficits",
+    "context": "patients",
+    "quote": "Autism is a neurodevelopmental disorder characterized by social deficits and repetitive behaviors."
+   },
+   {
+    "subject": "MS-275",
+    "relation": "drug_improves_disease",
+    "object": "autism",
+    "context": "animal_model",
+    "quote": "A brief (3-day) treatment with MS-275 (i.p.) led to the sustained (11 days) rescue of autistic social preference deficits in Shank3-deficient mice"
+   }
+  ]
+ },
+ "34921227|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SHANK3",
+    "relation": "gene_causes_disease",
+    "object": "Phelan-McDermid Syndrome",
+    "context": "unspecified",
+    "quote": "People with Phelan-McDermid Syndrome, caused by mutations in the SHANK3 gene, commonly exhibit reduced responses to sensory stimuli;"
+   },
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "reduced responses to sensory stimuli",
+    "context": "unspecified",
+    "quote": "People with Phelan-McDermid Syndrome, caused by mutations in the SHANK3 gene, commonly exhibit reduced responses to sensory stimuli;"
+   }
+  ]
+ },
+ "40943322|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDKL5 deficiency disorder",
+    "context": "computational",
+    "quote": "Cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder"
+   }
+  ]
+ },
+ "38874638|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "patients",
+    "quote": "CDKL5 deficiency disorder (CDD) is a complex clinical condition resulting from non-functional or absent CDKL5 protein"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "hypotonia",
+    "context": "patients",
+    "quote": "with associated neurological phenotypes, such as hypotonia, movement disorders, visual impairment, and gastrointestinal issues"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "movement disorders",
+    "context": "patients",
+    "quote": "with associated neurological phenotypes, such as hypotonia, movement disorders, visual impairment, and gastrointestinal issues"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "visual impairment",
+    "context": "patients",
+    "quote": "with associated neurological phenotypes, such as hypotonia, movement disorders, visual impairment, and gastrointestinal issues"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "gastrointestinal issues",
+    "context": "patients",
+    "quote": "with associated neurological phenotypes, such as hypotonia, movement disorders, visual impairment, and gastrointestinal issues"
+   },
+   {
+    "subject": "valproic acid",
+    "relation": "drug_no_effect_on_disease",
+    "object": "CDD",
+    "context": "patients",
+    "quote": "Despite extensive polypharmacotherapy, including medications such as valproic acid, clobazam, cannabidiol, and others, sustained seizure freedom proved elusive"
+   },
+   {
+    "subject": "clobazam",
+    "relation": "drug_no_effect_on_disease",
+    "object": "CDD",
+    "context": "patients",
+    "quote": "Despite extensive polypharmacotherapy, including medications such as valproic acid, clobazam, cannabidiol, and others, sustained seizure freedom proved elusive"
+   },
+   {
+    "subject": "cannabidiol",
+    "relation": "drug_no_effect_on_disease",
+    "object": "CDD",
+    "context": "patients",
+    "quote": "Despite extensive polypharmacotherapy, including medications such as valproic acid, clobazam, cannabidiol, and others, sustained seizure freedom proved elusive"
+   }
+  ]
+ },
+ "30266824|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "type": "gene_causes_disease",
+    "subject": "CDKL5",
+    "object": "neurodevelopmental delay",
+    "quote": "Loss-of-function mutations in CDKL5 kinase cause severe neurodevelopmental delay and early-onset seizures.",
+    "context": [
+     "unspecified"
+    ]
+   },
+   {
+    "type": "disease_has_phenotype",
+    "subject": "neurodevelopmental delay",
+    "object": "early-onset seizures",
+    "quote": "Loss-of-function mutations in CDKL5 kinase cause severe neurodevelopmental delay and early-onset seizures.",
+    "context": [
+     "unspecified"
+    ]
+   }
+  ]
+ },
+ "35429480|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "ganaxolone",
+    "relation": "drug_improves_disease",
+    "object": "CDD-associated seizures",
+    "context": "patients",
+    "quote": "Ganaxolone significantly reduced the frequency of CDD-associated seizures compared with placebo"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "severe global developmental impairment and seizures",
+    "context": "unspecified",
+    "quote": "CDDL deficiency disorder (CDD) is a rare, X-linked, developmental and epileptic encephalopathy characterised by severe global developmental impairment and seizures"
+   }
+  ]
+ },
+ "32079229|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDKL5 deficiency disorder",
+    "context": "patients",
+    "quote": "CDKL5 deficiency disorder (CDD) is a complex of clinical symptoms resulting from the presence of non-functional CDKL5 protein"
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "epileptic seizures",
+    "context": "patients",
+    "quote": "epileptic seizures (that start within the first three months of life and most often do not respond to pharmacological treatment)"
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "epileptic encephalopathy",
+    "context": "patients",
+    "quote": "epileptic encephalopathy secondary to seizures"
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "retardation of psychomotor development",
+    "context": "patients",
+    "quote": "retardation of psychomotor development"
+   }
+  ]
+ },
+ "30952813|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "unspecified",
+    "quote": "Pathogenic mutations in cyclin-dependent kinase-like 5 (CDKL5) result in CDKL5 deficiency disorder (CDD)"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "early-life seizures",
+    "context": "unspecified",
+    "quote": "Pathogenic mutations in cyclin-dependent kinase-like 5 (CDKL5) result in CDKL5 deficiency disorder (CDD), a rare disease marked by early-life seizures, autistic behaviors, and intellectual disability."
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "autistic behaviors",
+    "context": "unspecified",
+    "quote": "Pathogenic mutations in cyclin-dependent kinase-like 5 (CDKL5) result in CDKL5 deficiency disorder (CDD), a rare disease marked by early-life seizures, autistic behaviors, and intellectual disability."
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "intellectual disability",
+    "context": "unspecified",
+    "quote": "Pathogenic mutations in cyclin-dependent kinase-like 5 (CDKL5) result in CDKL5 deficiency disorder (CDD), a rare disease marked by early-life seizures, autistic behaviors, and intellectual disability."
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "social deficits",
+    "context": "animal_model",
+    "quote": "adult male R59X mice recapitulated the behavioral outcomes observed in other mouse models of CDD, including social deficits and memory and learning impairments"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "memory and learning impairments",
+    "context": "animal_model",
+    "quote": "adult male R59X mice recapitulated the behavioral outcomes observed in other mouse models of CDD, including social deficits and memory and learning impairments"
+   },
+   {
+    "subject": "IEM-1460",
+    "relation": "drug_improves_disease",
+    "object": "CDD",
+    "context": "animal_model",
+    "quote": "acute treatment with the GluA2-lacking AMPAR blocker IEM-1460 decreased AMPAR currents, and rescued social deficits, working memory impairments, and seizure behavior latency in R59X mice."
+   }
+  ]
+ },
+ "34605059|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "cell_model",
+    "quote": "Mutations in the gene encoding the CDKL5 kinase are among the most common genetic causes of childhood epilepsy and can also give rise to the severe neurodevelopmental condition CDD (CDKL5 deficiency disorder)."
+   },
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "childhood epilepsy",
+    "context": "cell_model",
+    "quote": "Mutations in the gene encoding the CDKL5 kinase are among the most common genetic causes of childhood epilepsy and can also give rise to the severe neurodevelopmental condition CDD (CDKL5 deficiency disorder)."
+   }
+  ]
+ },
+ "34720088|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "unspecified",
+    "quote": "defective neuromaintenance also underlies CDKL5 deficiency disorder (CDD)."
+   }
+  ]
+ },
+ "37201242|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDKL5 deficiency disorder",
+    "context": "unspecified",
+    "quote": "Cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder (CDD) has epilepsy as a cardinal feature."
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "epilepsy",
+    "context": "unspecified",
+    "quote": "Cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder (CDD) has epilepsy as a cardinal feature."
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "milder gross motor delays",
+    "context": "unspecified",
+    "quote": "In contrast with the classical and severe CDD phenotype, they presented with milder gross motor delays, autism spectrum disorder, and no visual cortical impairment."
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "autism spectrum disorder",
+    "context": "unspecified",
+    "quote": "In contrast with the classical and severe CDD phenotype, they presented with milder gross motor delays, autism spectrum disorder, and no visual cortical impairment."
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "no visual cortical impairment",
+    "context": "unspecified",
+    "quote": "In contrast with the classical and severe CDD phenotype, they presented with milder gross motor delays, autism spectrum disorder, and no visual cortical impairment."
+   }
+  ]
+ },
+ "32585155|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "patients",
+    "quote": "CDKL5 deficiency disorder (CDD) is a devastating neurodevelopmental disorder characterized by early-onset epilepsy, severe intellectual disability, cortical visual impairment and motor disabilities."
+   }
+  ]
+ },
+ "38326557|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDKL5 deficiency disorder",
+    "context": "unspecified",
+    "quote": "CDKL5 is a brain\u2011enriched serine/threonine kinase, associated with a profound developmental and epileptic encephalopathy called CDKL5 deficiency disorder (CDD)."
+   }
+  ]
+ },
+ "38251311|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "38447580|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "37708259|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "10720276|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "18677643|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "41558486|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CLN3",
+    "relation": "gene_causes_disease",
+    "object": "Batten disease",
+    "context": "unspecified",
+    "quote": "CLN3 (ceroid lipofuscinosis, neuronal 3), an endolysosomal protein that is linked to Batten disease"
+   }
+  ]
+ },
+ "24664736|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "9458173|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CLN1",
+    "relation": "gene_causes_disease",
+    "object": "INCL",
+    "context": "unspecified",
+    "quote": "The disease causing genes in both INCL and classical LINCL have been shown to encode lysosomal enzymes"
+   },
+   {
+    "subject": "CLN2",
+    "relation": "gene_causes_disease",
+    "object": "LINCL",
+    "context": "unspecified",
+    "quote": "The disease causing genes in both INCL and classical LINCL have been shown to encode lysosomal enzymes"
+   }
+  ]
+ },
+ "25387857|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "10913725|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "sleep disorders",
+    "context": "patients",
+    "quote": "In juvenile neuronal ceroid-lipofuscinosis (JNCL), sleep disorders are common."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "decreased total sleep time",
+    "context": "patients",
+    "quote": "In most of the patients, the total sleep time, sleep efficiency, and percentages of rapid eye movement (REM) and non-REM (NREM) stage 2 sleep were significantly decreased..."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "decreased sleep efficiency",
+    "context": "patients",
+    "quote": "In most of the patients, the total sleep time, sleep efficiency, and percentages of rapid eye movement (REM) and non-REM (NREM) stage 2 sleep were significantly decreased..."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "decreased percentages of REM sleep",
+    "context": "patients",
+    "quote": "In most of the patients, the total sleep time, sleep efficiency, and percentages of rapid eye movement (REM) and non-REM (NREM) stage 2 sleep were significantly decreased..."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "decreased percentages of NREM stage 2 sleep",
+    "context": "patients",
+    "quote": "In most of the patients, the total sleep time, sleep efficiency, and percentages of rapid eye movement (REM) and non-REM (NREM) stage 2 sleep were significantly decreased..."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "increased percentages of NREM stage 1 sleep",
+    "context": "patients",
+    "quote": "...and the percentages of NREM stage 1 and slow-wave sleep and the number of nocturnal awakenings significantly increased."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "increased slow-wave sleep",
+    "context": "patients",
+    "quote": "...and the percentages of NREM stage 1 and slow-wave sleep and the number of nocturnal awakenings significantly increased."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "increased number of nocturnal awakenings",
+    "context": "patients",
+    "quote": "...and the percentages of NREM stage 1 and slow-wave sleep and the number of nocturnal awakenings significantly increased."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "paroxysmal epileptiform activity during light sleep",
+    "context": "patients",
+    "quote": "Paroxysmal epileptiform activity during light sleep (NREM stages 1-2) and high-amplitude delta-wave activity with intermingled sharp waves during slow-wave sleep were characteristic of the recordings."
+   },
+   {
+    "subject": "juvenile neuronal ceroid-lipofuscinosis",
+    "relation": "disease_has_phenotype",
+    "object": "high-amplitude delta-wave activity with intermingled sharp waves during slow-wave sleep",
+    "context": "patients",
+    "quote": "Paroxysmal epileptiform activity during light sleep (NREM stages 1-2) and high-amplitude delta-wave activity with intermingled sharp waves during slow-wave sleep were characteristic of the recordings."
+   }
+  ]
+ },
+ "11588990|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "27629717|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CLN3",
+    "relation": "gene_causes_disease",
+    "object": "juvenile neuronal ceroid lipofuscinosis (JNCL)",
+    "context": "unspecified",
+    "quote": "Juvenile neuronal ceroid lipofuscinosis (JNCL) is a fatal lysosomal storage disease caused by autosomal-recessive mutations in CLN3 for which no treatment exists."
+   },
+   {
+    "subject": "scAAV9/MeCP2-hCLN3",
+    "relation": "drug_improves_disease",
+    "object": "juvenile neuronal ceroid lipofuscinosis (JNCL)",
+    "context": "animal_model",
+    "quote": "only the scAAV9 construct driving low CLN3 expression (scAAV9/MeCP2-hCLN3) corrected motor deficits and attenuated microglial and astrocyte activation and lysosomal pathology."
+   },
+   {
+    "subject": "scAAV9/\u03b2-actin-hCLN3",
+    "relation": "drug_no_effect_on_disease",
+    "object": "juvenile neuronal ceroid lipofuscinosis (JNCL)",
+    "context": "animal_model",
+    "quote": "a disconnect occurred between CLN3 levels and disease improvement, because only the scAAV9 construct driving low CLN3 expression (scAAV9/MeCP2-hCLN3) corrected motor deficits and attenuated microglial and astrocyte activation and lysosomal pathology."
+   }
+  ]
+ },
+ "25051496|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CLN3",
+    "relation": "gene_causes_disease",
+    "object": "Juvenile neuronal ceroid lipofuscinosis",
+    "context": "unspecified",
+    "quote": "Juvenile neuronal ceroid lipofuscinosis (JNCL) is caused by mutations in the CLN3 gene"
+   }
+  ]
+ },
+ "28379373|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "epilepsies",
+    "context": "unspecified",
+    "quote": "Mutations in SCN2A, a gene encoding the voltage-gated sodium channel Nav1.2, have been associated with a spectrum of epilepsies and neurodevelopmental disorders."
+   },
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "neurodevelopmental disorders",
+    "context": "unspecified",
+    "quote": "Mutations in SCN2A, a gene encoding the voltage-gated sodium channel Nav1.2, have been associated with a spectrum of epilepsies and neurodevelopmental disorders."
+   },
+   {
+    "subject": "sodium channel blockers",
+    "relation": "drug_improves_disease",
+    "object": "early infantile epilepsies",
+    "context": "patients",
+    "quote": "We find that the use of sodium channel blockers was often associated with clinically relevant seizure reduction or seizure freedom in children with early infantile epilepsies (<3 months)."
+   },
+   {
+    "subject": "sodium channel blockers",
+    "relation": "drug_no_effect_on_disease",
+    "object": "late onset epilepsies",
+    "context": "patients",
+    "quote": "In contrast, sodium channel blockers were rarely effective in epilepsies with later onset (\u22653 months) and sometimes induced seizure worsening."
+   },
+   {
+    "subject": "sodium channel blockers",
+    "relation": "drug_worsens_disease",
+    "object": "late onset epilepsies",
+    "context": "patients",
+    "quote": "In contrast, sodium channel blockers were rarely effective in epilepsies with later onset (\u22653 months) and sometimes induced seizure worsening."
+   }
+  ]
+ },
+ "38651838|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "SCN2A-related disorders",
+    "context": "patients",
+    "quote": "SCN2A-related disorders secondary to altered function in the voltage-gated sodium channel Nav1.2 are rare, with clinically heterogeneous expressions that include epilepsy, autism and multiple severe to profound impairments and other conditions."
+   },
+   {
+    "subject": "SCN2A-related disorders",
+    "relation": "disease_has_phenotype",
+    "object": "epilepsy",
+    "context": "patients",
+    "quote": "SCN2A-related disorders secondary to altered function in the voltage-gated sodium channel Nav1.2 are rare, with clinically heterogeneous expressions that include epilepsy, autism and multiple severe to profound impairments and other conditions."
+   },
+   {
+    "subject": "SCN2A-related disorders",
+    "relation": "disease_has_phenotype",
+    "object": "autism",
+    "context": "patients",
+    "quote": "SCN2A-related disorders secondary to altered function in the voltage-gated sodium channel Nav1.2 are rare, with clinically heterogeneous expressions that include epilepsy, autism and multiple severe to profound impairments and other conditions."
+   }
+  ]
+ },
+ "32090326|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "sodium channel blockers",
+    "relation": "drug_improves_disease",
+    "object": "early onset epilepsy (<3 months)",
+    "context": "patients",
+    "quote": "most frequently present with early onset epilepsy (<3\u00a0months), and demonstrate good response to sodium channel blockers (SCBs)."
+   }
+  ]
+ },
+ "27830185|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FHF1",
+    "relation": "gene_causes_disease",
+    "object": "EE",
+    "context": "patients",
+    "quote": "Recently, a de novo FHF1 mutation (p.R52H) was reported in early-onset EE in 2 siblings."
+   }
+  ]
+ },
+ "35310859|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "autism spectrum disorder",
+    "context": "unspecified",
+    "quote": "\"loss-of-function variants of SCN2A is a leading cause for autism spectrum disorder as well as intellectual disability.\""
+   },
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "intellectual disability",
+    "context": "unspecified",
+    "quote": "\"loss-of-function variants of SCN2A is a leading cause for autism spectrum disorder as well as intellectual disability.\""
+   },
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "epilepsy",
+    "context": "unspecified",
+    "quote": "\"Gain of Function variants of SCN2A results in unprovoked seizures and epilepsy,\""
+   },
+   {
+    "subject": "sodium-channel blockers",
+    "relation": "drug_worsens_disease",
+    "object": "epilepsy",
+    "context": "unspecified",
+    "quote": "\"using sodium-channel blockers simply exacerbates the seizure\""
+   }
+  ]
+ },
+ "39707911|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "malformation of cortical development",
+    "context": "patients",
+    "quote": "Here, we identified seven de novo heterozygous variants in SCN2A in eight individuals with developmental and epileptic encephalopathy (DEE) accompanied by prominent malformation of cortical development (MCD)."
+   },
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "developmental and epileptic encephalopathy",
+    "context": "patients",
+    "quote": "Here, we identified seven de novo heterozygous variants in SCN2A in eight individuals with developmental and epileptic encephalopathy (DEE) accompanied by prominent malformation of cortical development (MCD)."
+   }
+  ]
+ },
+ "35417922|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "40808385|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STK-001",
+    "relation": "drug_improves_disease",
+    "object": "Dravet syndrome",
+    "context": "unspecified",
+    "quote": "These two agents provide targeted therapeutic solutions for Dravet syndrome."
+   },
+   {
+    "subject": "ETX101",
+    "relation": "drug_improves_disease",
+    "object": "Dravet syndrome",
+    "context": "unspecified",
+    "quote": "These two agents provide targeted therapeutic solutions for Dravet syndrome."
+   },
+   {
+    "subject": "PRAX-222",
+    "relation": "drug_improves_disease",
+    "object": "SCN2A gain-of-function mutation-related epilepsy",
+    "context": "unspecified",
+    "quote": "including PRAX-222 (for SCN2A gain-of-function mutation-related epilepsy), which has received Food and Drug Administration orphan drug designation"
+   },
+   {
+    "subject": "NBI-921352",
+    "relation": "drug_improves_disease",
+    "object": "SCN8A-related epilepsy",
+    "context": "unspecified",
+    "quote": "the selective Nav1.6 inhibitor NBI-921352 (for SCN8A -related epilepsy)"
+   }
+  ]
+ },
+ "27882351|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Scn2a",
+    "relation": "gene_causes_disease",
+    "object": "experimental autoimmune encephalomyelitis",
+    "context": "animal_model",
+    "quote": "In mutant mice, CNS inflammation during EAE leads to elevated neuroaxonal degeneration and increased disability and lethality compared with wild-type littermate controls."
+   },
+   {
+    "subject": "experimental autoimmune encephalomyelitis",
+    "relation": "disease_has_phenotype",
+    "object": "neuroaxonal degeneration",
+    "context": "animal_model",
+    "quote": "In mutant mice, CNS inflammation during EAE leads to elevated neuroaxonal degeneration and increased disability and lethality compared with wild-type littermate controls."
+   }
+  ]
+ },
+ "33731876|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "relation": "gene_causes_disease",
+    "subject": "SCN2A",
+    "object": "neurodevelopmental phenotypes",
+    "quote": "Pathogenic variants in SCN2A cause a wide range of neurodevelopmental phenotypes.",
+    "context": "literature"
+   }
+  ]
+ },
+ "40540154|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "carbamazepine",
+    "relation": "drug_improves_disease",
+    "object": "epilepsy",
+    "context": "cell_model",
+    "quote": "the application of patient-derived COs for preclinical drug testing using the MEA showed that they exhibit differential responses to various anti-seizure drugs and respond well to carbamazepine."
+   }
+  ]
+ },
+ "31558572|gpt-oss:20b|v1": {
+  "claims": [],
+  "error": "Expecting value: line 1 column 1 (char 0)"
+ },
+ "35982159|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NAV3",
+    "relation": "gene_causes_disease",
+    "object": "autism",
+    "context": "patients",
+    "quote": "The association of NAV3 with autism risk is primarily driven by rare inherited loss-of-function (LoF) variants, with an estimated relative risk of 4, consistent with moderate effect."
+   },
+   {
+    "subject": "ITSN1",
+    "relation": "gene_causes_disease",
+    "object": "autism",
+    "context": "patients",
+    "quote": "Autistic individuals with LoF variants in the four moderate-risk genes (NAV3, ITSN1, SCAF1 and HNRNPUL2; n\u2009=\u200995) have less cognitive impairment than 129 autistic individuals with LoF variants in highly penetrant genes"
+   },
+   {
+    "subject": "SCAF1",
+    "relation": "gene_causes_disease",
+    "object": "autism",
+    "context": "patients",
+    "quote": "Autistic individuals with LoF variants in the four moderate-risk genes (NAV3, ITSN1, SCAF1 and HNRNPUL2; n\u2009=\u200995) have less cognitive impairment than 129 autistic individuals with LoF variants in highly penetrant genes"
+   },
+   {
+    "subject": "HNRNPUL2",
+    "relation": "gene_causes_disease",
+    "object": "autism",
+    "context": "patients",
+    "quote": "Autistic individuals with LoF variants in the four moderate-risk genes (NAV3, ITSN1, SCAF1 and HNRNPUL2; n\u2009=\u200995) have less cognitive impairment than 129 autistic individuals with LoF variants in highly penetrant genes"
+   }
+  ]
+ },
+ "40963013|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "neurodevelopmental disorder",
+    "context": "unspecified",
+    "quote": "\"SCN2A haploinsufficiency is one of the most frequent causes of neurodevelopmental disorder\""
+   },
+   {
+    "subject": "neurodevelopmental disorder",
+    "relation": "disease_has_phenotype",
+    "object": "autism spectrum disorder",
+    "context": "unspecified",
+    "quote": "\"often presenting with autism spectrum disorder, intellectual disability and, in a subset of children, refractory epilepsy\""
+   },
+   {
+    "subject": "neurodevelopmental disorder",
+    "relation": "disease_has_phenotype",
+    "object": "intellectual disability",
+    "context": "unspecified",
+    "quote": "\"often presenting with autism spectrum disorder, intellectual disability and, in a subset of children, refractory epilepsy\""
+   },
+   {
+    "subject": "neurodevelopmental disorder",
+    "relation": "disease_has_phenotype",
+    "object": "refractory epilepsy",
+    "context": "unspecified",
+    "quote": "\"often presenting with autism spectrum disorder, intellectual disability and, in a subset of children, refractory epilepsy\""
+   },
+   {
+    "subject": "\"a adeno-associated virus CRISPRa-based treatment\"",
+    "relation": "drug_improves_disease",
+    "object": "SCN2A haploinsufficiency",
+    "context": "animal_model",
+    "quote": "\"using an adeno-associated virus CRISPRa-based treatment in adolescent mice, we show that we can correct intrinsic and synaptic deficits in neocortical pyramidal cells, a major cell type that contributes to neurodevelopmental disorders and seizure aetiology in SCN2A haploinsufficiency\""
+   },
+   {
+    "subject": "\"a adeno-associated virus CRISPRa-based treatment\"",
+    "relation": "drug_improves_disease",
+    "object": "chemoconvulsant-induced seizures",
+    "context": "animal_model",
+    "quote": "\"systemic delivery of CRISPRa protects Scn2a+/- mice against chemoconvulsant-induced seizures\""
+   }
+  ]
+ },
+ "31230762|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "ASD",
+    "context": "cell_model",
+    "quote": "ASD-associated SCN2A mutations impair the encoded protein NaV1.2"
+   }
+  ]
+ },
+ "40645182|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Scn2a",
+    "relation": "gene_causes_disease",
+    "object": "autistic-like behaviors",
+    "context": "animal_model",
+    "quote": "Scn2a loss in VTA DANs alone causes autistic-like behaviors"
+   },
+   {
+    "subject": "levodopa",
+    "relation": "drug_improves_disease",
+    "object": "non-motor behavior deficits",
+    "context": "animal_model",
+    "quote": "acute treatment with levodopa alleviates non-motor behavior deficits"
+   }
+  ]
+ },
+ "26196440|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "38290518|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "autism spectrum disorder",
+    "relation": "disease_has_phenotype",
+    "object": "neocortical pyramidal cell dendritic dysfunction",
+    "context": "unspecified",
+    "quote": "neocortical pyramidal cell dendritic dysfunction"
+   }
+  ]
+ },
+ "38425576|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN1B",
+    "relation": "gene_causes_disease",
+    "object": "developmental and epileptic encephalopathy 52",
+    "context": "unspecified",
+    "quote": "\"Biallelic pathogenic variants in SCN1B, encoding \u03b21, are linked to developmental and epileptic encephalopathy 52\""
+   },
+   {
+    "subject": "developmental and epileptic encephalopathy 52",
+    "relation": "disease_has_phenotype",
+    "object": "Dravet syndrome",
+    "context": "unspecified",
+    "quote": "\"with clinical features overlapping Dravet syndrome\""
+   }
+  ]
+ },
+ "36061363|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "38884729|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "NKX2-5",
+    "relation": "gene_causes_disease",
+    "object": "VSD",
+    "context": "patients",
+    "quote": "Mutations in genes encoding cardiac transcription factors (e.g., NKX2-5 and GATA4) and signaling molecules (e.g., CFC1) have been most frequently found in VSD cases."
+   },
+   {
+    "subject": "GATA4",
+    "relation": "gene_causes_disease",
+    "object": "VSD",
+    "context": "patients",
+    "quote": "Mutations in genes encoding cardiac transcription factors (e.g., NKX2-5 and GATA4) and signaling molecules (e.g., CFC1) have been most frequently found in VSD cases."
+   },
+   {
+    "subject": "CFC1",
+    "relation": "gene_causes_disease",
+    "object": "VSD",
+    "context": "patients",
+    "quote": "Mutations in genes encoding cardiac transcription factors (e.g., NKX2-5 and GATA4) and signaling molecules (e.g., CFC1) have been most frequently found in VSD cases."
+   }
+  ]
+ },
+ "1951465|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "29683947|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FGFR1",
+    "relation": "gene_causes_disease",
+    "object": "encephalocraniocutaneous lipomatosis",
+    "context": "patients",
+    "quote": "Targeted sequencing of tissue from the right gluteal mass, revealed a mosaic activating FGFR1 c.1966A>G (p.Lys656Glu) mutation, absent in normal left gluteal tissue, confirming the diagnosis of encephalocraniocutaneous lipomatosis"
+   },
+   {
+    "subject": "encephalocraniocutaneous lipomatosis",
+    "relation": "disease_has_phenotype",
+    "object": "hairless fatty tissue nevus of the scalp",
+    "context": "patients",
+    "quote": "On examination, he was found to have a hairless fatty tissue nevus of the scalp (nevus psiloliparus)"
+   },
+   {
+    "subject": "encephalocraniocutaneous lipomatosis",
+    "relation": "disease_has_phenotype",
+    "object": "subcutaneous soft tissue masses on the right side of his face, neck, mandible and right buttock",
+    "context": "patients",
+    "quote": "subcutaneous soft tissue masses on the right side of his face, neck, mandible and right buttock"
+   },
+   {
+    "subject": "encephalocraniocutaneous lipomatosis",
+    "relation": "disease_has_phenotype",
+    "object": "epibulbar dermoid of the right eye",
+    "context": "patients",
+    "quote": "epibulbar dermoid of the right eye (choristoma)"
+   },
+   {
+    "subject": "trametinib",
+    "relation": "drug_improves_disease",
+    "object": "encephalocraniocutaneous lipomatosis",
+    "context": "patients",
+    "quote": "He was started on trametinib, a MEK inhibitor, off-label, targeting the MAPK pathway downstream from FGFR1, with stable tumor size at last follow-up, after 6 months on therapy"
+   }
+  ]
+ },
+ "24458522|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "20694012|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CBL",
+    "relation": "gene_causes_disease",
+    "object": "juvenile myelomonocytic leukemia (JMML)",
+    "context": "patients",
+    "quote": "We describe a dominant developmental disorder resulting from germline missense CBL mutations, which is characterized by impaired growth, developmental delay, cryptorchidism and a predisposition to juvenile myelomonocytic leukemia (JMML)."
+   },
+   {
+    "subject": "juvenile myelomonocytic leukemia (JMML)",
+    "relation": "disease_has_phenotype",
+    "object": "vasculitis",
+    "context": "patients",
+    "quote": "Some individuals experienced spontaneous regression of their JMML but developed vasculitis later in life."
+   }
+  ]
+ },
+ "24101678|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "neurofibromatosis type 1",
+    "relation": "disease_has_phenotype",
+    "object": "autism traits",
+    "context": "patients",
+    "quote": "Each of the four major RASopathies showed evidence for increased qualitative and quantitative autism traits compared with sibling controls."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "autism traits",
+    "context": "patients",
+    "quote": "Each of the four major RASopathies showed evidence for increased qualitative and quantitative autism traits compared with sibling controls."
+   },
+   {
+    "subject": "Costello syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "autism traits",
+    "context": "patients",
+    "quote": "Each of the four major RASopathies showed evidence for increased qualitative and quantitative autism traits compared with sibling controls."
+   },
+   {
+    "subject": "cardio\u2011facio\u2011cutaneous syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "autism traits",
+    "context": "patients",
+    "quote": "Each of the four major RASopathies showed evidence for increased qualitative and quantitative autism traits compared with sibling controls."
+   },
+   {
+    "subject": "autism traits in the RASopathies",
+    "relation": "disease_has_phenotype",
+    "object": "male bias",
+    "context": "patients",
+    "quote": "autism-like impairment showed a male bias similar to idiopathic ASDs."
+   }
+  ]
+ },
+ "32753483|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "I24N",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants I24N",
+    "context": "unspecified"
+   },
+   {
+    "subject": "T50I",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants T50I",
+    "context": "unspecified"
+   },
+   {
+    "subject": "V152G",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants V152G",
+    "context": "unspecified"
+   },
+   {
+    "subject": "D153V",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants D153V",
+    "context": "unspecified"
+   },
+   {
+    "subject": "V14I",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants-V14I",
+    "context": "unspecified"
+   },
+   {
+    "subject": "T58I",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants-T58I",
+    "context": "unspecified"
+   },
+   {
+    "subject": "G60E",
+    "object": "Noonan syndrome",
+    "relation": "gene_causes_disease",
+    "quote": "Noonan syndrome Ras mutants-G60E",
+    "context": "unspecified"
+   }
+  ]
+ },
+ "18032860|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "28144274|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "short stature",
+    "context": "patients",
+    "quote": "Various symptoms have been reported for this abnormality such as short stature, unusual facial characteristics, congenital heart abnormalities, developmental complications, and an elevated tumor incidence rate."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "unusual facial characteristics",
+    "context": "patients",
+    "quote": "Various symptoms have been reported for this abnormality such as short stature, unusual facial characteristics, congenital heart abnormalities, developmental complications, and an elevated tumor incidence rate."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "congenital heart abnormalities",
+    "context": "patients",
+    "quote": "Various symptoms have been reported for this abnormality such as short stature, unusual facial characteristics, congenital heart abnormalities, developmental complications, and an elevated tumor incidence rate."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "developmental complications",
+    "context": "patients",
+    "quote": "Various symptoms have been reported for this abnormality such as short stature, unusual facial characteristics, congenital heart abnormalities, developmental complications, and an elevated tumor incidence rate."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "elevated tumor incidence rate",
+    "context": "patients",
+    "quote": "Various symptoms have been reported for this abnormality such as short stature, unusual facial characteristics, congenital heart abnormalities, developmental complications, and an elevated tumor incidence rate."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "leukemia",
+    "context": "patients",
+    "quote": "Patients with NS also have higher risk for leukemia and specific solid tumors."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "specific solid tumors",
+    "context": "patients",
+    "quote": "Patients with NS also have higher risk for leukemia and specific solid tumors."
+   }
+  ]
+ },
+ "31825160|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "7722055|gpt-oss:20b|v1": {
+  "claims": [],
+  "error": "'list' object has no attribute 'get'"
+ },
+ "37969032|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "29469822|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "LZTR1",
+    "relation": "gene_causes_disease",
+    "object": "Noonan syndrome",
+    "context": "patients",
+    "quote": "LZTR1, previously shown to harbor mutations in patients with Noonan syndrome inherited in a dominant pattern."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "cardiac disease",
+    "context": "patients",
+    "quote": "cardiac disease and leukemia."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "leukemia",
+    "context": "patients",
+    "quote": "cardiac disease and leukemia."
+   }
+  ]
+ },
+ "6884370|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "Telecanthus",
+    "context": "patients",
+    "quote": "Telecanthus"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "low-set ears",
+    "context": "patients",
+    "quote": "low-set ears"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "epicanthus",
+    "context": "patients",
+    "quote": "epicanthus"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "facial asymmetry",
+    "context": "patients",
+    "quote": "facial asymmetry"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "Pterygium colli",
+    "context": "patients",
+    "quote": "Pterygium colli"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "pectus excavatum-carinatum",
+    "context": "patients",
+    "quote": "pectus excavatum-carinatum"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "mild physical and mental retardation",
+    "context": "patients",
+    "quote": "mild physical and mental retardation"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "Pulmonary stenosis",
+    "context": "patients",
+    "quote": "Pulmonary stenosis"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "patent ductus arteriosus",
+    "context": "patients",
+    "quote": "patent ductus arteriosus"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "wide QRS",
+    "context": "patients",
+    "quote": "wide QRS"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "left axis deviation",
+    "context": "patients",
+    "quote": "left axis deviation"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "giant Q waves",
+    "context": "patients",
+    "quote": "giant Q waves"
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "negative pattern in V6",
+    "context": "patients",
+    "quote": "negative pattern in V6"
+   }
+  ]
+ },
+ "7501563|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "35979676|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SOS2",
+    "relation": "gene_causes_disease",
+    "object": "lymphatic anomalies",
+    "context": "patients",
+    "quote": "Genotype-phenotype correlations showed an especially high prevalence of lymphatic anomalies during infancy and childhood in patients with a pathogenic SOS2 variant"
+   }
+  ]
+ },
+ "31115193|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "ptpn11",
+    "relation": "gene_causes_disease",
+    "object": "Noonan Syndrome",
+    "context": "patients",
+    "quote": "Identification of the first genetic cause of Noonan Syndrome, mutation of ptpn11 was reported in 2001."
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "valvular pulmonary stenosis",
+    "context": "patients",
+    "quote": "a number of children with valvular pulmonary stenosis had similar facial features."
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "short stature",
+    "context": "patients",
+    "quote": "short stature"
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "hypertelorism",
+    "context": "patients",
+    "quote": "hypertelorism"
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "ptosis",
+    "context": "patients",
+    "quote": "ptosis"
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "mild mental retardation",
+    "context": "patients",
+    "quote": "mild mental retardation"
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "undescended testes",
+    "context": "patients",
+    "quote": "undescended testes"
+   },
+   {
+    "subject": "Noonan Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "skeletal malformations",
+    "context": "patients",
+    "quote": "skeletal malformations"
+   }
+  ]
+ },
+ "31115199|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "PTPN11",
+    "relation": "gene_causes_disease",
+    "object": "pulmonary stenosis",
+    "context": "unspecified",
+    "quote": "pulmonary stenosis is the most common structural abnormality and more likely to be seen in PTPN11 mutations."
+   },
+   {
+    "subject": "RAF1",
+    "relation": "gene_causes_disease",
+    "object": "hypertrophic cardiomyopathy",
+    "context": "unspecified",
+    "quote": "Hypertrophic cardiomyopathy is the second most common and is more often associated with RAF1 mutations."
+   }
+  ]
+ },
+ "33089815|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "widely spaced eyes",
+    "context": "patients",
+    "quote": "Widely spaced eyes were the most common finding from the digital facial analysis technology used in this study."
+   }
+  ]
+ },
+ "27619028|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "7640194|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "39003740|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "LZTR1",
+    "relation": "gene_causes_disease",
+    "object": "hypertrophic cardiomyopathy",
+    "context": "patients",
+    "quote": "Noonan syndrome patients harboring causative variants in LZTR1 are particularly at risk to develop severe and early-onset hypertrophic cardiomyopathy."
+   },
+   {
+    "subject": "hypertrophic cardiomyopathy",
+    "relation": "disease_has_phenotype",
+    "object": "severe and early-onset",
+    "context": "patients",
+    "quote": "Noonan syndrome patients harboring causative variants in LZTR1 are particularly at risk to develop severe and early-onset hypertrophic cardiomyopathy."
+   }
+  ]
+ },
+ "7424572|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "29907801|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "32381719|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "ATP7A",
+    "relation": "gene_causes_disease",
+    "object": "Menkes disease",
+    "context": "unspecified",
+    "quote": "Loss-of-function mutations in the copper (Cu) transporter ATP7A cause Menkes disease."
+   },
+   {
+    "subject": "Menkes disease",
+    "relation": "disease_has_phenotype",
+    "object": "progressive neurological injury culminating in death, typically by 3 years of age",
+    "context": "unspecified",
+    "quote": "Menkes is an infantile, fatal, hereditary copper-deficiency disorder that is characterized by progressive neurological injury culminating in death, typically by 3 years of age."
+   },
+   {
+    "subject": "Menkes disease",
+    "relation": "disease_has_phenotype",
+    "object": "impaired energy generation caused by cytochrome c oxidase dysfunction in the mitochondria",
+    "context": "unspecified",
+    "quote": "Severe copper deficiency leads to multiple pathologies, including impaired energy generation caused by cytochrome c oxidase dysfunction in the mitochondria."
+   },
+   {
+    "subject": "elesclomol",
+    "relation": "drug_improves_disease",
+    "object": "severe Menkes disease",
+    "context": "patients",
+    "quote": "elesclomol prevented detrimental neurodegenerative changes and improved the survival of the mottled-brindled mouse-a murine model of severe Menkes disease."
+   }
+  ]
+ },
+ "15148156|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "copper deficiency myelopathy",
+    "relation": "disease_has_phenotype",
+    "object": "progressive spastic-ataxic gait",
+    "context": "patients",
+    "quote": "They developed a progressive spastic-ataxic gait"
+   },
+   {
+    "subject": "copper deficiency myelopathy",
+    "relation": "disease_has_phenotype",
+    "object": "proprioceptive deficits",
+    "context": "patients",
+    "quote": "with proprioceptive deficits"
+   },
+   {
+    "subject": "copper deficiency myelopathy",
+    "relation": "disease_has_phenotype",
+    "object": "posterior column dysfunction",
+    "context": "patients",
+    "quote": "All patients had evidence of posterior column dysfunction clinically and on somatosensory evoked potential studies"
+   },
+   {
+    "subject": "copper deficiency myelopathy",
+    "relation": "disease_has_phenotype",
+    "object": "posterior column signal change",
+    "context": "patients",
+    "quote": "had a signal change in the posterior column on magnetic resonance imaging of the spinal cord"
+   }
+  ]
+ },
+ "97372|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Menkes' disease",
+    "relation": "disease_has_phenotype",
+    "object": "EEGs were severely abnormal",
+    "context": "patients",
+    "quote": "All EEGs were severely abnormal"
+   },
+   {
+    "subject": "Menkes' disease",
+    "relation": "disease_has_phenotype",
+    "object": "EEGs resembled hypsarrhythmic patterns at age 5 months",
+    "context": "patients",
+    "quote": "From the age of 5 months, the EEGs resembled hypsarrhythmic patterns"
+   },
+   {
+    "subject": "Menkes' disease",
+    "relation": "disease_has_phenotype",
+    "object": "ERG was not affected",
+    "context": "patients",
+    "quote": "The ERG was not affected in any patient"
+   },
+   {
+    "subject": "Menkes' disease",
+    "relation": "disease_has_phenotype",
+    "object": "VEP was either of low amplitude or completely absent in all but one of the six patients tested",
+    "context": "patients",
+    "quote": "the VEP was either of low amplitude or completely absent in all but one of the six patients tested"
+   },
+   {
+    "subject": "copper injections",
+    "relation": "drug_no_effect_on_disease",
+    "object": "clinical course of the disease",
+    "context": "patients",
+    "quote": "All eight patients received copper injections without substantial effect on either the clinical course of the disease"
+   },
+   {
+    "subject": "copper injections",
+    "relation": "drug_no_effect_on_disease",
+    "object": "EEG features",
+    "context": "patients",
+    "quote": "All eight patients received copper injections without substantial effect on either the clinical course of the disease or the EEG features"
+   }
+  ]
+ },
+ "1999344|gpt-oss:20b|v1": {
+  "claims": [],
+  "error": "'list' object has no attribute 'get'"
+ },
+ "29675083|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "ATP7A",
+    "relation": "gene_causes_disease",
+    "object": "Menkes disease",
+    "context": "patients",
+    "quote": "due to mutations in the X linked ATP7A gene."
+   },
+   {
+    "subject": "Menkes disease",
+    "relation": "disease_has_phenotype",
+    "object": "failure to thrive",
+    "context": "patients",
+    "quote": "These patients can present with failure to thrive, severe psychomotor retardation, seizures and hypopigmented hair"
+   }
+  ]
+ },
+ "15949155|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "27399171|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "28751535|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "ATP7B",
+    "relation": "gene_causes_disease",
+    "object": "Wilson's disease",
+    "context": "unspecified",
+    "quote": "The copper metabolism disorder Wilson's disease (WD) is one such condition that is caused by mutations in the ATP7B gene."
+   },
+   {
+    "subject": "Wilson's disease",
+    "relation": "disease_has_phenotype",
+    "object": "liver disease",
+    "context": "unspecified",
+    "quote": "Although liver disease is the most common presenting feature in children, some children may initially present with a subtle neurological presentation only."
+   },
+   {
+    "subject": "Wilson's disease",
+    "relation": "disease_has_phenotype",
+    "object": "neurological presentation",
+    "context": "unspecified",
+    "quote": "Although liver disease is the most common presenting feature in children, some children may initially present with a subtle neurological presentation only."
+   },
+   {
+    "subject": "Wilson's disease",
+    "relation": "disease_has_phenotype",
+    "object": "dystonia",
+    "context": "unspecified",
+    "quote": "In patients presenting with dystonia, tremor, dysarthria or with a deterioration in school performance, there should be a high index of suspicion for WD."
+   },
+   {
+    "subject": "Wilson's disease",
+    "relation": "disease_has_phenotype",
+    "object": "tremor",
+    "context": "unspecified",
+    "quote": "In patients presenting with dystonia, tremor, dysarthria or with a deterioration in school performance, there should be a high index of suspicion for WD."
+   },
+   {
+    "subject": "Wilson's disease",
+    "relation": "disease_has_phenotype",
+    "object": "dysarthria",
+    "context": "unspecified",
+    "quote": "In patients presenting with dystonia, tremor, dysarthria or with a deterioration in school performance, there should be a high index of suspicion for WD."
+   },
+   {
+    "subject": "Wilson's disease",
+    "relation": "disease_has_phenotype",
+    "object": "deterioration in school performance",
+    "context": "unspecified",
+    "quote": "In patients presenting with dystonia, tremor, dysarthria or with a deterioration in school performance, there should be a high index of suspicion for WD."
+   }
+  ]
+ },
+ "7785328|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "27476637|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Menkes disease",
+    "relation": "disease_has_phenotype",
+    "object": "systemic copper deficiency",
+    "context": "unspecified",
+    "quote": "Menkes disease, manifested by systemic copper deficiency"
+   },
+   {
+    "subject": "Wilson disease",
+    "relation": "disease_has_phenotype",
+    "object": "defective secretion of excess copper",
+    "context": "unspecified",
+    "quote": "Wilson disease, caused by defective secretion of excess copper"
+   }
+  ]
+ },
+ "21494555|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "ATP7A",
+    "relation": "gene_causes_disease",
+    "object": "Menkes disease (MD)",
+    "context": "patients",
+    "quote": "Menkes disease (MD) is caused by mutations in the ATP7A gene."
+   },
+   {
+    "subject": "Menkes disease (MD)",
+    "relation": "disease_has_phenotype",
+    "object": "Occipital Horn Syndrome",
+    "context": "patients",
+    "quote": "the milder phenotypic form, Occipital Horn Syndrome."
+   }
+  ]
+ },
+ "39456768|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "early infantile epileptic encephalopathy type 4",
+    "context": "patients",
+    "quote": "Deleterious variations in STXBP1 are responsible for early infantile epileptic encephalopathy type 4"
+   },
+   {
+    "subject": "early infantile epileptic encephalopathy type 4",
+    "relation": "disease_has_phenotype",
+    "object": "early-onset epileptic seizures without structural brain anomalies",
+    "context": "patients",
+    "quote": "the conspicuous features of which are highlighted by early\u2011onset epileptic seizures without structural brain anomalies"
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "early-onset epileptic seizures",
+    "context": "patients",
+    "quote": "the conspicuous features of which are highlighted by early\u2011onset epileptic seizures without structural brain anomalies"
+   },
+   {
+    "subject": "STXBP1 encephalopathy",
+    "relation": "disease_has_phenotype",
+    "object": "hypomyelinating leukodystrophy",
+    "context": "patients",
+    "quote": "The patient showed atypical phenotypes characterized by hypomyelinating leukodystrophy, and late onset of epileptic seizures"
+   }
+  ]
+ },
+ "33961044|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "STXBP1 encephalopathy",
+    "context": "unspecified",
+    "quote": "de novo pathogenic variants of STXBP1 cause a complex set of neurological disturbances, namely STXBP1 encephalopathy (STXBP1-E)"
+   }
+  ]
+ },
+ "16600651|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "33400301|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDKL5 deficiency disorder",
+    "context": "unspecified",
+    "quote": "Mutations of the cyclin-dependent kinase-like 5 (CDKL5) gene cause severe neurodevelopmental disorders characterized by intractable epilepsy, intellectual disability, and autism."
+   },
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "intractable epilepsy",
+    "context": "unspecified",
+    "quote": "Mutations of the cyclin-dependent kinase-like 5 (CDKL5) gene cause severe neurodevelopmental disorders characterized by intractable epilepsy, intellectual disability, and autism."
+   }
+  ]
+ },
+ "37114835|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "patients",
+    "quote": "CDKL5 deficiency disorder (CDD)"
+   },
+   {
+    "subject": "CDD",
+    "relation": "disease_has_phenotype",
+    "object": "infantile-onset epileptic spasms",
+    "context": "patients",
+    "quote": "infantile-onset epileptic spasms (ES)"
+   },
+   {
+    "subject": "ACTH",
+    "relation": "drug_no_effect_on_disease",
+    "object": "ES in CDD",
+    "context": "patients",
+    "quote": "Fourteen-day clinical remission of ES was lower for the CDD group (26%, 7/27) than for the NISC cohort (58%, 106/182, p\u2009=\u2009.0002)."
+   },
+   {
+    "subject": "oral corticosteroids",
+    "relation": "drug_no_effect_on_disease",
+    "object": "ES in CDD",
+    "context": "patients",
+    "quote": "Fourteen-day clinical remission of ES was lower for the CDD group (26%, 7/27) than for the NISC cohort (58%, 106/182, p\u2009=\u2009.0002)."
+   },
+   {
+    "subject": "vigabatrin",
+    "relation": "drug_no_effect_on_disease",
+    "object": "ES in CDD",
+    "context": "patients",
+    "quote": "Fourteen-day clinical remission of ES was lower for the CDD group (26%, 7/27) than for the NISC cohort (58%, 106/182, p\u2009=\u2009.0002)."
+   },
+   {
+    "subject": "Ketogenic diet",
+    "relation": "drug_improves_disease",
+    "object": "ES in CDD",
+    "context": "patients",
+    "quote": "Ketogenic diet, used within 3\u2009months of ES onset, resulted in ES remission at 1\u2009month, sustained at 3\u2009months, in at least 2 of 13 (15%) individuals with CDD."
+   }
+  ]
+ },
+ "18317235|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CLN3 gene",
+    "relation": "gene_causes_disease",
+    "object": "JNCL",
+    "context": "patients",
+    "quote": "JNCL is caused by CLN3 gene mutations"
+   },
+   {
+    "subject": "JNCL",
+    "relation": "disease_has_phenotype",
+    "object": "blindness",
+    "context": "patients",
+    "quote": "blindness/seizures/motor/cognitive decline"
+   },
+   {
+    "subject": "JNCL",
+    "relation": "disease_has_phenotype",
+    "object": "seizures",
+    "context": "patients",
+    "quote": "blindness/seizures/motor/cognitive decline"
+   },
+   {
+    "subject": "JNCL",
+    "relation": "disease_has_phenotype",
+    "object": "motor decline",
+    "context": "patients",
+    "quote": "blindness/seizures/motor/cognitive decline"
+   },
+   {
+    "subject": "JNCL",
+    "relation": "disease_has_phenotype",
+    "object": "cognitive decline",
+    "context": "patients",
+    "quote": "blindness/seizures/motor/cognitive decline"
+   },
+   {
+    "subject": "JNCL",
+    "relation": "disease_has_phenotype",
+    "object": "early death",
+    "context": "patients",
+    "quote": "early death"
+   }
+  ]
+ },
+ "32597768|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "FARS2",
+    "relation": "gene_causes_disease",
+    "object": "EIMFS",
+    "context": "patients",
+    "quote": "Here, we report, for the first time, a homozygous deleterious variant in the FARS2 gene, identified using a 115-gene panel for monogenic epilepsies, in a patient with EIMFS."
+   },
+   {
+    "subject": "EIMFS",
+    "relation": "disease_has_phenotype",
+    "object": "migrating focal seizures",
+    "context": "patients",
+    "quote": "The patient rapidly developed severe epilepsy with focal discharges on EEG, migrating from one brain region to another, highly suggestive of EIMFS."
+   }
+  ]
+ },
+ "34032360|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "PTPN11",
+    "relation": "gene_causes_disease",
+    "object": "Noonan syndrome",
+    "context": "patients",
+    "quote": "She was found to have numerous, small, yellow-pink smooth papules that were histopathologically confirmed to be JXG."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "Distinctive craniofacial features",
+    "context": "patients",
+    "quote": "Noonan syndrome (NS) is one of the common RASopathies. While the clinical phenotype in NS is variable, it is typically characterized by distinctive craniofacial features, cardiac defects, reduced growth, bleeding disorders, learning issues, and an increased risk of cancer."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "cardiac defects",
+    "context": "patients",
+    "quote": "Noonan syndrome (NS) is one of the common RASopathies. While the clinical phenotype in NS is variable, it is typically characterized by distinctive craniofacial features, cardiac defects, reduced growth, bleeding disorders, learning issues, and an increased risk of cancer."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "reduced growth",
+    "context": "patients",
+    "quote": "Noonan syndrome (NS) is one of the common RASopathies. While the clinical phenotype in NS is variable, it is typically characterized by distinctive craniofacial features, cardiac defects, reduced growth, bleeding disorders, learning issues, and an increased risk of cancer."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "bleeding disorders",
+    "context": "patients",
+    "quote": "Noonan syndrome (NS) is one of the common RASopathies. While the clinical phenotype in NS is variable, it is typically characterized by distinctive craniofacial features, cardiac defects, reduced growth, bleeding disorders, learning issues, and an increased risk of cancer."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "learning issues",
+    "context": "patients",
+    "quote": "Noonan syndrome (NS) is one of the common RASopathies. While the clinical phenotype in NS is variable, it is typically characterized by distinctive craniofacial features, cardiac defects, reduced growth, bleeding disorders, learning issues, and an increased risk of cancer."
+   },
+   {
+    "subject": "Noonan syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "increased risk of cancer",
+    "context": "patients",
+    "quote": "Noonan syndrome (NS) is one of the common RASopathies. While the clinical phenotype in NS is variable, it is typically characterized by distinctive craniofacial features, cardiac defects, reduced growth, bleeding disorders, learning issues, and an increased risk of cancer."
+   },
+   {
+    "subject": "Juvenile xanthogranuloma",
+    "relation": "disease_has_phenotype",
+    "object": "yellow-pink smooth papules",
+    "context": "patients",
+    "quote": "She was found to have numerous, small, yellow-pink smooth papules that were histopathologically confirmed to be JXG."
+   }
+  ]
+ },
+ "24700782|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "STXBP1",
+    "relation": "gene_causes_disease",
+    "object": "early infantile epileptic encephalopathy type 4",
+    "context": "patients",
+    "quote": "we isolated blood outgrowth endothelial cells (BOECs) from an early infantile epileptic encephalopathy type 4 (EIEE4) patient carrying a de novo mutation in STXBP1."
+   }
+  ]
+ },
+ "41142851|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "25003015|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "11391650|gpt-oss:20b|v1": {
+  "claims": []
+ },
+ "38081835|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDD",
+    "context": "unspecified",
+    "quote": "CDKL5 deficiency disorder (CDD, DEE2), one of the most common genetic epilepsies, is caused by loss-of-function mutations in the brain-enriched kinase CDKL5."
+   },
+   {
+    "subject": "CACNA1E",
+    "relation": "gene_causes_disease",
+    "object": "DEE69",
+    "context": "unspecified",
+    "quote": "CACNA1E gain-of-function mutations causing DEE69, a disorder sharing clinical features with CDD."
+   },
+   {
+    "subject": "Cav2.3 inhibitors",
+    "relation": "drug_improves_disease",
+    "object": "CDD",
+    "context": "unspecified",
+    "quote": "These two single-gene diseases are mechanistically related and could be ameliorated with Cav2.3 inhibitors."
+   },
+   {
+    "subject": "Developmental and epileptic encephalopathies (DEEs)",
+    "relation": "disease_has_phenotype",
+    "object": "severe epilepsy",
+    "context": "unspecified",
+    "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of rare childhood disorders characterized by severe epilepsy and cognitive deficits."
+   },
+   {
+    "subject": "Developmental and epileptic encephalopathies (DEEs)",
+    "relation": "disease_has_phenotype",
+    "object": "cognitive deficits",
+    "context": "unspecified",
+    "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of rare childhood disorders characterized by severe epilepsy and cognitive deficits."
+   }
+  ]
+ },
+ "41235743|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5 deficiency disorder",
+    "relation": "disease_has_phenotype",
+    "object": "motor",
+    "context": "patients",
+    "quote": "Motor and communication measures were the most important weighted contributors to the global severity score"
+   }
+  ]
+ },
+ "25555910|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "atypical Rett syndrome",
+    "context": "unspecified",
+    "quote": "Mutations in the X-linked CDKL5 (cyclin-dependent kinase-like 5) gene have been associated with several forms of neurodevelopmental disorders, including atypical Rett syndrome, autism spectrum disorders, and early infantile epileptic encephalopathy."
+   },
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "autism spectrum disorders",
+    "context": "unspecified",
+    "quote": "Mutations in the X-linked CDKL5 (cyclin-dependent kinase-like 5) gene have been associated with several forms of neurodevelopmental disorders, including atypical Rett syndrome, autism spectrum disorders, and early infantile epileptic encephalopathy."
+   },
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "early infantile epileptic encephalopathy",
+    "context": "unspecified",
+    "quote": "Mutations in the X-linked CDKL5 (cyclin-dependent kinase-like 5) gene have been associated with several forms of neurodevelopmental disorders, including atypical Rett syndrome, autism spectrum disorders, and early infantile epileptic encephalopathy."
+   }
+  ]
+ },
+ "28230307|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "CDKL5",
+    "relation": "gene_causes_disease",
+    "object": "CDKL5 disorder",
+    "context": "unspecified",
+    "quote": "a recently discovered neurodevelopmental disorder caused by the mutation of the cyclin-dependent kinase-like 5 gene (CDKL5) entails complex autistic-like behaviours similar to Rett syndrome, but its impact upon physiological functions remains largely unexplored."
+   },
+   {
+    "subject": "CDKL5 disorder",
+    "relation": "disease_has_phenotype",
+    "object": "sleep apneas",
+    "context": "animal_model",
+    "quote": "Sleep apneas occurred more frequently in Cdkl5-KO than in WT mice."
+   }
+  ]
+ },
+ "22677033|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "SCN2A",
+    "relation": "gene_causes_disease",
+    "object": "Dravet syndrome",
+    "context": "patients",
+    "quote": "found in a child with Dravet syndrome"
+   }
+  ]
+ },
+ "28235671|gpt-oss:20b|v1": {
+  "claims": [],
+  "error": "'list' object has no attribute 'get'"
+ },
+ "31192281|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "RASopathies",
+    "relation": "disease_has_phenotype",
+    "object": "isolated sagittal synostosis",
+    "context": "patients",
+    "quote": "these findings support including sagittal synostosis among the presenting features in the clinical phenotype of RASopathies."
+   }
+  ]
+ },
+ "29402632|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Phelan-McDermid Syndrome",
+    "relation": "disease_has_phenotype",
+    "object": "seizures",
+    "context": "patients",
+    "quote": "reports indicate seizures and abnormal electroencephalograms (EEGs) in this population"
+   }
+  ]
+ },
+ "32195255|gpt-oss:20b|v1": {
+  "claims": [
+   {
+    "subject": "Sulfamidase",
+    "relation": "gene_causes_disease",
+    "object": "Mucopolysaccharidosis type IIIA (MPS-IIIA, Sanfilippo A)",
+    "context": "unspecified",
+    "quote": "Mucopolysaccharidosis type IIIA (MPS-IIIA, Sanfilippo A) is one of the most severe lysosomal storage disorder (LSD) caused by the inherited deficiency of sulfamidase"
+   },
+   {
+    "subject": "MPS-IIIA mice",
+    "relation": "disease_has_phenotype",
+    "object": "retinal dystrophy",
+    "context": "animal_model",
+    "quote": "MPS-IIIA mice exhibited a progressive retinal dystrophy characterized by significant alterations in visual function."
+   },
+   {
+    "subject": "MPS-IIIA mice",
+    "relation": "disease_has_phenotype",
+    "object": "photoreceptor degeneration",
+    "context": "animal_model",
+    "quote": "The photoreceptor degeneration was associated with HS accumulation"
+   },
+   {
+    "subject": "MPS-IIIA patients",
+    "relation": "disease_has_phenotype",
+    "object": "visual impairment",
+    "context": "patients",
+    "quote": "MPS-IIIA patients show multisystemic problems, including a strong impairment of central nervous system (CNS), mild somatic involvement, and ocular manifestations that result in significant visual impairment."
+   }
+  ]
+ }
+}

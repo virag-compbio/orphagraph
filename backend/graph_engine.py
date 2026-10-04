@@ -84,6 +84,107 @@ class RareDiseaseGraphEngine:
                 results.append(dict(data))
         return results
 
+    SEARCH_TYPES = ("disease", "gene", "symptom", "drug")
+
+    @staticmethod
+    def _search_detail(data: Dict[str, Any]) -> Optional[str]:
+        """A short identifier shown next to a search suggestion."""
+        if data.get("type") == "disease":
+            code = str(data.get("code") or "")
+            return code if code.startswith("ORPHA:") else (f"OMIM {data['omim']}" if data.get("omim") else None)
+        return data.get("hpo_id") or data.get("hgnc") or data.get("fda_status")
+
+    def search_entities(self, query: str, limit: int = 6) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        Search-box matches grouped by type. Ranked: exact name or code, name prefix, word prefix,
+        name substring, then synonym match; curated diseases before imported ones at equal rank.
+        """
+        q = query.lower().strip()
+        if not q:
+            return {t: [] for t in self.SEARCH_TYPES}
+        scored = collections.defaultdict(list)
+        for n, data in self.G.nodes(data=True):
+            t = data.get("type")
+            if t not in self.SEARCH_TYPES:
+                continue
+            label = str(data.get("label", "")).lower()
+            codes = {str(data.get(k, "")).lower() for k in ("code", "omim", "hpo_id", "hgnc", "mondo")} - {""}
+            synonyms = [s.lower() for s in data.get("synonyms", [])]
+            words = re.findall(r"[a-z0-9]+", label)
+            if q == label or q in codes:
+                rank = 0
+            elif label.startswith(q):
+                rank = 1
+            elif any(w.startswith(q) for w in words):
+                rank = 2
+            elif q in label:
+                rank = 3
+            elif any(q in s for s in synonyms) or any(c.startswith(q) for c in codes):
+                rank = 4
+            else:
+                continue
+            curated = 0 if (t != "disease" or not n.startswith("DIS_OMIM_")) else 1
+            scored[t].append(((rank, curated, len(label), label), {
+                "id": n, "type": t, "label": data.get("label"),
+                "detail": self._search_detail(data),
+                "curated": t == "disease" and not n.startswith("DIS_OMIM_"),
+            }))
+        return {t: [r for _, r in sorted(scored[t], key=lambda x: x[0])[:limit]] for t in self.SEARCH_TYPES}
+
+    def _disease_ref(self, d: str, **extra) -> Dict[str, Any]:
+        node = self.G.nodes[d]
+        return {"id": d, "label": node.get("label"), "code": node.get("code"), "curated": not d.startswith("DIS_OMIM_"), **extra}
+
+    @staticmethod
+    def _disease_order(ref: Dict[str, Any]):
+        return (not ref["curated"], str(ref["label"]).lower())
+
+    def entity_profile(self, node_id: str) -> Optional[Dict[str, Any]]:
+        """Profile for a gene, symptom or drug page: the node and its links to diseases, each with its source."""
+        if node_id not in self.G or self.G.nodes[node_id].get("type") not in ("gene", "symptom", "drug"):
+            return None
+        node = dict(self.G.nodes[node_id])
+        t = node["type"]
+        papers = sorted({self.G.nodes[p].get("pmid") for p in self._in(node_id, "SUPPORTS_EVIDENCE") if self.G.nodes[p].get("pmid")})
+        out: Dict[str, Any] = {"node": node, "papers": papers}
+
+        if t == "gene":
+            diseases = {}
+            for d in self._in(node_id, "CAUSED_BY_MUTATION"):
+                e = self._edge_data(d, node_id, "CAUSED_BY_MUTATION")
+                diseases[d] = self._disease_ref(d, source=e.get("source_db") or "curated record", source_pmid=e.get("source_pmid"),
+                                                direction=e.get("direction"), literature=[])
+            for d in self._in(node_id, "LIT_CAUSED_BY"):
+                ev = self._edge_data(d, node_id, "LIT_CAUSED_BY").get("evidence", [])
+                diseases.setdefault(d, self._disease_ref(d, source=None, literature=[]))["literature"] = ev
+            out["diseases"] = sorted(diseases.values(), key=self._disease_order)
+            pathways = [dict(self.G.nodes[p]) for p in self._out(node_id, node_type="pathway")]
+            out["pathways"] = sorted(pathways, key=lambda p: (p.get("size") or 0, p.get("label", "")))
+            out["drugs"] = sorted({self._label(dr) for dr in self.G.nodes if self.G.nodes[dr].get("type") == "drug"
+                                   and node["label"] in self.G.nodes[dr].get("target_genes", [])})
+
+        elif t == "symptom":
+            diseases = []
+            for d in set(self._in(node_id, "HAS_PHENOTYPE")) | set(self._in(node_id, "LIT_HAS_PHENOTYPE")):
+                db = self._edge_data(d, node_id, "HAS_PHENOTYPE") if self._has_edge(d, node_id, "HAS_PHENOTYPE") else {}
+                lit = self._edge_data(d, node_id, "LIT_HAS_PHENOTYPE").get("evidence", []) if self._has_edge(d, node_id, "LIT_HAS_PHENOTYPE") else []
+                diseases.append(self._disease_ref(d, frequency=db.get("frequency"), annotated=bool(db), literature=lit))
+            out["diseases"] = sorted(diseases, key=self._disease_order)
+
+        else:  # drug
+            links, cautions = [], []
+            for _, d, data in self.G.out_edges(node_id, data=True):
+                if self.G.nodes[d].get("type") != "disease":
+                    continue
+                ref = self._disease_ref(d, relationship=data.get("relationship"), evidence_tier=data.get("evidence_tier"),
+                                        source_pmid=data.get("source_pmid"), approval=data.get("approval"), note=data.get("mechanism"))
+                (cautions if data.get("relationship") == "CONTRAINDICATED_WARNING" else links).append(ref)
+            rank = lambda r: (self.EVIDENCE_TIER_RANK.get(r["evidence_tier"], 9), str(r["label"]).lower())
+            out["diseases"] = sorted(links, key=rank)
+            out["cautions"] = sorted(cautions, key=rank)
+            out["pathways"] = [dict(self.G.nodes[p]) for p in self._out(node_id, node_type="pathway")]
+        return out
+
     def get_node_neighborhood(self, node_id: str, depth: int = 1) -> Dict[str, Any]:
         if node_id not in self.G:
             return {"nodes": [], "edges": []}
@@ -850,6 +951,12 @@ class RareDiseaseGraphEngine:
             "priya_actions": priya_actions,
             "osei_actions": osei_actions,
             "moonshot_10x": self.calculate_moonshot_10x(),
+            # Annotated symptoms, most specific (highest information content) first
+            "phenotypes": sorted(
+                ({"id": p, "label": self._label(p), "ic": self.G.nodes[p].get("ic") or 0,
+                  "frequency": self._edge_data(disease_id, p, "HAS_PHENOTYPE").get("frequency")}
+                 for p in self._out(disease_id, "HAS_PHENOTYPE")),
+                key=lambda x: -x["ic"]),
             "subgraph": neighborhood
         }
 
@@ -913,8 +1020,8 @@ class RareDiseaseGraphEngine:
             key_insights.append(f"The AI Atlas contains {self.G.number_of_nodes()} biomedical nodes and {self.G.number_of_edges()} evidence-grounded edges across {len(all_diseases)} curated monogenic disease clusters.")
             key_insights.append(f"Curated conditions include: {', '.join(all_diseases[:6])} and more.")
             actionable_steps = [
-                "Select a specific rare disease (e.g. 'NGLY1 Deficiency', 'STXBP1 Encephalopathy') to explore Maria's 1-click journey.",
-                "Use the 10x Moonshot Accelerator tab to review timeline reductions."
+                "Name a specific rare disease (e.g. 'NGLY1 Deficiency', 'STXBP1 Encephalopathy') to open its page.",
+                "Open Explore > 10x Moonshot to review the timeline model."
             ]
 
         return {

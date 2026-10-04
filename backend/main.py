@@ -64,6 +64,19 @@ def search_nodes(q: str = Query(..., min_length=1), type: Optional[str] = None):
     results = graph_engine.search_nodes(query=q, node_type=type)
     return {"query": q, "count": len(results), "results": results}
 
+@app.get("/api/search")
+def search(q: str = Query("", max_length=200), limit: int = Query(6, ge=1, le=20)):
+    """Grouped matches for the search box: diseases, genes, symptoms and drugs."""
+    return {"query": q, "results": graph_engine.search_entities(q, limit)}
+
+@app.get("/api/entity/{node_id}")
+def entity(node_id: str):
+    """Profile for a gene, symptom or drug page."""
+    profile = graph_engine.entity_profile(node_id)
+    if profile is None:
+        raise HTTPException(status_code=404, detail=f"No gene, symptom or drug {node_id} in the atlas.")
+    return profile
+
 @app.get("/api/graph/node/{node_id}/neighborhood")
 def get_node_neighborhood(node_id: str, depth: int = Query(1, ge=1, le=3)):
     result = graph_engine.get_node_neighborhood(node_id=node_id, depth=depth)
@@ -102,10 +115,12 @@ def list_investigators():
     return {"total": len(investigators), "investigators": investigators}
 
 @app.get("/api/dossier/{disease_id}")
-def get_action_dossier(disease_id: str):
+def get_action_dossier(disease_id: str, subgraph: bool = True):
     dossier = graph_engine.generate_action_dossier(disease_id=disease_id)
     if "error" in dossier:
         raise HTTPException(status_code=404, detail=dossier["error"])
+    if not subgraph:  # the disease page does not draw the neighbourhood graph (most of the payload)
+        dossier.pop("subgraph", None)
     return dossier
 
 @app.get("/api/explain/journey/{disease_id}")
@@ -140,32 +155,28 @@ def analyze_silos():
     pathways = [dict(graph_engine.G.nodes[n]) for n in graph_engine.G.nodes() if graph_engine.G.nodes[n].get("type") == "pathway"]
     drugs = [dict(graph_engine.G.nodes[n]) for n in graph_engine.G.nodes() if graph_engine.G.nodes[n].get("type") == "drug"]
 
-    pathway_disease_map = {}
+    G = graph_engine.G
+    clusters = []
     for pw in pathways:
-        pw_id = pw["id"]
-        connected = []
-        for n in graph_engine.undirected_G.neighbors(pw_id):
-            node_data = graph_engine.G.nodes[n]
-            if node_data.get("type") == "gene":
-                for d_node in graph_engine.undirected_G.neighbors(n):
-                    if graph_engine.G.nodes[d_node].get("type") == "disease":
-                        connected.append(graph_engine.G.nodes[d_node].get("label"))
-            elif node_data.get("type") == "disease":
-                connected.append(node_data.get("label"))
-        
-        pathway_disease_map[pw["label"]] = list(set(connected))
+        # Diseases linked to the pathway directly or through one of their causal genes
+        linked = {n for n in graph_engine.undirected_G.neighbors(pw["id"]) if G.nodes[n].get("type") == "disease"}
+        for gene in (n for n in graph_engine.undirected_G.neighbors(pw["id"]) if G.nodes[n].get("type") == "gene"):
+            linked |= {d for d in graph_engine.undirected_G.neighbors(gene) if G.nodes[d].get("type") == "disease"}
+        if len(linked) >= 2:
+            clusters.append({
+                "pathway": pw["label"], "pathway_id": pw["id"], "database_id": pw.get("database_id"), "size": pw.get("size"),
+                "connected_diseases": sorted(({"id": d, "label": G.nodes[d].get("label"), "curated": not d.startswith("DIS_OMIM_")}
+                                              for d in linked), key=lambda x: (not x["curated"], x["label"].lower())),
+            })
 
     return {
-        "total_curated_diseases": len(diseases),
+        "total_diseases": len(diseases),
         "total_repurposable_molecules": len(drugs),
+        "total_cross_disease_pathways": len(clusters),
         # Pathways linking the most diseases first; single-disease pathways are not cross-disease
-        "cross_disease_pathways": sorted(
-            [{"pathway": k, "connected_diseases": sorted(v), "synergy_score": len(v)}
-             for k, v in pathway_disease_map.items() if len(v) >= 2],
-            key=lambda x: -x["synergy_score"]
-        )[:25],
+        "cross_disease_pathways": sorted(clusters, key=lambda c: (-len(c["connected_diseases"]), c["pathway"]))[:25],
         "repurposing_matrix": [
-            {"drug": d.get("label"), "status": d.get("fda_status"), "mechanism": d.get("mechanism"), **_strongest_evidence(d["id"])}
+            {"id": d["id"], "drug": d.get("label"), "status": d.get("fda_status"), "mechanism": d.get("mechanism"), **_strongest_evidence(d["id"])}
             for d in drugs
         ]
     }

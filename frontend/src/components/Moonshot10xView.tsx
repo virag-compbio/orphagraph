@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Zap, Clock, CheckCircle2, AlertTriangle, ExternalLink, SlidersHorizontal, RotateCcw } from 'lucide-react';
+import { Clock, CheckCircle2, AlertTriangle, ExternalLink, SlidersHorizontal, RotateCcw } from 'lucide-react';
 import { MoonshotData } from '../types';
 import { fetchMoonshot10x } from '../services/api';
 
@@ -30,19 +30,15 @@ export const Moonshot10xView: React.FC = () => {
   const eventsById = Object.fromEntries(data.events.map((e) => [e.id, e]));
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-purple-50 via-white to-emerald-50 border border-purple-200 rounded-2xl p-6 shadow-2xl space-y-2">
-        <span className="px-2.5 py-0.5 text-xs font-semibold uppercase tracking-wider bg-purple-100 text-purple-700 border border-purple-200 rounded-full inline-flex items-center space-x-1">
-          <Zap className="h-3 w-3" />
-          <span>The 10× Moonshot</span>
-        </span>
-        <h1 className="text-2xl font-black text-slate-900 tracking-tight">Milestone: {data.milestone}</h1>
-        <p className="text-xs text-slate-700 max-w-3xl leading-relaxed">
+    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 space-y-6">
+      <header className="max-w-3xl">
+        <div className="text-sm text-slate-500">Explore · 10× Moonshot</div>
+        <h1 className="mt-1 text-3xl font-semibold tracking-tight text-slate-900">{data.milestone}</h1>
+        <p className="mt-3 text-slate-700 leading-relaxed">
           Case study: <strong>{data.case_study}</strong>. The baseline is measured from dated public records (checked {data.sources_checked}).
           The atlas route is built only from the assumptions below; change them to see when 10× holds and when it does not.
         </p>
-      </div>
+      </header>
 
       {/* Result */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

@@ -16,6 +16,8 @@ export interface GraphNode {
   label: string;
   code?: string;
   omim?: string;
+  omim_name?: string;
+  ncbi_gene?: string;
   mondo?: string;
   synonyms?: string[];
   category?: string;
@@ -56,6 +58,7 @@ export interface GraphNode {
   last_verified?: string;
   source?: string;
   pmid?: string;
+  source_pmid?: string;
   journal?: string;
   year?: number;
   evidence_score?: number;
@@ -116,7 +119,9 @@ export interface MariasJourney {
   step1_diagnosis: {
     step_title: string;
     prompt: string;
+    treatment_line: string;
     status: string;
+    trials: Array<{ label: string; nct_id: string; phase?: string; status?: string; intervention?: string; recruiting: boolean }>;
     disease: GraphNode;
   };
   step2_mechanism: {
@@ -280,6 +285,7 @@ export interface ActionDossier {
     collaborator_directory: Array<{ name: string; institution: string; email: string; connection?: string }>;
   };
   moonshot_10x: MoonshotData;
+  phenotypes: Array<{ id: string; label: string; ic: number; frequency?: string | null }>;
   subgraph: {
     nodes: GraphNode[];
     edges: GraphEdge[];
@@ -288,6 +294,14 @@ export interface ActionDossier {
 }
 
 export type PersonaType = 'maria' | 'devon' | 'priya' | 'dr_osei';
+
+// "Explain for" choices; the ids are the backend persona keys.
+export const PERSONAS: Array<{ id: PersonaType; label: string; description: string }> = [
+  { id: 'maria', label: 'Patient organization', description: 'Leads a patient group; looks for partners, resources and a next step' },
+  { id: 'devon', label: 'Family', description: 'A parent or caregiver; plain language and clear next steps' },
+  { id: 'priya', label: 'Biotech', description: 'Evaluates mechanisms and addressable patient groups' },
+  { id: 'dr_osei', label: 'Researcher', description: 'Looks for colleagues and shared mechanisms across genes' },
+];
 
 export interface Explanation {
   source: 'llm' | 'template';
@@ -300,4 +314,3 @@ export interface Explanation {
   cached?: boolean;
   error?: string;
 }
-export type ViewTab = 'journey' | 'graph' | 'dossier' | 'moonshot' | 'silos' | 'trials' | 'chat';

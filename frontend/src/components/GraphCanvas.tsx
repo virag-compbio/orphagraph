@@ -191,7 +191,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   );
 
   return (
-    <div className="relative w-full h-[calc(100vh-125px)] bg-slate-50 overflow-hidden flex flex-col">
+    <div className="relative w-full h-[calc(100vh-61px)] bg-slate-50 overflow-hidden flex flex-col">
       {/* Top Floating Control Bar */}
       <div className="absolute top-4 left-4 z-20 flex flex-col gap-2 max-w-md w-full">
         {/* Search Bar */}

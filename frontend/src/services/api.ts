@@ -8,6 +8,52 @@ export async function fetchGraphData(): Promise<GraphData> {
   return res.json();
 }
 
+export interface SearchHit {
+  id: string;
+  type: 'disease' | 'gene' | 'symptom' | 'drug';
+  label: string;
+  detail?: string;
+  curated: boolean;
+}
+
+export async function searchEntities(query: string, limit = 6): Promise<Record<SearchHit['type'], SearchHit[]>> {
+  const res = await fetch(`${API_BASE}/search?q=${encodeURIComponent(query)}&limit=${limit}`);
+  if (!res.ok) throw new Error('Search failed');
+  return (await res.json()).results;
+}
+
+export interface DiseaseRef {
+  id: string;
+  label: string;
+  code?: string;
+  curated: boolean;
+  source?: string | null;
+  frequency?: string | null;
+  annotated?: boolean;
+  relationship?: string;
+  evidence_tier?: string;
+  source_pmid?: string | null;
+  approval?: string | null;
+  note?: string | null;
+  direction?: string | null;
+  literature?: Array<{ pmid: string; year: number | null; quote: string }>;
+}
+
+export interface EntityProfile {
+  node: GraphNode;
+  papers: string[];
+  diseases: DiseaseRef[];
+  pathways?: GraphNode[];
+  drugs?: string[];
+  cautions?: DiseaseRef[];
+}
+
+export async function fetchEntity(id: string): Promise<EntityProfile> {
+  const res = await fetch(`${API_BASE}/entity/${encodeURIComponent(id)}`);
+  if (!res.ok) throw new Error('Not found');
+  return res.json();
+}
+
 export async function fetchGraphStats(): Promise<GraphStats> {
   const res = await fetch(`${API_BASE}/graph/stats`);
   if (!res.ok) throw new Error('Failed to fetch graph statistics');
@@ -46,8 +92,8 @@ export async function fetchDiseases(): Promise<{ total: number; diseases: GraphN
   return res.json();
 }
 
-export async function fetchActionDossier(diseaseId: string): Promise<ActionDossier> {
-  const res = await fetch(`${API_BASE}/dossier/${encodeURIComponent(diseaseId)}`);
+export async function fetchActionDossier(diseaseId: string, withSubgraph = true): Promise<ActionDossier> {
+  const res = await fetch(`${API_BASE}/dossier/${encodeURIComponent(diseaseId)}${withSubgraph ? '' : '?subgraph=false'}`);
   if (!res.ok) throw new Error('Failed to fetch action dossier');
   return res.json();
 }
@@ -82,12 +128,21 @@ export async function fetchInvestigators(): Promise<{ total: number; investigato
   return res.json();
 }
 
-export async function fetchSiloAnalysis(): Promise<{
-  total_curated_diseases: number;
+export interface SiloAnalysis {
+  total_diseases: number;
   total_repurposable_molecules: number;
-  cross_disease_pathways: Array<{ pathway: string; connected_diseases: string[]; synergy_score: number }>;
-  repurposing_matrix: Array<{ drug: string; status: string; evidence_tier?: string; evidence_for?: string; mechanism: string }>;
-}> {
+  total_cross_disease_pathways: number;
+  cross_disease_pathways: Array<{
+    pathway: string;
+    pathway_id: string;
+    database_id?: string;
+    size?: number;
+    connected_diseases: Array<{ id: string; label: string; curated: boolean }>;
+  }>;
+  repurposing_matrix: Array<{ id: string; drug: string; status: string; evidence_tier?: string; evidence_for?: string; mechanism: string }>;
+}
+
+export async function fetchSiloAnalysis(): Promise<SiloAnalysis> {
   const res = await fetch(`${API_BASE}/silos`);
   if (!res.ok) throw new Error('Failed to fetch silo analysis');
   return res.json();

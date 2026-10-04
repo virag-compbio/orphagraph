@@ -10,9 +10,9 @@ Built for the Hack-Nation challenge "AI Atlas for the World's Rare Diseases". Th
 
 | | |
 |---|---|
-| Diseases | **159** (13 curated seeds plus their phenotype and pathway neighbours, from a universe of 5,310 rare OMIM diseases) |
-| Genes / Reactome pathways / HPO phenotypes | 139 / 274 / 1,005 |
-| Phenotype-similarity links | 801 (IC-weighted, computed from HPO annotations) |
+| Diseases | **158** (13 curated seeds plus their phenotype and pathway neighbours, from a universe of 5,310 rare OMIM diseases) |
+| Genes / Reactome pathways / HPO phenotypes | 146 / 222 / 997 |
+| Phenotype-similarity links | 797 (IC-weighted, computed from HPO annotations) |
 | Literature claims | 53 quote-verified claims (34 edges) from 37 PubMed papers, kept from 359 extracted |
 | Clinical studies | 4, checked against ClinicalTrials.gov |
 | Drugs | 10, including 3 FDA approvals checked in Drugs@FDA |
@@ -124,8 +124,8 @@ To deploy: push the repository to GitHub, then in Render choose **New → Bluepr
 
 ## ⚠️ Limitations
 
-- The slice is small (159 diseases, 13 curated); most diseases have no curated trials, assets or organizations yet.
-- Reactome pathway sharing can be noisy (e.g. Rett links to Long QT syndrome through a MECP2-variant pathway); such links rank low but are shown.
+- The slice is small (158 diseases, 13 curated); most diseases have no curated trials, assets or organizations yet.
+- Reactome pathway sharing can still be broad (e.g. Menkes disease links to chronic granulomatous disease through "Detoxification of Reactive Oxygen Species"); such links rank low but are shown.
 - Explanations can still overstate a cited fact in wording; the cited facts are shown next to every sentence.
 - The literature layer covers 12 abstracts per curated disease; drug claims for drugs outside the curated set are not kept, so no contradictions are recorded yet.
 - The 10× atlas route is a set of assumptions to test, not a measurement.
@@ -163,13 +163,13 @@ python3 backend/ingest/build_graph.py
 ```
 Add `--refresh` to re-download the latest source releases.
 
-**Sources** (open, no API keys): HPO annotations and ontology (`phenotype.hpoa`, `hp.obo`), HPO `genes_to_disease.txt` (OMIM/mim2gene_medgen Mendelian links), Reactome `NCBI2Reactome.txt` (lowest-level human pathways), MONDO `mondo-rare.obo` (OMIM ↔ Orphanet ↔ MONDO cross-references).
+**Sources** (open, no API keys): HPO annotations and ontology (`phenotype.hpoa`, `hp.obo`), HPO `genes_to_disease.txt` (OMIM/mim2gene_medgen Mendelian links), Reactome `NCBI2Reactome.txt` (lowest-level human pathways) and `ReactomePathwaysRelation.txt` (pathway hierarchy), MONDO `mondo-rare.obo` (OMIM ↔ Orphanet ↔ MONDO cross-references).
 
 **Method**
 1. Universe: OMIM diseases equivalent to a MONDO term tagged *rare* (excluding OMIM susceptibility entries and groupings), with at least one Mendelian gene and 3 phenotype annotations (~5,300 diseases).
 2. Phenotype specificity: information content of each HPO term, computed from how many universe diseases carry it (or a more specific term).
 3. Phenotype similarity: IC-weighted Jaccard over ancestor-propagated HPO terms.
-4. Slice: the curated seed diseases plus, for each, its top phenotype neighbours and top pathway-sharing neighbours (~160 diseases). Reactome pathways with more than 40 genes are ignored so hub pathways do not link everything.
+4. Slice: the curated seed diseases plus, for each, its top phenotype neighbours and top pathway-sharing neighbours (~160 diseases). Reactome pathways with more than 40 genes are ignored so hub pathways do not link everything, and so are pathways under Reactome's "Disease" branch, which describe diseases and mutant proteins (e.g. "MPS IIIA - Sanfilippo syndrome A", "Signaling by FLT3 ITD and TKD mutants") rather than shared normal biology.
 5. Mechanism neighbours share a Reactome pathway through their causal genes; links are ranked by the most specific shared pathway plus phenotype similarity. A recorded gain- vs loss-of-function direction turns a shared pathway into a counterexample.
 
 Parameters (seeds, caps, thresholds) are at the top of `build_graph.py` and recorded in `graph.json` metadata.

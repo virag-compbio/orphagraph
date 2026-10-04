@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Builds the imported layer of the Rare Disease Atlas from open data files.
+Builds the imported layer of Orphagraph Atlas from open data files.
 
     python3 backend/ingest/build_graph.py            # downloads missing files, writes backend/data/graph.json
     python3 backend/ingest/build_graph.py --refresh  # re-downloads all source files first
@@ -9,6 +9,7 @@ Sources (all openly downloadable, no API keys):
   - HPO phenotype annotations (phenotype.hpoa) and ontology (hp.obo)        -> disease-phenotype links
   - HPO genes_to_disease.txt (MENDELIAN rows, from OMIM/mim2gene_medgen)    -> disease-gene links
   - Reactome NCBI2Reactome.txt (lowest-level human pathways)                -> gene-pathway links
+  - Reactome ReactomePathwaysRelation.txt (pathway hierarchy)                -> excludes the "Disease" branch
   - MONDO mondo-rare.obo (equivalence cross-references)                     -> OMIM <-> Orphanet <-> MONDO ids
 
 Method:
@@ -20,6 +21,8 @@ Method:
      HPO term sets: sum(IC of shared terms) / sum(IC of all terms in either).
   4. Slice = seed diseases + for each seed its top phenotype neighbours and top pathway-sharing neighbours.
      Pathways larger than PATHWAY_SIZE_CAP genes are ignored so that hub pathways do not link everything.
+     Pathways under Reactome's "Disease" branch are ignored too: they describe diseases and mutant proteins
+     (e.g. "MPS IIIA - Sanfilippo syndrome A", "Signaling by FLT3 ITD and TKD mutants"), not shared normal biology.
 """
 
 import argparse
@@ -43,6 +46,7 @@ SOURCES = {
     "genes_to_disease.txt": "https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/genes_to_disease.txt",
     "hp.obo": "https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/hp.obo",
     "NCBI2Reactome.txt": "https://reactome.org/download/current/NCBI2Reactome.txt",
+    "ReactomePathwaysRelation.txt": "https://reactome.org/download/current/ReactomePathwaysRelation.txt",
     "mondo-rare.obo": "https://github.com/monarch-initiative/mondo/releases/latest/download/mondo-rare.obo",
 }
 
@@ -65,6 +69,7 @@ SEED_OMIM = [
 
 MIN_TERMS = 3                 # minimum phenotype annotations for a disease to enter the universe
 PATHWAY_SIZE_CAP = 40         # ignore Reactome pathways with more genes than this
+REACTOME_DISEASE_ROOT = "R-HSA-1643685"   # top-level "Disease" pathway; its descendants are excluded
 PHENO_NEIGHBOURS_PER_SEED = 8
 PATHWAY_NEIGHBOURS_PER_SEED = 6
 SIMILARITY_EDGES_PER_DISEASE = 8
@@ -81,7 +86,10 @@ def download(refresh: bool) -> None:
         path = os.path.join(RAW_DIR, name)
         if refresh or not os.path.exists(path):
             print(f"  downloading {name} ...", file=sys.stderr)
-            urllib.request.urlretrieve(url, path)
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})  # reactome.org rejects urllib's default
+            with urllib.request.urlopen(req, timeout=300) as resp, open(path + ".tmp", "wb") as out:
+                out.write(resp.read())
+            os.replace(path + ".tmp", path)
 
 
 def parse_obo_terms(path):
@@ -147,14 +155,32 @@ def load_genes():
     return disease_genes, ncbi
 
 
+def reactome_disease_branch():
+    """All pathways under Reactome's top-level "Disease" pathway."""
+    children = collections.defaultdict(set)
+    with open(os.path.join(RAW_DIR, "ReactomePathwaysRelation.txt"), encoding="utf-8") as fh:
+        for line in fh:
+            parent, child = line.rstrip("\n").split("\t")[:2]
+            children[parent].add(child)
+    branch, stack = set(), [REACTOME_DISEASE_ROOT]
+    while stack:
+        for c in children.get(stack.pop(), ()):
+            if c not in branch:
+                branch.add(c)
+                stack.append(c)
+    return branch
+
+
 def load_reactome():
     genes, names = collections.defaultdict(set), {}
+    disease_branch = reactome_disease_branch()
     with open(os.path.join(RAW_DIR, "NCBI2Reactome.txt"), encoding="utf-8") as fh:
         for line in fh:
             f = line.rstrip("\n").split("\t")
-            if len(f) >= 6 and f[5] == "Homo sapiens":
+            if len(f) >= 6 and f[5] == "Homo sapiens" and f[1] not in disease_branch:
                 genes[f[1]].add(f[0])
                 names[f[1]] = f[3].strip()
+    print(f"  {len(disease_branch)} Reactome disease-branch pathways excluded", file=sys.stderr)
     return genes, names
 
 

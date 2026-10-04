@@ -137,6 +137,7 @@ export interface MariasJourney {
       basis: 'mechanism' | 'phenotype';
       score: number;
       shared_pathways: string[];
+      shared_pathway_ids: string[];
       shared_genes: string[];
       phenotype_similarity: number;
       shared_phenotypes: Array<{ label: string; informativeness?: string; informative: boolean }>;

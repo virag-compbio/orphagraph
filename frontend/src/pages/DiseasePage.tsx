@@ -7,6 +7,7 @@ import { withBold } from '../utils/richText';
 import { EvidenceTierBadge } from '../components/EvidenceTierBadge';
 import { CitedSummary } from '../components/disease/CitedSummary';
 import { PathwayDetails } from '../components/disease/PathwayDetails';
+import { ConnectionsGraph } from '../components/disease/ConnectionsGraph';
 import { Section, Empty, ExtLink, pubmed } from '../components/disease/Section';
 
 const SECTIONS = [
@@ -172,6 +173,7 @@ export const DiseasePage: React.FC<{ diseaseId: string; persona: PersonaType }> 
         </Section>
 
         <Section id="connected" title="Connected diseases" note="Linked by a shared biological pathway, not by name.">
+          <ConnectionsGraph focusId={d.id} focusLabel={d.label} mechanism={m} />
           {mechanismNeighbours.length > 0 ? (
             <div className="space-y-4">
               <PathwayDetails mechanism={m} />
